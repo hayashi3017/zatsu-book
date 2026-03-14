@@ -15,28 +15,28 @@
 
 ## Phase 0: 初期セットアップ
 
-- [ ] ルート `Cargo.toml` を workspace 構成へ移行する
-- [ ] `tools/factctl` crate を作成し、CLI のエントリポイントを移す
-- [ ] 既存のルート `src/main.rs` の扱いを決める
-- [ ] `book.toml` を追加する
-- [ ] `book.toml` の `site-url` を project site 前提で設定する
-- [ ] 以下の最小ディレクトリを作る
-  - [ ] `config/`
-  - [ ] `facts/`
-  - [ ] `generated/reports/`
-  - [ ] `generated/cache/`
-  - [ ] `schemas/`
-  - [ ] `templates/`
-  - [ ] `src/all/`
-  - [ ] `src/genres/`
-  - [ ] `src/tags/`
-  - [ ] `src/facts/`
-  - [ ] `src/updates/`
-- [ ] `config/taxonomy.yaml` の初版を作る
-- [ ] `templates/fact.yaml` の初版を作る
-- [ ] `templates/page.md.hbs` か `templates/page.md.j2` の初版を作る
-- [ ] `facts/` にサンプルデータを 1〜2 件追加し、end-to-end 検証用の最小入力を作る
-- [ ] `src/404.md` の扱いを決める
+- [x] ルート `Cargo.toml` を workspace 構成へ移行する
+- [x] `tools/factctl` crate を作成し、CLI のエントリポイントを移す
+- [x] 既存のルート `src/main.rs` の扱いを決める
+- [x] `book.toml` を追加する
+- [x] `book.toml` の `site-url` を project site 前提で設定する
+- [x] 以下の最小ディレクトリを作る
+  - [x] `config/`
+  - [x] `facts/`
+  - [x] `generated/reports/`
+  - [x] `generated/cache/`
+  - [x] `schemas/`
+  - [x] `templates/`
+  - [x] `src/all/`
+  - [x] `src/genres/`
+  - [x] `src/tags/`
+  - [x] `src/facts/`
+  - [x] `src/updates/`
+- [x] `config/taxonomy.yaml` の初版を作る
+- [x] `templates/fact.yaml` の初版を作る
+- [x] `templates/page.md.hbs` か `templates/page.md.j2` の初版を作る
+- [x] `facts/` にサンプルデータを 1〜2 件追加し、end-to-end 検証用の最小入力を作る
+- [x] `src/404.md` の扱いを決める
 
 ## Phase 1: データモデルとローダー
 

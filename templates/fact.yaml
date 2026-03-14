@@ -1,0 +1,32 @@
+# 1 file = 1 fact = 1 claim
+id: <genre-slug>-<serial>-<short-slug>
+title: <title>
+primary_genre: <genre-slug>
+genres:
+  - <genre-slug>
+tags:
+  - <tag-slug>
+summary: <summary>
+claim: <claim>
+explanation: |
+  <background and why this is surprising>
+sources:
+  - id: <source-id>
+    url: https://example.com/source
+    title: <source title>
+    publisher: <publisher>
+    kind: official
+    accessed_at: 2026-03-15
+status: draft
+created_at: 2026-03-15
+updated_at: 2026-03-15
+revision: 1
+aliases: []
+duplicate_of: null
+supersedes: null
+canonical: true
+importance: null
+editorial:
+  tone: casual
+  audience: general
+  spoiler: false
