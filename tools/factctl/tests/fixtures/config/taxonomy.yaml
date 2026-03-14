@@ -1,0 +1,10 @@
+genres:
+  japan:
+    label: 日本
+  money:
+    label: お金
+tags:
+  coin-design:
+    label: デザイン
+  currency:
+    label: 貨幣

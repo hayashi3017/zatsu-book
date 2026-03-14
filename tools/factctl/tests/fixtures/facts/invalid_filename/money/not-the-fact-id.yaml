@@ -1,0 +1,21 @@
+id: money-001-yen-tree-not-specific
+title: 1円玉の木は特定の木ではない
+primary_genre: money
+genres:
+  - money
+  - japan
+tags:
+  - currency
+summary: 1円玉の表の木は特定の樹種ではなく、造幣局では若木として説明している。
+claim: 1円玉のデザインの木には具体的な木の名前はなく、造幣局では若木と表現している。
+sources:
+  - id: mint-faq-coin
+    url: https://www.mint.go.jp/faq-list/faq_coin
+    title: 貨幣に関するよくある質問
+    publisher: 造幣局
+    kind: official
+    accessed_at: 2026-03-14
+status: published
+created_at: 2026-03-14
+updated_at: 2026-03-14
+revision: 1

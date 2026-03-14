@@ -40,16 +40,16 @@
 
 ## Phase 1: データモデルとローダー
 
-- [ ] `Fact`, `Source`, `FactStatus` を定義する
-- [ ] `Taxonomy` モデルを定義する
-- [ ] `primary_genre` を `Fact` に追加する
-- [ ] `editorial`, `aliases`, `duplicate_of`, `supersedes`, `canonical`, `importance` を含む拡張フィールドを設計通りに持てるようにする
-- [ ] YAML ローダーを実装し、`facts/` を再帰走査できるようにする
-- [ ] taxonomy ローダーを実装する
-- [ ] ファイル名と `id` の一致チェックを実装する
-- [ ] `created_at` / `updated_at` を日付型または厳格な文字列として扱う
-- [ ] `duplicate_of` / `supersedes` の参照先解決に必要なインデックスを作る
-- [ ] テスト用 fixture を追加する
+- [x] `Fact`, `Source`, `FactStatus` を定義する
+- [x] `Taxonomy` モデルを定義する
+- [x] `primary_genre` を `Fact` に追加する
+- [x] `editorial`, `aliases`, `duplicate_of`, `supersedes`, `canonical`, `importance` を含む拡張フィールドを設計通りに持てるようにする
+- [x] YAML ローダーを実装し、`facts/` を再帰走査できるようにする
+- [x] taxonomy ローダーを実装する
+- [x] ファイル名と `id` の一致チェックを実装する
+- [x] `created_at` / `updated_at` を日付型または厳格な文字列として扱う
+- [x] `duplicate_of` / `supersedes` の参照先解決に必要なインデックスを作る
+- [x] テスト用 fixture を追加する
 
 ## Phase 2: validate 実装
 
