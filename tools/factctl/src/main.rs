@@ -1,6 +1,7 @@
 mod cli;
 mod load;
 mod model;
+mod validate;
 
 use anyhow::Result;
 use clap::Parser;
@@ -13,28 +14,31 @@ fn main() -> Result<()> {
 }
 
 fn run(command: Command) -> Result<()> {
-    let message = match command {
+    match command {
         Command::New { genre, title } => {
-            format!("new is not implemented yet: genre={genre}, title={title}")
+            println!("new is not implemented yet: genre={genre}, title={title}");
+            Ok(())
         }
-        Command::Validate => {
-            let taxonomy = load::load_taxonomy(Path::new("."))?;
-            let facts = load::load_facts(Path::new("."))?;
-            format!(
-                "loaded {} facts, {} indexed ids, {} genres, {} tags",
-                facts.facts().len(),
-                facts.reference_count(),
-                taxonomy.genres.len(),
-                taxonomy.tags.len()
-            )
+        Command::Validate => validate::run(Path::new(".")),
+        Command::BuildPages => {
+            println!("build-pages is not implemented yet");
+            Ok(())
         }
-        Command::BuildPages => "build-pages is not implemented yet".to_owned(),
-        Command::Dedupe => "dedupe is not implemented yet".to_owned(),
-        Command::Update { id } => format!("update is not implemented yet: id={id}"),
-        Command::Stale => "stale is not implemented yet".to_owned(),
-        Command::Doctor => "doctor is not implemented yet".to_owned(),
-    };
-
-    println!("{message}");
-    Ok(())
+        Command::Dedupe => {
+            println!("dedupe is not implemented yet");
+            Ok(())
+        }
+        Command::Update { id } => {
+            println!("update is not implemented yet: id={id}");
+            Ok(())
+        }
+        Command::Stale => {
+            println!("stale is not implemented yet");
+            Ok(())
+        }
+        Command::Doctor => {
+            println!("doctor is not implemented yet");
+            Ok(())
+        }
+    }
 }

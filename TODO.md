@@ -53,20 +53,20 @@
 
 ## Phase 2: validate 実装
 
-- [ ] `factctl validate` を実装する
-- [ ] 必須項目チェックを実装する
-- [ ] `status` enum チェックを実装する
-- [ ] `id` の命名規約チェックを実装する
-- [ ] `primary_genre` が `genres` に含まれることを検証する
-- [ ] `genres` / `tags` が taxonomy に定義済みであることを検証する
-- [ ] `sources` の最小件数チェックを実装する
-- [ ] URL 形式チェックを実装する
-- [ ] 日付形式チェックを実装する
-- [ ] `revision >= 1` を保証する
-- [ ] `duplicate_of` / `supersedes` の参照先存在チェックを実装する
-- [ ] `duplicate_of` / `supersedes` の循環参照チェックを実装する
-- [ ] `status=duplicate` のとき `duplicate_of` 必須など、状態と参照の整合チェックを実装する
-- [ ] `schemas/fact.schema.json` を追加し、CLI の検証と整合させる
+- [x] `factctl validate` を実装する
+- [x] 必須項目チェックを実装する
+- [x] `status` enum チェックを実装する
+- [x] `id` の命名規約チェックを実装する
+- [x] `primary_genre` が `genres` に含まれることを検証する
+- [x] `genres` / `tags` が taxonomy に定義済みであることを検証する
+- [x] `sources` の最小件数チェックを実装する
+- [x] URL 形式チェックを実装する
+- [x] 日付形式チェックを実装する
+- [x] `revision >= 1` を保証する
+- [x] `duplicate_of` / `supersedes` の参照先存在チェックを実装する
+- [x] `duplicate_of` / `supersedes` の循環参照チェックを実装する
+- [x] `status=duplicate` のとき `duplicate_of` 必須など、状態と参照の整合チェックを実装する
+- [x] `schemas/fact.schema.json` を追加し、CLI の検証と整合させる
 
 ## Phase 3: build-pages 実装
 

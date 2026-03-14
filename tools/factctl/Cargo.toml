@@ -10,4 +10,5 @@ chrono.workspace = true
 clap.workspace = true
 serde.workspace = true
 serde_yaml.workspace = true
+url.workspace = true
 walkdir.workspace = true

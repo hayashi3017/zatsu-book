@@ -47,21 +47,7 @@ pub fn load_facts(root: &Path) -> Result<FactCollection> {
 }
 
 pub fn load_facts_from(facts_root: &Path) -> Result<FactCollection> {
-    if !facts_root.is_dir() {
-        bail!("facts directory '{}' does not exist", facts_root.display());
-    }
-
-    let mut paths = Vec::new();
-    for entry in WalkDir::new(facts_root).sort_by_file_name() {
-        let entry = entry.with_context(|| {
-            format!("failed to walk facts directory '{}'", facts_root.display())
-        })?;
-
-        if entry.file_type().is_file() && is_yaml_file(entry.path()) {
-            paths.push(entry.into_path());
-        }
-    }
-    paths.sort();
+    let paths = discover_fact_paths(facts_root)?;
 
     let mut facts: Vec<LoadedFact> = Vec::new();
     let mut by_id = HashMap::new();
@@ -81,6 +67,25 @@ pub fn load_facts_from(facts_root: &Path) -> Result<FactCollection> {
     }
 
     Ok(FactCollection { facts, by_id })
+}
+
+pub fn discover_fact_paths(facts_root: &Path) -> Result<Vec<PathBuf>> {
+    if !facts_root.is_dir() {
+        bail!("facts directory '{}' does not exist", facts_root.display());
+    }
+
+    let mut paths = Vec::new();
+    for entry in WalkDir::new(facts_root).sort_by_file_name() {
+        let entry = entry.with_context(|| {
+            format!("failed to walk facts directory '{}'", facts_root.display())
+        })?;
+
+        if entry.file_type().is_file() && is_yaml_file(entry.path()) {
+            paths.push(entry.into_path());
+        }
+    }
+    paths.sort();
+    Ok(paths)
 }
 
 pub fn load_fact_from(path: &Path) -> Result<LoadedFact> {
