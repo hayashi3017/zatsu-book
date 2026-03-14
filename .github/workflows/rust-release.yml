@@ -1,0 +1,155 @@
+name: Rust Release
+
+on:
+  push:
+    tags:
+      - "rust-v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  tag-check:
+    name: Validate tag and workspace version
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate tag format and version match
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          tag="${GITHUB_REF_NAME}"
+          if [[ ! "${tag}" =~ ^rust-v([0-9]+)\.([0-9]+)\.([0-9]+)(-(alpha|beta)\.[0-9]+)?$ ]]; then
+            echo "Tag '${tag}' does not match required format."
+            echo "Expected rust-vX.Y.Z, rust-vX.Y.Z-alpha.N, or rust-vX.Y.Z-beta.N"
+            exit 1
+          fi
+
+          tag_ver="${GITHUB_REF_NAME#rust-v}"
+
+          cargo_ver="$(awk '
+            $0 ~ /^\[workspace\.package\]/ { in_section=1; next }
+            in_section && $0 ~ /^\[/ { in_section=0 }
+            in_section && match($0, /^version[[:space:]]*=[[:space:]]*"([^"]+)"/, m) {
+              print m[1]
+              exit
+            }
+          ' Cargo.toml)"
+
+          if [[ -z "${cargo_ver}" ]]; then
+            echo "Could not read [workspace.package].version from Cargo.toml"
+            exit 1
+          fi
+
+          if [[ "${tag_ver}" != "${cargo_ver}" ]]; then
+            echo "Version mismatch: tag='${tag_ver}', Cargo.toml='${cargo_ver}'"
+            exit 1
+          fi
+
+  build:
+    name: Build ${{ matrix.target }}
+    needs: tag-check
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-gnu
+            archive: tar.gz
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            archive: zip
+          - os: macos-latest
+            target: x86_64-apple-darwin
+            archive: tar.gz
+          - os: macos-latest
+            target: aarch64-apple-darwin
+            archive: tar.gz
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: stable
+          components: rustfmt,clippy
+          target: ${{ matrix.target }}
+
+      - name: Build release binary
+        run: cargo build --release --locked -p xtask --target ${{ matrix.target }}
+
+      - name: Package unix artifact
+        if: runner.os != 'Windows'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          bin_name="xtask-${{ matrix.target }}"
+          cp "target/${{ matrix.target }}/release/xtask" "dist/${bin_name}"
+          tar -czf "dist/${bin_name}.tar.gz" -C dist "${bin_name}"
+
+      - name: Package windows artifact
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path dist | Out-Null
+          $binName = "xtask-${{ matrix.target }}"
+          Copy-Item "target/${{ matrix.target }}/release/xtask.exe" "dist/$binName.exe"
+          Compress-Archive -Path "dist/$binName.exe" -DestinationPath "dist/$binName.zip" -Force
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: xtask-${{ matrix.target }}
+          path: dist/xtask-${{ matrix.target }}.${{ matrix.archive }}
+
+  release:
+    name: Publish GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: xtask-*
+          path: dist
+          merge-multiple: true
+
+      - name: Generate release notes from tagged commit message
+        shell: bash
+        run: |
+          set -euo pipefail
+          commit="$(git rev-parse "${GITHUB_SHA}^{commit}")"
+          git log -1 --format=%B "${commit}" > release-notes.md
+
+      - name: Detect prerelease tag
+        id: prerelease
+        shell: bash
+        run: |
+          if [[ "${GITHUB_REF_NAME}" == *"-alpha."* || "${GITHUB_REF_NAME}" == *"-beta."* ]]; then
+            echo "value=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body_path: release-notes.md
+          prerelease: ${{ steps.prerelease.outputs.value }}
+          files: dist/*
