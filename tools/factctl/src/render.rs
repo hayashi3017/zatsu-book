@@ -1,0 +1,555 @@
+use crate::load::{self, LoadedFact};
+use crate::model::{FactStatus, SourceKind, Taxonomy};
+use crate::validate;
+use anyhow::{Context, Result, bail};
+use std::collections::BTreeMap;
+use std::fs;
+use std::path::Path;
+
+#[derive(Debug)]
+struct TermPage<'a> {
+    slug: &'a str,
+    label: &'a str,
+    facts: Vec<&'a LoadedFact>,
+}
+
+pub fn build_pages(root: &Path) -> Result<()> {
+    let report = validate::validate_repository(root);
+    if !report.is_valid() {
+        eprintln!("build-pages requires valid input data:");
+        for issue in report.issues {
+            eprintln!("- {}", issue.render());
+        }
+        bail!("build-pages aborted because validation failed");
+    }
+
+    let taxonomy = load::load_taxonomy(root)?;
+    let facts = load::load_facts(root)?;
+    let mut published = facts
+        .facts()
+        .iter()
+        .filter(|loaded| loaded.fact.status == FactStatus::Published)
+        .collect::<Vec<_>>();
+    sort_by_updated_desc(&mut published);
+
+    let mut unpublished = facts
+        .facts()
+        .iter()
+        .filter(|loaded| loaded.fact.status != FactStatus::Published)
+        .collect::<Vec<_>>();
+    sort_by_updated_desc(&mut unpublished);
+
+    let genres = build_term_pages(&published, &taxonomy, |fact| &fact.genres, true);
+    let tags = build_term_pages(&published, &taxonomy, |fact| &fact.tags, false);
+
+    write_markdown(
+        root,
+        "src/README.md",
+        render_top_page(&published, &genres, &tags),
+    )?;
+    write_markdown(root, "src/all/README.md", render_all_page(&published))?;
+    write_markdown(
+        root,
+        "src/genres/README.md",
+        render_term_index("ジャンル一覧", &genres, "README.md"),
+    )?;
+    write_markdown(
+        root,
+        "src/tags/README.md",
+        render_term_index("タグ一覧", &tags, "README.md"),
+    )?;
+    write_markdown(
+        root,
+        "src/updates/README.md",
+        render_updates_page(&published),
+    )?;
+    write_markdown(
+        root,
+        "src/SUMMARY.md",
+        render_summary(&published, &genres, &tags),
+    )?;
+    write_markdown(root, "src/404.md", render_404_page())?;
+    write_markdown(
+        root,
+        "generated/reports/unpublished.md",
+        render_unpublished_report(&unpublished),
+    )?;
+
+    for fact in &published {
+        let path = format!("src/facts/{}/{}.md", fact.fact.primary_genre, fact.fact.id);
+        write_markdown(root, &path, render_fact_page(fact, &taxonomy))?;
+    }
+
+    for genre in &genres {
+        let path = format!("src/genres/{}/README.md", genre.slug);
+        write_markdown(root, &path, render_term_page("ジャンル", genre, "../../"))?;
+    }
+
+    for tag in &tags {
+        let path = format!("src/tags/{}/README.md", tag.slug);
+        write_markdown(root, &path, render_term_page("タグ", tag, "../../"))?;
+    }
+
+    println!(
+        "build-pages ok: {} published facts, {} unpublished facts",
+        published.len(),
+        unpublished.len()
+    );
+    Ok(())
+}
+
+fn build_term_pages<'a>(
+    facts: &[&'a LoadedFact],
+    taxonomy: &'a Taxonomy,
+    slugs: impl Fn(&'a crate::model::Fact) -> &'a [String],
+    is_genre: bool,
+) -> Vec<TermPage<'a>> {
+    let mut grouped: BTreeMap<&str, Vec<&LoadedFact>> = BTreeMap::new();
+    for fact in facts {
+        for slug in slugs(&fact.fact) {
+            grouped.entry(slug.as_str()).or_default().push(*fact);
+        }
+    }
+
+    let mut pages = grouped
+        .into_iter()
+        .map(|(slug, mut grouped_facts)| {
+            sort_by_updated_desc(&mut grouped_facts);
+            let label = if is_genre {
+                taxonomy
+                    .genres
+                    .get(slug)
+                    .map(|entry| entry.label.as_str())
+                    .unwrap_or(slug)
+            } else {
+                taxonomy
+                    .tags
+                    .get(slug)
+                    .map(|entry| entry.label.as_str())
+                    .unwrap_or(slug)
+            };
+
+            TermPage {
+                slug,
+                label,
+                facts: grouped_facts,
+            }
+        })
+        .collect::<Vec<_>>();
+
+    pages.sort_by(|left, right| {
+        left.label
+            .cmp(right.label)
+            .then_with(|| left.slug.cmp(right.slug))
+    });
+    pages
+}
+
+fn render_top_page(
+    facts: &[&LoadedFact],
+    genres: &[TermPage<'_>],
+    tags: &[TermPage<'_>],
+) -> String {
+    let mut out = String::new();
+    out.push_str("# へえー図鑑\n\n");
+    out.push_str("根拠付きの「へえーってなるネタ」を公開するための mdBook です。\n\n");
+    out.push_str("## 入口\n\n");
+    out.push_str("- [全件一覧](all/README.md)\n");
+    out.push_str("- [ジャンル一覧](genres/README.md)\n");
+    out.push_str("- [タグ一覧](tags/README.md)\n");
+    out.push_str("- [最近更新](updates/README.md)\n\n");
+
+    out.push_str("## 最近更新\n\n");
+    if facts.is_empty() {
+        out.push_str("現在、公開中のネタはありません。\n\n");
+    } else {
+        for fact in facts.iter().take(5) {
+            out.push_str(&format!(
+                "- [{}](facts/{}/{}.md) ({})\n",
+                fact.fact.title, fact.fact.primary_genre, fact.fact.id, fact.fact.updated_at
+            ));
+        }
+        out.push('\n');
+    }
+
+    out.push_str("## ジャンル\n\n");
+    if genres.is_empty() {
+        out.push_str("公開中のジャンルはありません。\n\n");
+    } else {
+        for genre in genres {
+            out.push_str(&format!(
+                "- [{}](genres/{}/README.md) ({}件)\n",
+                genre.label,
+                genre.slug,
+                genre.facts.len()
+            ));
+        }
+        out.push('\n');
+    }
+
+    out.push_str("## タグ\n\n");
+    if tags.is_empty() {
+        out.push_str("公開中のタグはありません。\n");
+    } else {
+        for tag in tags.iter().take(10) {
+            out.push_str(&format!(
+                "- [{}](tags/{}/README.md) ({}件)\n",
+                tag.label,
+                tag.slug,
+                tag.facts.len()
+            ));
+        }
+    }
+
+    out
+}
+
+fn render_all_page(facts: &[&LoadedFact]) -> String {
+    let mut out = String::new();
+    out.push_str("# 全件一覧\n\n");
+    out.push_str(&format!("公開中のネタは {} 件です。\n\n", facts.len()));
+    if facts.is_empty() {
+        out.push_str("現在、公開中のネタはありません。\n");
+        return out;
+    }
+
+    for fact in facts {
+        out.push_str(&format!(
+            "- [{}](../facts/{}/{}.md) ({})\n",
+            fact.fact.title, fact.fact.primary_genre, fact.fact.id, fact.fact.updated_at
+        ));
+    }
+    out
+}
+
+fn render_term_index(title: &str, pages: &[TermPage<'_>], readme_name: &str) -> String {
+    let mut out = String::new();
+    out.push_str(&format!("# {title}\n\n"));
+    if pages.is_empty() {
+        out.push_str("公開中の項目はありません。\n");
+        return out;
+    }
+
+    for page in pages {
+        out.push_str(&format!(
+            "- [{}]({}/{}) ({}件)\n",
+            page.label,
+            page.slug,
+            readme_name,
+            page.facts.len()
+        ));
+    }
+    out
+}
+
+fn render_term_page(kind: &str, page: &TermPage<'_>, fact_link_prefix: &str) -> String {
+    let mut out = String::new();
+    out.push_str(&format!("# {}\n\n", page.label));
+    out.push_str(&format!(
+        "{kind} `{}` に属する公開中のネタは {} 件です。\n\n",
+        page.slug,
+        page.facts.len()
+    ));
+    if page.facts.is_empty() {
+        out.push_str("現在、公開中のネタはありません。\n");
+        return out;
+    }
+
+    for fact in &page.facts {
+        out.push_str(&format!(
+            "- [{}]({}facts/{}/{}.md) ({})\n",
+            fact.fact.title,
+            fact_link_prefix,
+            fact.fact.primary_genre,
+            fact.fact.id,
+            fact.fact.updated_at
+        ));
+    }
+    out
+}
+
+fn render_updates_page(facts: &[&LoadedFact]) -> String {
+    let mut out = String::new();
+    out.push_str("# 最近更新\n\n");
+    if facts.is_empty() {
+        out.push_str("現在、公開中のネタはありません。\n");
+        return out;
+    }
+
+    for fact in facts {
+        out.push_str(&format!(
+            "- [{}](../facts/{}/{}.md) ({})\n",
+            fact.fact.title, fact.fact.primary_genre, fact.fact.id, fact.fact.updated_at
+        ));
+    }
+    out
+}
+
+fn render_summary(facts: &[&LoadedFact], genres: &[TermPage<'_>], tags: &[TermPage<'_>]) -> String {
+    let mut out = String::new();
+    out.push_str("# Summary\n\n");
+    out.push_str("- [へえー図鑑](README.md)\n");
+    out.push_str("- [全件一覧](all/README.md)\n");
+    for fact in facts {
+        out.push_str(&format!(
+            "  - [{}](facts/{}/{}.md)\n",
+            fact.fact.title, fact.fact.primary_genre, fact.fact.id
+        ));
+    }
+    out.push_str("- [ジャンル一覧](genres/README.md)\n");
+    for genre in genres {
+        out.push_str(&format!(
+            "  - [{}](genres/{}/README.md)\n",
+            genre.label, genre.slug
+        ));
+    }
+    out.push_str("- [タグ一覧](tags/README.md)\n");
+    for tag in tags {
+        out.push_str(&format!(
+            "  - [{}](tags/{}/README.md)\n",
+            tag.label, tag.slug
+        ));
+    }
+    out.push_str("- [最近更新](updates/README.md)\n");
+    out
+}
+
+fn render_fact_page(fact: &LoadedFact, taxonomy: &Taxonomy) -> String {
+    let mut out = String::new();
+    out.push_str(&format!("# {}\n\n", fact.fact.title));
+    out.push_str("## 要点\n\n");
+    out.push_str(&fact.fact.summary);
+    out.push_str("\n\n## 主張\n\n");
+    out.push_str(&fact.fact.claim);
+    out.push_str("\n\n## 解説\n\n");
+    out.push_str(fact.fact.explanation.as_deref().unwrap_or("（未記入）"));
+    out.push_str("\n\n## 根拠\n\n");
+    for source in &fact.fact.sources {
+        let mut line = format!(
+            "- [{}]({}) / {} / {} / 最終確認日: {}",
+            source.title,
+            source.url,
+            source.publisher,
+            source_kind_label(&source.kind),
+            source.accessed_at
+        );
+        if let Some(quoted_fact) = &source.quoted_fact {
+            line.push_str(&format!(" / 引用要点: {}", quoted_fact));
+        }
+        out.push_str(&line);
+        out.push('\n');
+    }
+
+    out.push_str("\n## ジャンル\n\n");
+    for genre in &fact.fact.genres {
+        let label = taxonomy
+            .genres
+            .get(genre)
+            .map(|entry| entry.label.as_str())
+            .unwrap_or(genre);
+        out.push_str(&format!(
+            "- [{}](../../genres/{}/README.md)\n",
+            label, genre
+        ));
+    }
+
+    out.push_str("\n## タグ\n\n");
+    if fact.fact.tags.is_empty() {
+        out.push_str("タグはありません。\n");
+    } else {
+        for tag in &fact.fact.tags {
+            let label = taxonomy
+                .tags
+                .get(tag)
+                .map(|entry| entry.label.as_str())
+                .unwrap_or(tag);
+            out.push_str(&format!("- [{}](../../tags/{}/README.md)\n", label, tag));
+        }
+    }
+
+    out.push_str("\n## メタデータ\n\n");
+    out.push_str(&format!("- ID: `{}`\n", fact.fact.id));
+    out.push_str(&format!("- 作成日: {}\n", fact.fact.created_at));
+    out.push_str(&format!("- 更新日: {}\n", fact.fact.updated_at));
+    out.push_str(&format!("- Revision: {}\n", fact.fact.revision));
+    out
+}
+
+fn render_unpublished_report(facts: &[&LoadedFact]) -> String {
+    let mut out = String::new();
+    out.push_str("# 非公開レコード\n\n");
+    if facts.is_empty() {
+        out.push_str("現在、非公開レコードはありません。\n");
+        return out;
+    }
+
+    for fact in facts {
+        out.push_str(&format!(
+            "- `{}` / {} / {} / 更新日: {}\n",
+            fact.fact.id,
+            fact.fact.title,
+            status_label(&fact.fact.status),
+            fact.fact.updated_at
+        ));
+    }
+    out
+}
+
+fn render_404_page() -> String {
+    let mut out = String::new();
+    out.push_str("# ページが見つかりません\n\n");
+    out.push_str("指定されたページは存在しないか、移動しました。\n\n");
+    out.push_str("- [トップページ](README.md)\n");
+    out.push_str("- [全件一覧](all/README.md)\n");
+    out.push_str("- [ジャンル一覧](genres/README.md)\n");
+    out
+}
+
+fn write_markdown(root: &Path, relative_path: &str, content: String) -> Result<()> {
+    let path = root.join(relative_path);
+    if let Some(parent) = path.parent() {
+        fs::create_dir_all(parent)
+            .with_context(|| format!("failed to create directory '{}'", parent.display()))?;
+    }
+    fs::write(&path, content).with_context(|| format!("failed to write '{}'", path.display()))
+}
+
+fn sort_by_updated_desc(facts: &mut Vec<&LoadedFact>) {
+    facts.sort_by(|left, right| {
+        right
+            .fact
+            .updated_at
+            .cmp(&left.fact.updated_at)
+            .then_with(|| left.fact.id.cmp(&right.fact.id))
+    });
+}
+
+fn source_kind_label(kind: &SourceKind) -> &'static str {
+    match kind {
+        SourceKind::Official => "official",
+        SourceKind::Primary => "primary",
+        SourceKind::Secondary => "secondary",
+        SourceKind::Media => "media",
+        SourceKind::Other => "other",
+    }
+}
+
+fn status_label(status: &FactStatus) -> &'static str {
+    match status {
+        FactStatus::Draft => "draft",
+        FactStatus::Published => "published",
+        FactStatus::Duplicate => "duplicate",
+        FactStatus::Superseded => "superseded",
+        FactStatus::Archived => "archived",
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::model::{Editorial, Fact, Source, SourceKind, TaxonomyEntry};
+    use chrono::NaiveDate;
+
+    fn sample_taxonomy() -> Taxonomy {
+        let genres = [
+            (
+                "japan".to_owned(),
+                TaxonomyEntry {
+                    label: "日本".to_owned(),
+                },
+            ),
+            (
+                "money".to_owned(),
+                TaxonomyEntry {
+                    label: "お金".to_owned(),
+                },
+            ),
+        ]
+        .into_iter()
+        .collect();
+        let tags = [
+            (
+                "coin-design".to_owned(),
+                TaxonomyEntry {
+                    label: "デザイン".to_owned(),
+                },
+            ),
+            (
+                "currency".to_owned(),
+                TaxonomyEntry {
+                    label: "貨幣".to_owned(),
+                },
+            ),
+        ]
+        .into_iter()
+        .collect();
+
+        Taxonomy { genres, tags }
+    }
+
+    fn sample_fact() -> LoadedFact {
+        LoadedFact {
+            path: "facts/money/money-001-yen-tree-not-specific.yaml".into(),
+            fact: Fact {
+                id: "money-001-yen-tree-not-specific".to_owned(),
+                title: "1円玉の木は特定の木ではない".to_owned(),
+                primary_genre: "money".to_owned(),
+                genres: vec!["money".to_owned(), "japan".to_owned()],
+                tags: vec!["currency".to_owned(), "coin-design".to_owned()],
+                summary: "summary".to_owned(),
+                claim: "claim".to_owned(),
+                explanation: Some("explanation".to_owned()),
+                sources: vec![Source {
+                    id: "source-1".to_owned(),
+                    url: "https://example.com/source".to_owned(),
+                    title: "Source".to_owned(),
+                    publisher: "Example".to_owned(),
+                    kind: SourceKind::Official,
+                    accessed_at: NaiveDate::from_ymd_opt(2026, 3, 14).expect("valid date"),
+                    quoted_fact: Some("quoted".to_owned()),
+                }],
+                status: FactStatus::Published,
+                created_at: NaiveDate::from_ymd_opt(2026, 3, 14).expect("valid date"),
+                updated_at: NaiveDate::from_ymd_opt(2026, 3, 15).expect("valid date"),
+                revision: 1,
+                aliases: Vec::new(),
+                duplicate_of: None,
+                supersedes: None,
+                canonical: true,
+                importance: Some(0.5),
+                editorial: Some(Editorial {
+                    tone: Some("casual".to_owned()),
+                    audience: Some("general".to_owned()),
+                    spoiler: false,
+                }),
+            },
+        }
+    }
+
+    #[test]
+    fn fact_page_uses_taxonomy_labels() {
+        let fact = sample_fact();
+        let rendered = render_fact_page(&fact, &sample_taxonomy());
+
+        assert!(rendered.contains("[お金](../../genres/money/README.md)"));
+        assert!(rendered.contains("[貨幣](../../tags/currency/README.md)"));
+        assert!(rendered.contains("引用要点: quoted"));
+    }
+
+    #[test]
+    fn summary_contains_navigation_links() {
+        let fact = sample_fact();
+        let taxonomy = sample_taxonomy();
+        let published = vec![&fact];
+        let genres = build_term_pages(&published, &taxonomy, |loaded| &loaded.genres, true);
+        let tags = build_term_pages(&published, &taxonomy, |loaded| &loaded.tags, false);
+        let rendered = render_summary(&published, &genres, &tags);
+
+        assert!(rendered.contains("- [へえー図鑑](README.md)"));
+        assert!(rendered.contains(
+            "  - [1円玉の木は特定の木ではない](facts/money/money-001-yen-tree-not-specific.md)"
+        ));
+        assert!(rendered.contains("  - [お金](genres/money/README.md)"));
+        assert!(rendered.contains("  - [貨幣](tags/currency/README.md)"));
+    }
+}

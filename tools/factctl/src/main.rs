@@ -1,6 +1,7 @@
 mod cli;
 mod load;
 mod model;
+mod render;
 mod validate;
 
 use anyhow::Result;
@@ -20,10 +21,7 @@ fn run(command: Command) -> Result<()> {
             Ok(())
         }
         Command::Validate => validate::run(Path::new(".")),
-        Command::BuildPages => {
-            println!("build-pages is not implemented yet");
-            Ok(())
-        }
+        Command::BuildPages => render::build_pages(Path::new(".")),
         Command::Dedupe => {
             println!("dedupe is not implemented yet");
             Ok(())
