@@ -1,0 +1,23 @@
+id: space-0095
+title: ISSでは天井の照明と床の青い線で視覚的に上下を決めている
+genres:
+- 宇宙
+- ISS
+tags:
+- JAXA
+- 無重力
+summary: JAXA FAQでは、ISSや『きぼう』では重力がないため、天井側に照明を配置し床側に青い線を引くことで視覚的に上下を決めていると説明している。
+claim: ISSでは、天井の照明と床の青い線で視覚的に上下を決めている。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000533.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『ISSの中ではどうやって上下を区別するのですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

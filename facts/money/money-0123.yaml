@@ -1,0 +1,23 @@
+id: money-0123
+title: 富士山は戦前の一銭貨から記念貨幣まで複数の日本貨幣に描かれてきた
+genres:
+- お金
+- デザイン
+tags:
+- 造幣局
+- 富士山
+summary: 造幣局FAQでは、富士山を描いた貨幣として1941年の一銭アルミ貨幣、1964年東京オリンピック記念千円銀貨幣など複数を列挙している。
+claim: 富士山は、戦前の一銭貨からオリンピック記念貨幣まで複数の日本貨幣に描かれてきた。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『富士山を描いた貨幣はありますか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

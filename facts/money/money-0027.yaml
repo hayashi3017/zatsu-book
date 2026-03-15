@@ -1,0 +1,24 @@
+id: money-0027
+title: 貨幣には一度に使える枚数の上限があり、同じ額面は20枚までが強制通用力の範囲である
+genres:
+- お金
+- 制度
+tags:
+- 造幣局
+- 強制通用力
+- 20枚
+summary: 貨幣には一度に使える枚数の上限があり、同じ額面は20枚までが強制通用力の範囲であると公式FAQ・解説で扱われている。
+claim: 貨幣には一度に使える枚数の上限があり、同じ額面は20枚までが強制通用力の範囲である
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,23 @@
+id: weather-0093
+title: 雪が白く見えるのは透明な結晶が重なって光を乱反射するから
+genres:
+- 気象
+- 雪
+tags:
+- 気象庁
+- 色
+summary: 気象庁FAQでは、雪の結晶自体は透明だが、細かい結晶が折り重なることで光の乱反射が起き白く見えると説明している。
+claim: 雪が白く見えるのは、透明な結晶が重なって光を乱反射するためである。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『雪の色はどうして白いのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

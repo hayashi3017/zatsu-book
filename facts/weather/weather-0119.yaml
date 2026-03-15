@@ -1,0 +1,23 @@
+id: weather-0119
+title: 上空1500メートル付近でマイナス3度以下だと雪で降ることが多い
+genres:
+- 気象
+- 雪
+tags:
+- 気象庁
+- 雪
+summary: 気象庁キッズFAQでは、雪になるかは上空気温・地上気温・湿度で決まり、上空1500メートル付近の気温がマイナス3℃以下だと雪で降ることが多いとしている。
+claim: 上空1500メートル付近がマイナス3℃以下だと、雨ではなく雪で降ることが多い。
+sources:
+- url: https://www.jma.go.jp/jma/kids/kids/faq/a1_14.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『雨はどんなとき雪に変わるの？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

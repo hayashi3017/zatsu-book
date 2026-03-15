@@ -1,0 +1,24 @@
+id: space-0077
+title: ISSの運動機器にはトレッドミルが含まれる
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 運動
+- トレッドミル
+summary: ISSの運動機器にはトレッドミルが含まれると公式FAQ・解説で扱われている。
+claim: ISSの運動機器にはトレッドミルが含まれる
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/iss/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

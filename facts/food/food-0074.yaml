@@ -1,0 +1,23 @@
+id: food-0074
+title: 国産牛は品種や出生地ではなく日本で最も長く飼育された牛を指す
+genres:
+- 食べ物
+- 畜産
+tags:
+- 農林水産省
+- 牛肉
+summary: 農林水産省の公式記事では、国産牛を『生まれてから出荷までの間、最も長く日本で飼育された牛』と説明している。
+claim: 国産牛とは、品種や出生地ではなく、日本で最も長く飼育された牛を指す。
+sources:
+- url: https://www.maff.go.jp/j/pr/aff/2009/spe1_01.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 同記事の国産牛説明。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

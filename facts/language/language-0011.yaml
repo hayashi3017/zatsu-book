@@ -1,0 +1,23 @@
+id: language-0011
+title: 常用漢字表は『使ってよい漢字一覧』ではなく漢字使用の目安である
+genres:
+- 言葉
+- 日本語
+tags:
+- 文化庁
+- 常用漢字
+summary: 常用漢字表の前書きでは、一般の社会生活における漢字使用の目安を定めるものとしている。
+claim: 常用漢字表は、漢字使用の目安である。
+sources:
+- url: https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/
+  publisher: 文化庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 常用漢字表の前書き。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

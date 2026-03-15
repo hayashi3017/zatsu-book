@@ -1,0 +1,23 @@
+id: money-0096
+title: YEN表記の理由にも複数説があり決め手は不明
+genres:
+- お金
+- 制度
+tags:
+- 造幣局
+- YEN
+summary: 造幣局Q&Aでは、『円』をローマ字でYENと表示する理由にも複数の説があるが、はっきりしたことは不明としている。
+claim: YEN表記の由来にも複数説があり、造幣局は断定していない。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『円』の由来の補足説明。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,23 @@
+id: weather-0135
+title: 霧やもやが白く見えるのも雲と同じく水滴が色に依らず光を散乱するからである
+genres:
+- 気象
+- 霧
+tags:
+- 気象庁
+- 散乱
+summary: 気象庁FAQでは、霧やもやが白く見えるのも、大気中の小さな水滴が太陽光を波長によらず散乱するためとしている。
+claim: 霧やもやが白く見えるのは、雲と同じ原理で水滴が光を色に依らず散乱するからである。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq13.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『雲の色が変化するのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

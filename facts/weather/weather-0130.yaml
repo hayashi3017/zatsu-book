@@ -1,0 +1,23 @@
+id: weather-0130
+title: 気象庁では雲量9割以上が曇り、2割から8割が晴れ、1割以下が快晴である
+genres:
+- 気象
+- 雲
+tags:
+- 気象庁
+- 天気用語
+summary: 気象庁FAQでは、天気の言い方は全天を覆う雲の量で決まり、雲量9割以上が曇り、2割から8割が晴れ、1割以下が快晴としている。
+claim: 気象庁では、雲量9割以上が曇り、2割から8割が晴れ、1割以下が快晴である。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq13.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『晴れと曇りの違いは何ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

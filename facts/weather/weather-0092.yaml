@@ -1,0 +1,23 @@
+id: weather-0092
+title: 雪はちりやほこりを核に水蒸気が凍ってできる
+genres:
+- 気象
+- 雪
+tags:
+- 気象庁
+- 雪
+summary: 気象庁FAQでは、雪はちりやほこりを核として水蒸気が凍り、氷の結晶が成長することでできると説明している。
+claim: 雪は、ちりやほこりを核にして水蒸気が凍ることでできる。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『雪はどうしてできるのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

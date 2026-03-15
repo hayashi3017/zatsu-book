@@ -1,0 +1,23 @@
+id: weather-0105
+title: 梅雨入り・梅雨明けの末尾に『ごろ』が付くのは季節現象の移り変わりに平均5日ほど幅があるから
+genres:
+- 気象
+- 季節
+tags:
+- 気象庁
+- 梅雨
+summary: 気象庁FAQでは、梅雨の移り変わりには平均5日程度の期間があり、特定の1日を厳密に区切りにくいため『ごろ』を付けるとしている。
+claim: 梅雨入り・梅雨明けに『ごろ』が付くのは、季節の移り変わりに幅があるためである。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『末尾に「・・ごろ」と付けるのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

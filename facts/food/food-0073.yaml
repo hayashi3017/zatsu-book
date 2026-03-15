@@ -1,0 +1,23 @@
+id: food-0073
+title: 『国産牛』と『和牛』は同じ意味ではない
+genres:
+- 食べ物
+- 畜産
+tags:
+- 農林水産省
+- 牛肉
+summary: 農林水産省の公式記事では、国産牛と和牛は意味が明確に異なると説明している。
+claim: 『国産牛』と『和牛』は、同じ意味ではない。
+sources:
+- url: https://www.maff.go.jp/j/pr/aff/2009/spe1_01.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『誰かに話したくなるお肉の豆知識』豆知識1。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

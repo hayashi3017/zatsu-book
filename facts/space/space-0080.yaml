@@ -1,0 +1,23 @@
+id: space-0080
+title: 宇宙で顔がむくむのは本当に体液が上半身へ移るから
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 無重力
+summary: JAXAの解説では、重力が小さくなることで体液が上半身に集まり、宇宙では顔がむくむと説明している。
+claim: 宇宙で顔がむくむのは、本当に体液が上半身へ移るからである。
+sources:
+- url: https://humans-in-space.jaxa.jp/life/health-in-space/body-impact/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙では顔がむくむことがよくあります』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

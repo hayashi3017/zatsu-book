@@ -1,0 +1,23 @@
+id: weather-0136
+title: 虹は必ず太陽を背にした方向に現れる
+genres:
+- 気象
+- 虹
+tags:
+- 気象庁
+- 大気光象
+summary: 気象庁FAQでは、虹は太陽光が水滴で屈折・反射して起きる現象であるため、必ず太陽を背にした方向に現れるとしている。
+claim: 虹は、必ず太陽を背にした方向に現れる。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq13.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『虹はどうしてできるのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

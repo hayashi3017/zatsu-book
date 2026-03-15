@@ -1,0 +1,24 @@
+id: weather-0010
+title: 梅雨入り・梅雨明けの速報日は、9月初めに実際の天候経過を見て見直されることがある
+genres:
+- 気象
+- 季節
+tags:
+- 気象庁
+- 梅雨
+- 確定値
+summary: 梅雨入り・梅雨明けの速報日は、9月初めに実際の天候経過を見て見直されることがあると公式FAQ・解説で扱われている。
+claim: 梅雨入り・梅雨明けの速報日は、9月初めに実際の天候経過を見て見直されることがある
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

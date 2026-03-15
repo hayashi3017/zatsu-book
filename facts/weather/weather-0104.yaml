@@ -1,0 +1,23 @@
+id: weather-0104
+title: 梅雨入り・梅雨明けを発表するのは防災・農業・生活への影響が大きいから
+genres:
+- 気象
+- 季節
+tags:
+- 気象庁
+- 梅雨
+summary: 気象庁FAQでは、梅雨期は大雨災害や農業用水、日常生活への影響が大きく社会的関心も高いため、梅雨情報を発表しているとしている。
+claim: 気象庁が梅雨入り・梅雨明けを発表するのは、防災・農業・生活への影響が大きいためである。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『梅雨入り・梅雨明けを発表しているのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

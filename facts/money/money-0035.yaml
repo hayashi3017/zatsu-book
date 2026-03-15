@@ -1,0 +1,24 @@
+id: money-0035
+title: YENのつづりの理由にも複数説があり、決定的に一つへは定まっていない
+genres:
+- お金
+- 歴史
+tags:
+- 造幣局
+- YEN
+- 語源
+summary: YENのつづりの理由にも複数説があり、決定的に一つへは定まっていないと公式FAQ・解説で扱われている。
+claim: YENのつづりの理由にも複数説があり、決定的に一つへは定まっていない
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

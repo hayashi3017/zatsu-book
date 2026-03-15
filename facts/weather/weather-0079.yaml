@@ -1,0 +1,22 @@
+id: weather-0079
+title: 百葉箱はただの箱ではなく、日射や雨を避けつつ通風を確保するための工夫である
+genres:
+- 気象
+tags:
+- 気象庁
+- 気象
+summary: 百葉箱はただの箱ではなく、日射や雨を避けつつ通風を確保するための工夫であると公式FAQ・解説で扱われている。
+claim: 百葉箱はただの箱ではなく、日射や雨を避けつつ通風を確保するための工夫である
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/index.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

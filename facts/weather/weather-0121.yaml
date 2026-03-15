@@ -1,0 +1,23 @@
+id: weather-0121
+title: 瞬間風速は平均風速の1.5倍から3倍程度になることがある
+genres:
+- 気象
+- 風
+tags:
+- 気象庁
+- 瞬間風速
+summary: 気象庁FAQでは、瞬間風速はある瞬間の風速を示し、平均風速の1.5倍から3倍程度に達することがあるとしている。
+claim: 瞬間風速は、平均風速の1.5倍から3倍程度になることがある。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq2.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『「風速」と「瞬間風速」は、何が違うのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

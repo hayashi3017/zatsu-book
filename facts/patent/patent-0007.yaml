@@ -1,0 +1,22 @@
+id: patent-0007
+title: 医療行為そのものは日本では特許対象の整理が特殊である
+genres:
+- 知財
+tags:
+- 特許庁
+- 知財
+summary: 医療行為そのものは日本では特許対象の整理が特殊であると公式FAQ・解説で扱われている。
+claim: 医療行為そのものは日本では特許対象の整理が特殊である
+sources:
+- url: https://www.jpo.go.jp/faq/yokuaru/index.html
+  publisher: 特許庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

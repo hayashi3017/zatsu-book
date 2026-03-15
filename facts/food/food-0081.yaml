@@ -1,0 +1,23 @@
+id: food-0081
+title: 果物っぽいのに野菜扱いされるのは一年生草本植物だから
+genres:
+- 食べ物
+- 野菜
+tags:
+- 農林水産省
+- 果実的野菜
+summary: 農林水産省の説明では、果樹は概ね2年以上栽培する草本植物や木本植物で果実を食べるもの、メロン・苺・スイカは一年生草本植物なので野菜として扱うとしている。
+claim: メロン・いちご・すいかが野菜扱いされるのは、一年生草本植物だからである。
+sources:
+- url: https://www.maff.go.jp/j/heya/sodan/1205/05a.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 果樹と果実的野菜の区分説明。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

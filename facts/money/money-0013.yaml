@@ -1,0 +1,24 @@
+id: money-0013
+title: 日本の法令には貨幣の表と裏の明確な定義がない
+genres:
+- お金
+- 制度
+tags:
+- 造幣局
+- 表裏
+- 法令
+summary: 日本の法令には貨幣の表と裏の明確な定義がないと公式FAQ・解説で扱われている。
+claim: 日本の法令には貨幣の表と裏の明確な定義がない
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

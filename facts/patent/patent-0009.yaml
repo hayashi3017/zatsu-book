@@ -1,0 +1,22 @@
+id: patent-0009
+title: 学会発表でも条件次第では新規性喪失の例外手続が必要になる
+genres:
+- 知財
+tags:
+- 特許庁
+- 知財
+summary: 学会発表でも条件次第では新規性喪失の例外手続が必要になると公式FAQ・解説で扱われている。
+claim: 学会発表でも条件次第では新規性喪失の例外手続が必要になる
+sources:
+- url: https://www.jpo.go.jp/faq/yokuaru/index.html
+  publisher: 特許庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

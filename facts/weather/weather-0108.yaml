@@ -1,0 +1,23 @@
+id: weather-0108
+title: 『地震雲』は現時点で科学的に説明されていない
+genres:
+- 気象
+- 地震
+tags:
+- 気象庁
+- 地震雲
+summary: 気象庁FAQでは、雲は大気の現象、地震は大地の現象であり、『地震雲』があるとしてもその関係は科学的に説明されていないとしている。
+claim: 『地震雲』は、現時点で科学的説明がなされていない。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq24.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『地震雲はあるのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

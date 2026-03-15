@@ -1,0 +1,23 @@
+id: space-0109
+title: 無重力でも質量はバネにつないだ振動周期で測れる
+genres:
+- 宇宙
+- 理科
+tags:
+- JAXA
+- 質量
+summary: JAXA FAQでは、無重力では通常のはかりは使えないが、バネにつないだ振動周期から質量を測ることができると説明している。
+claim: 無重力でも、質量はバネにつないだ振動周期で測ることができる。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000690.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙でも質量を測りたい場合はどうしたらよいのでしょうか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

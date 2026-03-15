@@ -1,0 +1,23 @@
+id: food-0086
+title: 変色したりんごは100パーセントオレンジジュースに約10分ひたすと色が戻りやすい
+genres:
+- 食べ物
+- 果物
+tags:
+- 農林水産省
+- りんご
+summary: 農林水産省こども相談では、変色したりんごは果汁100%のオレンジジュースに約10分ひたすと、ビタミンCの還元作用できれいな色に戻るとしている。
+claim: 変色したりんごは、100％オレンジジュースに約10分ひたすと色が戻りやすい。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0108/06.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『りんごの皮をむいて時間がたつと、変色する理由を教えてください。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

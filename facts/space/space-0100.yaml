@@ -1,0 +1,23 @@
+id: space-0100
+title: ソユーズ宇宙船の飛行中はモスクワ時間が使われていた
+genres:
+- 宇宙
+- ソユーズ
+tags:
+- JAXA
+- 時刻
+summary: JAXA FAQでは、ソユーズ宇宙船の飛行中はモスクワ時間を使っているとしている。
+claim: ソユーズ宇宙船の飛行中は、モスクワ時間が使われていた。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000531.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙飛行ではどこの時間を使用しているのですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

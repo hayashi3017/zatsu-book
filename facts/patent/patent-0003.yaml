@@ -1,0 +1,22 @@
+id: patent-0003
+title: 発明は「自然法則を利用した技術的思想の創作のうち高度のもの」と整理される
+genres:
+- 知財
+tags:
+- 特許庁
+- 知財
+summary: 発明は「自然法則を利用した技術的思想の創作のうち高度のもの」と整理されると公式FAQ・解説で扱われている。
+claim: 発明は「自然法則を利用した技術的思想の創作のうち高度のもの」と整理される
+sources:
+- url: https://www.jpo.go.jp/faq/yokuaru/index.html
+  publisher: 特許庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

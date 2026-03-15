@@ -1,0 +1,23 @@
+id: space-0096
+title: ISSには電子レンジがなく缶詰やレトルト用のフードウォーマーを使う
+genres:
+- 宇宙
+- ISS
+tags:
+- JAXA
+- 宇宙食
+summary: JAXA FAQでは、ISSには電子レンジはなく、缶詰用やレトルト食品用のフードウォーマーが用意されていると説明している。
+claim: ISSには電子レンジがなく、缶詰やレトルト食品用のフードウォーマーを使う。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000527.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『ISSに電子レンジはありますか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

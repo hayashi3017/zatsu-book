@@ -1,0 +1,22 @@
+id: language-0005
+title: 同じ漢字でも常用漢字表にある音訓以外が固有名詞で使われることはある
+genres:
+- ことば
+tags:
+- 文化庁
+- 国語
+summary: 同じ漢字でも常用漢字表にある音訓以外が固有名詞で使われることはあると公式FAQ・解説で扱われている。
+claim: 同じ漢字でも常用漢字表にある音訓以外が固有名詞で使われることはある
+sources:
+- url: https://www.bunka.go.jp/qa/
+  publisher: 文化庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

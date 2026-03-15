@@ -1,0 +1,23 @@
+id: food-0079
+title: 冬野菜が甘く感じられやすいのは寒さに備えて糖を蓄えるため
+genres:
+- 食べ物
+- 野菜
+tags:
+- 農林水産省
+- 冬野菜
+summary: 農林水産省の公式記事では、冬野菜は凍るのを防ぐため細胞に糖を蓄積するので糖度が高いものが多いと説明している。
+claim: 冬野菜が甘く感じられやすいのは、寒さに備えて糖を蓄えるためである。
+sources:
+- url: https://www.maff.go.jp/j/pr/aff/1912/spe2_01.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『冬に旬を迎える野菜って？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

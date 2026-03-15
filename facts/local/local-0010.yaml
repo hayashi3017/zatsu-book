@@ -1,0 +1,24 @@
+id: local-0010
+title: くまモンの誕生日は九州新幹線全線開業の日と同じ3月12日
+genres:
+- ご当地
+- マスコット
+tags:
+- 熊本県
+- くまモン
+- 誕生日
+summary: 公式プロフィールでは、くまモンの誕生日は3月12日で、『九州新幹線全線開業の日』と明記されている。
+claim: くまモンの誕生日は、九州新幹線全線開業の日と同じ3月12日である。
+sources:
+- url: https://kumamon-land.jp/profile/
+  publisher: くまモンオフィシャルサイト
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: プロフィールの誕生日欄。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

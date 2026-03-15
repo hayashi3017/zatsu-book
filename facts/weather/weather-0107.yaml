@@ -1,0 +1,23 @@
+id: weather-0107
+title: 気象庁のCO2観測は地上約20メートルの空気を使う
+genres:
+- 気象
+- 地球環境
+tags:
+- 気象庁
+- 二酸化炭素
+summary: 気象庁FAQでは、植物活動や人間活動の局所影響を減らすため、地上約20メートルで取り込んだ空気のCO2濃度を測るとしている。
+claim: 気象庁のCO2観測は、地上約20メートルの空気を使っている。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq6.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『観測されている濃度は地上からどの程度の高さの濃度ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

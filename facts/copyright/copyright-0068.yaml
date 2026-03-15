@@ -1,0 +1,22 @@
+id: copyright-0068
+title: Web上に公開されている画像でも、ダウンロード自由を意味しない
+genres:
+- 著作権
+tags:
+- 文化庁
+- 著作権
+summary: Web上に公開されている画像でも、ダウンロード自由を意味しないと公式FAQ・解説で扱われている。
+claim: Web上に公開されている画像でも、ダウンロード自由を意味しない
+sources:
+- url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
+  publisher: 文化庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

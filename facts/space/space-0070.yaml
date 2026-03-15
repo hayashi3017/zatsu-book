@@ -1,0 +1,21 @@
+id: space-0070
+title: 再突入時に熱くなる主因は「摩擦」だけでなく圧縮で空気が高温になることでもある
+genres:
+- 宇宙
+tags:
+- JAXA
+summary: 再突入時に熱くなる主因は「摩擦」だけでなく圧縮で空気が高温になることでもあると公式FAQ・解説で扱われている。
+claim: 再突入時に熱くなる主因は「摩擦」だけでなく圧縮で空気が高温になることでもある
+sources:
+- url: https://fanfun.jaxa.jp/faq/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

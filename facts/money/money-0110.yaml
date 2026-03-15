@@ -1,0 +1,23 @@
+id: money-0110
+title: 5円玉が穴あきになったのは1円黄銅貨と見分けにくかったため
+genres:
+- お金
+- デザイン
+tags:
+- 造幣局
+- 5円玉
+summary: 造幣局Q&Aでは、初期の5円黄銅貨は穴なしだったが、1円黄銅貨との識別が難しかったため1949年に穴あきへ変更されたと説明している。
+claim: 5円玉の穴は、1円黄銅貨と見分けにくかったことへの対策でもあった。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 5円貨の歴史解説。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

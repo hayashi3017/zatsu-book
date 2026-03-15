@@ -1,0 +1,23 @@
+id: weather-0095
+title: 『初冠雪』は山頂が白く見えた最初の日ではなく気象台から初めて見えたとき
+genres:
+- 気象
+- 季節
+tags:
+- 気象庁
+- 初冠雪
+summary: 気象庁FAQでは、初冠雪は寒候年に雪などで白く見える山頂が付近の気象台から初めて見えたときを指すとしている。
+claim: 初冠雪は、山が白くなった瞬間ではなく、気象台からその年初めて確認された時を指す。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『初冠雪とは何ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

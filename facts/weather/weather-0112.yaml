@@ -1,0 +1,23 @@
+id: weather-0112
+title: 集中豪雨は活発な積乱雲がもたらす
+genres:
+- 気象
+- 雨
+tags:
+- 気象庁
+- 集中豪雨
+summary: 気象庁FAQでは、集中豪雨は活発な積乱雲によって起き、暖かく湿った下層空気と冷たく乾いた上層空気が重なる不安定な大気状態が共通条件だとしている。
+claim: 集中豪雨は、暖湿な下層空気と冷乾な上層空気で大気が不安定になったときの活発な積乱雲がもたらす。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『集中豪雨はなぜ発生するのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

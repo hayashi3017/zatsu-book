@@ -1,0 +1,23 @@
+id: money-0097
+title: 通常貨幣としての金貨がなくなったのは金本位制廃止後だった
+genres:
+- お金
+- 歴史
+tags:
+- 造幣局
+- 金貨
+summary: 造幣局Q&Aでは、金本位制の廃止により金貨を製造する必要がなくなり、日本では1932年を最後に通常貨幣としての金貨製造がなくなったと説明している。
+claim: 通常貨幣としての金貨は、金本位制の廃止後に製造されなくなった。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『通常貨幣として金貨が発行されなくなったのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,23 @@
+id: weather-0096
+title: 新聞の最高・最低気温は気象庁発表と違うことがある
+genres:
+- 気象
+- 観測
+tags:
+- 気象庁
+- 気温
+summary: 気象庁FAQでは、新聞は例えば最高気温を15時までなどの区切りで掲載する場合があり、1日を通した気象庁発表と異なることがあるとしている。
+claim: 新聞の最高・最低気温は、気象庁の正式発表値と異なることがある。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq3.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『新聞に掲載されている最高・最低気温と気象庁が発表している最高・最低気温が異なるのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

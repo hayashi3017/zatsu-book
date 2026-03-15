@@ -1,0 +1,23 @@
+id: weather-0128
+title: 気象庁は湿度の予報を出していない
+genres:
+- 気象
+- 湿度
+tags:
+- 気象庁
+- 予報
+summary: 気象庁FAQでは、湿度は場所による偏りが大きく、家の内外や草地・池・風向きなど周囲条件でも大きく変わるため、予報値の利用が難しいとして湿度予報は行っていない。
+claim: 気象庁は、湿度の地域差や局所差が大きいため湿度予報をしていない。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『湿度の予報をしないのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,24 @@
+id: weather-0011
+title: 北海道には梅雨が全くないのではなく、気象庁が梅雨入り・梅雨明けを発表していないだけである
+genres:
+- 気象
+- 季節
+tags:
+- 気象庁
+- 北海道
+- 梅雨
+summary: 北海道には梅雨が全くないのではなく、気象庁が梅雨入り・梅雨明けを発表していないだけであると公式FAQ・解説で扱われている。
+claim: 北海道には梅雨が全くないのではなく、気象庁が梅雨入り・梅雨明けを発表していないだけである
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

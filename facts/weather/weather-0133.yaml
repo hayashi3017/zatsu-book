@@ -1,0 +1,23 @@
+id: weather-0133
+title: 雲が白く見えるのは雲粒が光の波長と同程度で特定の色だけを強く散乱しないからである
+genres:
+- 気象
+- 雲
+tags:
+- 気象庁
+- 散乱
+summary: 気象庁FAQでは、雲粒の大きさは光の波長と同程度で散乱の強さが波長によらないため、特定の色だけが強く散乱されず雲は白く見えるとしている。
+claim: 雲が白いのは、雲粒が光の波長と同程度で、色によらずほぼ同じように光を散乱するからである。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq13.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『雲の色が変化するのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

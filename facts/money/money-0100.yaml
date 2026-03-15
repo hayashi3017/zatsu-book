@@ -1,0 +1,23 @@
+id: money-0100
+title: 貨幣の製造枚数は流通状況を踏まえた財務大臣の計画で決まる
+genres:
+- お金
+- 制度
+tags:
+- 造幣局
+- 財務省
+summary: 造幣局の事業報告などでは、造幣局は財務大臣が定める製造計画に従って貨幣を製造すると説明している。
+claim: 貨幣の製造枚数は、流通状況を踏まえた財務大臣の計画に従って決まる。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『貨幣の製造枚数（発行枚数）はどうやって決めているのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

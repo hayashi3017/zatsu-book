@@ -1,0 +1,21 @@
+id: space-0066
+title: ロケットは空気を蹴って進むのではなく、噴射したガスの反作用で進む
+genres:
+- 宇宙
+tags:
+- JAXA
+summary: ロケットは空気を蹴って進むのではなく、噴射したガスの反作用で進むと公式FAQ・解説で扱われている。
+claim: ロケットは空気を蹴って進むのではなく、噴射したガスの反作用で進む
+sources:
+- url: https://fanfun.jaxa.jp/faq/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

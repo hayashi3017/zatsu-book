@@ -93,7 +93,7 @@
 
 - [x] `factctl new` を実装する
 - [x] ジャンルごとの serial 採番を実装する
-- [x] タイトルから `short-slug` を生成する
+- [x] 4 桁 serial のシンプルな `id` / ファイル名を採用する
 - [x] `primary_genre` をもとに保存先ディレクトリを決める
 - [x] テンプレート YAML を新規作成できるようにする
 - [x] `factctl update <id>` を実装する

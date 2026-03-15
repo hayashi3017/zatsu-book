@@ -1,0 +1,23 @@
+id: money-0127
+title: 100円貨は素材変更後も直径22.6ミリを踏襲している
+genres:
+- お金
+- 貨幣
+tags:
+- 造幣局
+- 100円玉
+summary: 造幣局FAQでは、1967年の白銅化でも100円貨はデザイン以外は銀貨時代の仕様を踏襲し、直径22.6mmのままとしている。
+claim: 100円貨は、素材が変わっても直径22.6ミリの仕様を踏襲している。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『100円貨と50円貨は10円貨より高額なのに、なぜ大きさが10円貨より小さいのですか？…』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,24 @@
+id: money-0111
+title: 5円玉と10円玉の素材品位に幅があるのは戦後のスクラップ利用の名残があるから
+genres:
+- お金
+- 素材
+tags:
+- 造幣局
+- 5円玉
+- 10円玉
+summary: 造幣局Q&Aでは、5円貨や10円貨の素材の品位に幅がある理由として、戦後に黄銅・青銅スクラップを材料にしたことや、工業的製造上の管理を挙げている。
+claim: 5円玉と10円玉の品位の幅には、戦後のスクラップ利用の事情が関係している。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『5円貨と10円貨の素材の品位に、幅があるのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

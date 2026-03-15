@@ -1,0 +1,23 @@
+id: food-0090
+title: 精米した白米はおいしさの面では1か月くらいが目安である
+genres:
+- 食べ物
+- 米
+tags:
+- 農林水産省
+- 保存
+summary: 農林水産省こども相談では、精米して時間がたつほど味が落ちるため、白米は1か月くらいが目安としている。
+claim: 精米した白米は、味の面では1か月くらいを目安に使うのがよい。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0006/01.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『お米はどのくらい保存できるのか教えてください。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,22 @@
+id: patent-0005
+title: ソフトウェア関連発明でも、具体的な情報処理として自然法則を利用していれば特許対象になり得る
+genres:
+- 知財
+tags:
+- 特許庁
+- 知財
+summary: ソフトウェア関連発明でも、具体的な情報処理として自然法則を利用していれば特許対象になり得ると公式FAQ・解説で扱われている。
+claim: ソフトウェア関連発明でも、具体的な情報処理として自然法則を利用していれば特許対象になり得る
+sources:
+- url: https://www.jpo.go.jp/faq/yokuaru/index.html
+  publisher: 特許庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

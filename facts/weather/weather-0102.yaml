@@ -1,0 +1,23 @@
+id: weather-0102
+title: 日最大1時間降水量が日降水量より多く見えることがある
+genres:
+- 気象
+- 観測
+tags:
+- 気象庁
+- 降水量
+summary: 気象庁FAQでは、日最大1時間降水量は前1時間の移動窓で計算するため、日付をまたぐ場合は当日の日降水量より大きくなることがあると説明している。
+claim: 日最大1時間降水量は、日降水量より大きく見えることがある。
+sources:
+- url: https://www.data.jma.go.jp/stats/data/mdrr/faq/index_k.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『日降水量より日最大1時間降水量の方が多いことがあるのはどうしてですか。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

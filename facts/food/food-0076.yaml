@@ -1,0 +1,23 @@
+id: food-0076
+title: 『こま切れ』と『切り落とし』は同じものではない
+genres:
+- 食べ物
+- 畜産
+tags:
+- 農林水産省
+- 牛肉
+summary: 農林水産省の公式記事では、こま切れはさまざまな部位の切れ端、切り落としは特定部位をスライスした際の切れ端と説明している。
+claim: 『こま切れ』と『切り落とし』は、同じものではない。
+sources:
+- url: https://www.maff.go.jp/j/pr/aff/2009/spe1_01.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『こま切れと切り落としの違い』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

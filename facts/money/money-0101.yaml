@@ -1,0 +1,23 @@
+id: money-0101
+title: 貨幣の『製造』と『発行』は同じ意味ではない
+genres:
+- お金
+- 制度
+tags:
+- 造幣局
+- 用語
+summary: 造幣局Q&Aでは、造幣局が行うのは貨幣の製造であり、発行とは異なると説明している。
+claim: 貨幣の『製造』と『発行』は別の概念である。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『貨幣の「製造」と「発行」は違うのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

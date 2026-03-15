@@ -1,0 +1,23 @@
+id: weather-0118
+title: 小笠原には雨が増える時期があっても気象庁は梅雨入り・梅雨明けを発表していない
+genres:
+- 気象
+- 季節
+tags:
+- 気象庁
+- 梅雨
+summary: 気象庁FAQでは、小笠原諸島には5月中旬から6月上旬頃に降水が増え日照が減る時期があるが、期間が短く毎年現れる現象でもないため季節現象としての梅雨とは扱っていない。
+claim: 小笠原諸島には雨の増える時期があるが、気象庁は梅雨入り・梅雨明けを発表していない。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『小笠原に梅雨はありますか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

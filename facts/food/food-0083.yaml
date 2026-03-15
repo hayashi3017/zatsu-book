@@ -1,0 +1,23 @@
+id: food-0083
+title: りんごが赤くなるのは皮の細胞でアントシアニンが作られるからである
+genres:
+- 食べ物
+- 果物
+tags:
+- 農林水産省
+- りんご
+summary: 農林水産省こども相談では、りんごが赤いのは皮の細胞の中でアントシアニンという色素が作られるからだと説明している。
+claim: りんごが赤くなるのは、皮の細胞でアントシアニンが作られるからである。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0206/06.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『りんごが赤い理由を教えてください。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

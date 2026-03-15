@@ -1,0 +1,23 @@
+id: money-0133
+title: プレミアム貨幣は製造費が額面を上回るため額面以上で販売される
+genres:
+- お金
+- 記念貨幣
+tags:
+- 造幣局
+- プレミアム貨幣
+summary: 造幣局FAQでは、プレミアム貨幣は貴金属を含む記念貨幣のうち製造費が額面を超えるもので、造幣局が額面を下回らない範囲の価格で販売すると説明している。
+claim: プレミアム貨幣は、製造費が額面を上回るため額面以上で販売される。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『プレミアム貨幣、プルーフ貨幣とは何ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

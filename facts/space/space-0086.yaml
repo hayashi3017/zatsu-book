@@ -1,0 +1,23 @@
+id: space-0086
+title: 宇宙では宇宙飛行士の身長が数センチ伸びることがある
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 身長
+summary: JAXA FAQでは、宇宙飛行士の身長は宇宙で1〜2センチほど伸びることがあり、中には7センチ以上伸びた例もあると説明している。
+claim: 宇宙では、宇宙飛行士の身長が数センチ伸びることがある。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000554.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙に行くと背が伸びるって本当ですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

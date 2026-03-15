@@ -1,0 +1,23 @@
+id: weather-0126
+title: 東京地方で『暴風』と呼ぶ目安は風速25メートル毎秒以上である
+genres:
+- 気象
+- 風
+tags:
+- 気象庁
+- 暴風
+summary: 気象庁FAQでは、暴風警報基準以上の風を『暴風』と呼び、基準は都道府県ごとに異なる。東京地方の例として25m/s以上を挙げている。
+claim: 気象庁の説明では、東京地方で『暴風』と呼ぶ目安は風速25m/s以上である。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq2.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『「暴風」、「非常に強い風」は、どのくらいの風速のことを指すのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,23 @@
+id: weather-0125
+title: 気象庁の『非常に強い風』は風速20メートル毎秒以上30メートル毎秒未満である
+genres:
+- 気象
+- 風
+tags:
+- 気象庁
+- 風の強さ
+summary: 気象庁FAQでは、風の強さを4段階で表現し、『非常に強い風』は20m/s以上30m/s未満としている。
+claim: 気象庁の『非常に強い風』は、風速20m/s以上30m/s未満を指す。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq2.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『「暴風」、「非常に強い風」は、どのくらいの風速のことを指すのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

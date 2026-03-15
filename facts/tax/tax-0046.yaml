@@ -1,0 +1,22 @@
+id: tax-0046
+title: 暗号資産で商品を買うときも、含み益の実現として課税関係が問題になることがある
+genres:
+- 税
+tags:
+- 国税庁
+- 税
+summary: 暗号資産で商品を買うときも、含み益の実現として課税関係が問題になることがあると公式FAQ・解説で扱われている。
+claim: 暗号資産で商品を買うときも、含み益の実現として課税関係が問題になることがある
+sources:
+- url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
+  publisher: 国税庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

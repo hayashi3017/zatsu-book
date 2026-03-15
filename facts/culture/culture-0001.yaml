@@ -1,0 +1,23 @@
+id: culture-0001
+title: 日本の著作物保護期間は原則として著作者の死後70年
+genres:
+- 文化
+- 法律
+tags:
+- 文化庁
+- 著作権
+summary: 文化庁Q&Aでは、TPP整備法による改正で著作物等の保護期間は原則として著作者の死後70年になったと説明している。
+claim: 日本の著作物保護期間は、原則として著作者の死後70年である。
+sources:
+- url: https://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_chosakuken/1411890.html
+  publisher: 文化庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『著作物等の保護期間の延長に関するQ&A』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

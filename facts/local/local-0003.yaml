@@ -1,0 +1,24 @@
+id: local-0003
+title: コバトンは作者が本命にしていた案ではなかった
+genres:
+- ご当地
+- マスコット
+tags:
+- 埼玉県
+- コバトン
+- 偶然
+summary: 埼玉県の説明では、竹腰さんはサクラソウ案を出すつもりだったが、教諭がシラコバト案を応募したことが後で分かった。
+claim: コバトンの元になったシラコバト案は、作者本人が本命にしていた応募案ではなかった。
+sources:
+- url: https://www.pref.saitama.lg.jp/a0301/kobaton/tanjo.html
+  publisher: 埼玉県
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『その後ちょっとした手違いが…』の節。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

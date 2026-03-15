@@ -1,0 +1,23 @@
+id: money-0112
+title: バイカラー・クラッドは三層材を別金属リングにはめる偽造防止技術
+genres:
+- お金
+- 素材
+tags:
+- 造幣局
+- 偽造防止
+summary: 造幣局Q&Aでは、バイカラー・クラッド技術を、異なる金属板をサンドイッチ状にした円板をさらに別金属のリングに組み合わせたものと説明している。
+claim: バイカラー・クラッドは、三層構造の円板を別金属リングにはめる偽造防止技術である。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『バイカラー・クラッドとは何ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

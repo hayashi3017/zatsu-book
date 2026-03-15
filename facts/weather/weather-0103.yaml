@@ -1,0 +1,23 @@
+id: weather-0103
+title: 落雷もひょうも発達した積乱雲に伴って起こる
+genres:
+- 気象
+- 雷
+tags:
+- 気象庁
+- 積乱雲
+summary: 気象庁FAQでは、落雷もひょうも発達した積乱雲に伴って発生すると説明している。
+claim: 落雷もひょうも、発達した積乱雲に伴って起こる。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『落雷、ひょうはどのような気象状態のときに発生するのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

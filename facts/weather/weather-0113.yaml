@@ -1,0 +1,23 @@
+id: weather-0113
+title: 集中豪雨をもたらす個々の積乱雲の寿命はせいぜい1時間程度である
+genres:
+- 気象
+- 雲
+tags:
+- 気象庁
+- 積乱雲
+summary: 気象庁FAQでは、集中豪雨をもたらす個々の積乱雲の寿命はせいぜい1時間程度だが、次々に世代交代することで長時間の豪雨になることがあるとしている。
+claim: 集中豪雨を起こす1つ1つの積乱雲の寿命は、せいぜい1時間程度である。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『集中豪雨はなぜ発生するのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

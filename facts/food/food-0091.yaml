@@ -1,0 +1,23 @@
+id: food-0091
+title: せんべいや団子などの加工品には普段食べるうるち米も使われる
+genres:
+- 食べ物
+- 米
+tags:
+- 農林水産省
+- 加工食品
+summary: 農林水産省こども相談では、普段食べるうるち米も加工に使われ、粉にして蒸し焼けばせんべい、上新粉なら団子になると説明している。
+claim: せんべいや団子などの加工品には、普段食べるうるち米も使われる。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0503/01.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『お米の加工品は特別なお米を使っていますか。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

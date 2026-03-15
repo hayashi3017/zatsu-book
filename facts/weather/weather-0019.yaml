@@ -1,0 +1,24 @@
+id: weather-0019
+title: アメダスの風速は小数第1位を四捨五入して公表される
+genres:
+- 気象
+- 観測
+tags:
+- 気象庁
+- アメダス
+- 風速
+summary: アメダスの風速は小数第1位を四捨五入して公表されると公式FAQ・解説で扱われている。
+claim: アメダスの風速は小数第1位を四捨五入して公表される
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

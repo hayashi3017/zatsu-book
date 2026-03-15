@@ -1,0 +1,23 @@
+id: weather-0122
+title: 15時の平均風速は14時50分から15時00分までの10分平均である
+genres:
+- 気象
+- 観測
+tags:
+- 気象庁
+- 風速
+summary: 気象庁FAQでは、平均風速は観測時刻までの10分間を対象とし、15時の値なら14時50分から15時00分までの平均だとしている。
+claim: 15時の平均風速は、14時50分から15時00分までの10分間の平均である。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq2.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『平均風速（10分間平均風速）は、どの10分間を対象としていますか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

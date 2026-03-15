@@ -2,13 +2,12 @@ use anyhow::{Context, Result, anyhow, bail};
 use chrono::{Local, NaiveDate};
 use std::fs;
 use std::path::{Path, PathBuf};
-use unicode_normalization::UnicodeNormalization;
 
 use crate::load::{discover_fact_paths, load_taxonomy};
 
 const FACTS_DIR: &str = "facts";
 const TEMPLATE_PATH: &str = "templates/fact.yaml";
-const MAX_SERIAL: u32 = 999;
+const MAX_SERIAL: u32 = 9999;
 
 pub fn run(
     root: &Path,
@@ -17,6 +16,9 @@ pub fn run(
     slug_override: Option<&str>,
     edit: bool,
 ) -> Result<()> {
+    if slug_override.is_some() {
+        eprintln!("warning: --slug is ignored; new facts use 4-digit serial ids");
+    }
     let created = create_fact(root, genre, title, slug_override, Local::now().date_naive())?;
     println!("created {} ({})", created.path.display(), created.id);
 
@@ -37,7 +39,7 @@ fn create_fact(
     root: &Path,
     genre: &str,
     title: &str,
-    slug_override: Option<&str>,
+    _slug_override: Option<&str>,
     today: NaiveDate,
 ) -> Result<CreatedFact> {
     let taxonomy = load_taxonomy(root)?;
@@ -45,12 +47,8 @@ fn create_fact(
         bail!("genre '{}' is not defined in config/taxonomy.yaml", genre);
     }
 
-    let short_slug = slug_override
-        .map(validate_slug_override)
-        .transpose()?
-        .unwrap_or_else(|| slugify_title(title));
     let serial = next_serial(root, genre)?;
-    let id = format!("{genre}-{serial:03}-{short_slug}");
+    let id = format!("{genre}-{serial:04}");
     let facts_dir = root.join(FACTS_DIR).join(genre);
     let path = facts_dir.join(format!("{id}.yaml"));
     if path.exists() {
@@ -73,17 +71,6 @@ fn create_fact(
     Ok(CreatedFact { id, path })
 }
 
-fn validate_slug_override(slug: &str) -> Result<String> {
-    if is_slug(slug) {
-        Ok(slug.to_owned())
-    } else {
-        Err(anyhow!(
-            "slug '{}' must contain only lowercase ascii letters, digits, and hyphens",
-            slug
-        ))
-    }
-}
-
 fn next_serial(root: &Path, genre: &str) -> Result<u32> {
     let facts_root = root.join(FACTS_DIR);
     if !facts_root.exists() {
@@ -96,10 +83,10 @@ fn next_serial(root: &Path, genre: &str) -> Result<u32> {
             .file_stem()
             .and_then(|stem| stem.to_str())
             .unwrap_or_default();
-        let Some((prefix, serial, _)) = split_fact_id(stem) else {
+        let Some((prefix, serial)) = split_fact_id_prefix_and_serial(stem) else {
             continue;
         };
-        if prefix != genre || serial.len() != 3 {
+        if prefix != genre {
             continue;
         }
         let Ok(parsed) = serial.parse::<u32>() else {
@@ -111,7 +98,7 @@ fn next_serial(root: &Path, genre: &str) -> Result<u32> {
     let next = max_serial + 1;
     if next > MAX_SERIAL {
         bail!(
-            "genre '{}' exceeded the 3-digit serial limit (>{MAX_SERIAL})",
+            "genre '{}' exceeded the 4-digit serial limit (>{MAX_SERIAL})",
             genre
         );
     }
@@ -120,23 +107,17 @@ fn next_serial(root: &Path, genre: &str) -> Result<u32> {
 
 fn render_template(template: &str, genre: &str, id: &str, title: &str, today: NaiveDate) -> String {
     template
+        .replace("<id>", id)
         .replace("<genre-slug>", genre)
         .replace("<serial>", &format_serial_fragment(id))
-        .replace("<short-slug>", &format_short_slug_fragment(id))
         .replace("<title>", &yaml_inline_string(title))
         .replace("2026-03-15", &today.to_string())
 }
 
 fn format_serial_fragment(id: &str) -> String {
-    split_fact_id(id)
-        .map(|(_, serial, _)| serial.to_owned())
+    split_fact_id_prefix_and_serial(id)
+        .map(|(_, serial)| serial.to_owned())
         .expect("generated id should have a serial component")
-}
-
-fn format_short_slug_fragment(id: &str) -> String {
-    split_fact_id(id)
-        .map(|(_, _, slug)| slug.to_owned())
-        .expect("generated id should have a slug component")
 }
 
 fn yaml_inline_string(value: &str) -> String {
@@ -148,60 +129,9 @@ fn yaml_inline_string(value: &str) -> String {
         .to_owned()
 }
 
-fn slugify_title(title: &str) -> String {
-    let normalized = title.nfkc().collect::<String>();
-    let mut slug = String::new();
-    let mut needs_separator = false;
-    let mut has_letter = false;
-
-    for ch in normalized.chars() {
-        if ch.is_ascii_alphanumeric() {
-            let lower = ch.to_ascii_lowercase();
-            if !slug.is_empty() && needs_separator {
-                slug.push('-');
-            }
-            slug.push(lower);
-            has_letter |= lower.is_ascii_lowercase();
-            needs_separator = false;
-        } else if !slug.is_empty() {
-            needs_separator = true;
-        }
-    }
-
-    let slug = slug.trim_matches('-').to_owned();
-    if slug.is_empty() {
-        return format!("fact-{}", stable_title_hash(title));
-    }
-
-    if has_letter {
-        slug
-    } else {
-        format!("{slug}-{}", stable_title_hash(title))
-    }
-}
-
-fn stable_title_hash(title: &str) -> String {
-    let mut hash = 0xcbf29ce484222325_u64;
-    for byte in title.as_bytes() {
-        hash ^= u64::from(*byte);
-        hash = hash.wrapping_mul(0x100000001b3);
-    }
-    format!("{:08x}", hash as u32)
-}
-
-fn split_fact_id(id: &str) -> Option<(&str, &str, &str)> {
+fn split_fact_id_prefix_and_serial(id: &str) -> Option<(&str, &str)> {
     let mut parts = id.splitn(3, '-');
-    Some((parts.next()?, parts.next()?, parts.next()?))
-}
-
-fn is_slug(value: &str) -> bool {
-    !value.is_empty()
-        && value.split('-').all(|segment| {
-            !segment.is_empty()
-                && segment
-                    .chars()
-                    .all(|ch| ch.is_ascii_lowercase() || ch.is_ascii_digit())
-        })
+    Some((parts.next()?, parts.next()?))
 }
 
 fn open_in_editor(path: &Path) -> Result<()> {
@@ -256,7 +186,9 @@ mod tests {
         fs::write(
             temp.path()
                 .join("facts/money/money-001-yen-tree-not-specific.yaml"),
-            include_str!("../../../facts/money/money-001-yen-tree-not-specific.yaml"),
+            include_str!(
+                "../tests/fixtures/facts/valid/money/money-001-yen-tree-not-specific.yaml"
+            ),
         )
         .expect("seed fact");
         temp
@@ -275,9 +207,9 @@ mod tests {
         )
         .expect("fact should be created");
 
-        assert_eq!(created.id, "money-002-500yen-diagonal-reeding");
+        assert_eq!(created.id, "money-0002");
         let content = fs::read_to_string(&created.path).expect("read created fact");
-        assert!(content.contains("id: money-002-500yen-diagonal-reeding"));
+        assert!(content.contains("id: money-0002"));
         assert!(content.contains("title: 500yen diagonal reeding"));
         assert!(content.contains("primary_genre: money"));
         assert!(content.contains("created_at: 2026-03-15"));
@@ -285,12 +217,7 @@ mod tests {
     }
 
     #[test]
-    fn uses_hash_fallback_for_non_ascii_titles() {
-        assert_eq!(slugify_title("1円玉の木は特定の木ではない"), "1-e546c134");
-    }
-
-    #[test]
-    fn accepts_explicit_slug_override() {
+    fn ignores_explicit_slug_override_for_simple_ids() {
         let temp = temp_repo();
 
         let created = create_fact(
@@ -302,6 +229,6 @@ mod tests {
         )
         .expect("fact should be created");
 
-        assert_eq!(created.id, "money-002-yen-tree-not-specific");
+        assert_eq!(created.id, "money-0002");
     }
 }

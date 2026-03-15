@@ -1,5 +1,6 @@
 use crate::load::{self, LoadedFact};
 use crate::model::{FactStatus, SourceKind, Taxonomy};
+use crate::terms::{ResolvedTerm, TaxonomyKind, resolve_terms_unique};
 use crate::validate;
 use anyhow::{Context, Result, bail};
 use std::collections::BTreeMap;
@@ -8,8 +9,8 @@ use std::path::Path;
 
 #[derive(Debug)]
 struct TermPage<'a> {
-    slug: &'a str,
-    label: &'a str,
+    slug: String,
+    label: String,
     facts: Vec<&'a LoadedFact>,
 }
 
@@ -53,8 +54,13 @@ fn build_pages_with_mode(root: &Path, mode: BuildMode) -> Result<()> {
         .collect::<Vec<_>>();
     sort_by_updated_desc(&mut unpublished);
 
-    let genres = build_term_pages(&published, &taxonomy, |fact| &fact.genres, true);
-    let tags = build_term_pages(&published, &taxonomy, |fact| &fact.tags, false);
+    let genres = build_term_pages(
+        &published,
+        &taxonomy,
+        |fact| &fact.genres,
+        TaxonomyKind::Genre,
+    );
+    let tags = build_term_pages(&published, &taxonomy, |fact| &fact.tags, TaxonomyKind::Tag);
 
     let mut outputs = vec![
         (
@@ -125,43 +131,57 @@ fn emit_outputs(root: &Path, outputs: &[(String, String)], mode: BuildMode) -> R
         return Ok(());
     }
 
+    clean_managed_outputs(root)?;
     for (relative_path, content) in outputs {
         write_markdown(root, relative_path, content.clone())?;
     }
     Ok(())
 }
 
+fn clean_managed_outputs(root: &Path) -> Result<()> {
+    for relative_dir in [
+        "src/all",
+        "src/facts",
+        "src/genres",
+        "src/tags",
+        "src/updates",
+    ] {
+        remove_dir_if_exists(&root.join(relative_dir))?;
+    }
+
+    for relative_file in [
+        "src/README.md",
+        "src/SUMMARY.md",
+        "src/404.md",
+        "generated/reports/unpublished.md",
+    ] {
+        remove_file_if_exists(&root.join(relative_file))?;
+    }
+
+    Ok(())
+}
+
 fn build_term_pages<'a>(
     facts: &[&'a LoadedFact],
     taxonomy: &'a Taxonomy,
-    slugs: impl Fn(&'a crate::model::Fact) -> &'a [String],
-    is_genre: bool,
+    raw_terms: impl Fn(&'a crate::model::Fact) -> &'a [String],
+    kind: TaxonomyKind,
 ) -> Vec<TermPage<'a>> {
-    let mut grouped: BTreeMap<&str, Vec<&LoadedFact>> = BTreeMap::new();
+    let mut grouped: BTreeMap<String, (String, Vec<&LoadedFact>)> = BTreeMap::new();
     for fact in facts {
-        for slug in slugs(&fact.fact) {
-            grouped.entry(slug.as_str()).or_default().push(*fact);
+        for term in resolve_terms_unique(raw_terms(&fact.fact), taxonomy, kind) {
+            grouped
+                .entry(term.slug.clone())
+                .or_insert_with(|| (term.label.clone(), Vec::new()))
+                .1
+                .push(*fact);
         }
     }
 
     let mut pages = grouped
         .into_iter()
-        .map(|(slug, mut grouped_facts)| {
+        .map(|(slug, (label, mut grouped_facts))| {
             sort_by_updated_desc(&mut grouped_facts);
-            let label = if is_genre {
-                taxonomy
-                    .genres
-                    .get(slug)
-                    .map(|entry| entry.label.as_str())
-                    .unwrap_or(slug)
-            } else {
-                taxonomy
-                    .tags
-                    .get(slug)
-                    .map(|entry| entry.label.as_str())
-                    .unwrap_or(slug)
-            };
-
             TermPage {
                 slug,
                 label,
@@ -172,8 +192,8 @@ fn build_term_pages<'a>(
 
     pages.sort_by(|left, right| {
         left.label
-            .cmp(right.label)
-            .then_with(|| left.slug.cmp(right.slug))
+            .cmp(&right.label)
+            .then_with(|| left.slug.cmp(&right.slug))
     });
     pages
 }
@@ -349,6 +369,8 @@ fn render_summary(facts: &[&LoadedFact], genres: &[TermPage<'_>], tags: &[TermPa
 
 fn render_fact_page(fact: &LoadedFact, taxonomy: &Taxonomy) -> String {
     let mut out = String::new();
+    let resolved_genres = resolve_terms_unique(&fact.fact.genres, taxonomy, TaxonomyKind::Genre);
+    let resolved_tags = resolve_terms_unique(&fact.fact.tags, taxonomy, TaxonomyKind::Tag);
     out.push_str(&format!("# {}\n\n", fact.fact.title));
     out.push_str("## 要点\n\n");
     out.push_str(&fact.fact.summary);
@@ -374,29 +396,16 @@ fn render_fact_page(fact: &LoadedFact, taxonomy: &Taxonomy) -> String {
     }
 
     out.push_str("\n## ジャンル\n\n");
-    for genre in &fact.fact.genres {
-        let label = taxonomy
-            .genres
-            .get(genre)
-            .map(|entry| entry.label.as_str())
-            .unwrap_or(genre);
-        out.push_str(&format!(
-            "- [{}](../../genres/{}/README.md)\n",
-            label, genre
-        ));
+    for ResolvedTerm { slug, label } in &resolved_genres {
+        out.push_str(&format!("- [{}](../../genres/{}/README.md)\n", label, slug));
     }
 
     out.push_str("\n## タグ\n\n");
-    if fact.fact.tags.is_empty() {
+    if resolved_tags.is_empty() {
         out.push_str("タグはありません。\n");
     } else {
-        for tag in &fact.fact.tags {
-            let label = taxonomy
-                .tags
-                .get(tag)
-                .map(|entry| entry.label.as_str())
-                .unwrap_or(tag);
-            out.push_str(&format!("- [{}](../../tags/{}/README.md)\n", label, tag));
+        for ResolvedTerm { slug, label } in &resolved_tags {
+            out.push_str(&format!("- [{}](../../tags/{}/README.md)\n", label, slug));
         }
     }
 
@@ -455,6 +464,22 @@ fn sort_by_updated_desc(facts: &mut Vec<&LoadedFact>) {
             .cmp(&left.fact.updated_at)
             .then_with(|| left.fact.id.cmp(&right.fact.id))
     });
+}
+
+fn remove_dir_if_exists(path: &Path) -> Result<()> {
+    match fs::remove_dir_all(path) {
+        Ok(()) => Ok(()),
+        Err(err) if err.kind() == std::io::ErrorKind::NotFound => Ok(()),
+        Err(err) => Err(err).with_context(|| format!("failed to remove '{}'", path.display())),
+    }
+}
+
+fn remove_file_if_exists(path: &Path) -> Result<()> {
+    match fs::remove_file(path) {
+        Ok(()) => Ok(()),
+        Err(err) if err.kind() == std::io::ErrorKind::NotFound => Ok(()),
+        Err(err) => Err(err).with_context(|| format!("failed to remove '{}'", path.display())),
+    }
 }
 
 fn source_kind_label(kind: &SourceKind) -> &'static str {
@@ -576,8 +601,18 @@ mod tests {
         let fact = sample_fact();
         let taxonomy = sample_taxonomy();
         let published = vec![&fact];
-        let genres = build_term_pages(&published, &taxonomy, |loaded| &loaded.genres, true);
-        let tags = build_term_pages(&published, &taxonomy, |loaded| &loaded.tags, false);
+        let genres = build_term_pages(
+            &published,
+            &taxonomy,
+            |loaded| &loaded.genres,
+            TaxonomyKind::Genre,
+        );
+        let tags = build_term_pages(
+            &published,
+            &taxonomy,
+            |loaded| &loaded.tags,
+            TaxonomyKind::Tag,
+        );
         let rendered = render_summary(&published, &genres, &tags);
 
         assert!(rendered.contains("- [へえー図鑑](README.md)"));
@@ -600,7 +635,9 @@ mod tests {
         fs::write(
             temp.path()
                 .join("facts/money/money-001-yen-tree-not-specific.yaml"),
-            include_str!("../../../facts/money/money-001-yen-tree-not-specific.yaml"),
+            include_str!(
+                "../tests/fixtures/facts/valid/money/money-001-yen-tree-not-specific.yaml"
+            ),
         )
         .expect("seed fact");
         temp

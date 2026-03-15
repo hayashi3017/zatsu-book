@@ -1,0 +1,24 @@
+id: weather-0030
+title: 霧が白いのも、雲と同じく微小な水滴が光を散乱するためである
+genres:
+- 気象
+- 光学現象
+tags:
+- 気象庁
+- 霧
+- 散乱
+summary: 霧が白いのも、雲と同じく微小な水滴が光を散乱するためであると公式FAQ・解説で扱われている。
+claim: 霧が白いのも、雲と同じく微小な水滴が光を散乱するためである
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

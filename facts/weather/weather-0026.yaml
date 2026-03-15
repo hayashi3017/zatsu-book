@@ -1,0 +1,24 @@
+id: weather-0026
+title: 空が青いのは、太陽光のうち波長の短い青い光が大気中で散乱しやすいからである
+genres:
+- 気象
+- 光学現象
+tags:
+- 気象庁
+- 青空
+- 散乱
+summary: 空が青いのは、太陽光のうち波長の短い青い光が大気中で散乱しやすいからであると公式FAQ・解説で扱われている。
+claim: 空が青いのは、太陽光のうち波長の短い青い光が大気中で散乱しやすいからである
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

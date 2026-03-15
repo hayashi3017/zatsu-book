@@ -1,0 +1,22 @@
+id: language-0003
+title: 送り仮名の付け方にも「許容」があり、常に一択ではない
+genres:
+- ことば
+tags:
+- 文化庁
+- 国語
+summary: 送り仮名の付け方にも「許容」があり、常に一択ではないと公式FAQ・解説で扱われている。
+claim: 送り仮名の付け方にも「許容」があり、常に一択ではない
+sources:
+- url: https://www.bunka.go.jp/qa/
+  publisher: 文化庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

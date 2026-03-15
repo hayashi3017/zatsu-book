@@ -1,0 +1,23 @@
+id: astro-0096
+title: 1年後の同じ時刻に同じ星座が見えるとは限らず、恒星日は太陽日より短い
+genres:
+- 天文
+- 星空
+tags:
+- 国立天文台
+- 星空
+summary: 1年後の同じ時刻に同じ星座が見えるとは限らず、恒星日は太陽日より短いと公式FAQ・解説で扱われている。
+claim: 1年後の同じ時刻に同じ星座が見えるとは限らず、恒星日は太陽日より短い
+sources:
+- url: https://www.nao.ac.jp/faq/
+  publisher: 国立天文台
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

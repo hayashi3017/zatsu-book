@@ -1,0 +1,23 @@
+id: local-0009
+title: くまモンは九州新幹線全線開業をきっかけに生まれた
+genres:
+- ご当地
+- マスコット
+tags:
+- 熊本県
+- くまモン
+summary: 公式プロフィールでは、くまモンは2011年3月の九州新幹線全線開業をきっかけに生まれたと紹介されている。
+claim: くまモンは、九州新幹線全線開業をきっかけに生まれた。
+sources:
+- url: https://kumamon-land.jp/profile/
+  publisher: くまモンオフィシャルサイト
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: プロフィール本文。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

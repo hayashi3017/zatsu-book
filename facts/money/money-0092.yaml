@@ -1,0 +1,24 @@
+id: money-0092
+title: 古い通常貨幣は回収後に溶かされ、新しい貨幣材料として再利用されることがある
+genres:
+- お金
+- リサイクル
+tags:
+- 造幣局
+- 通常貨幣
+- 再利用
+summary: 古い通常貨幣は回収後に溶かされ、新しい貨幣材料として再利用されることがあると公式FAQ・解説で扱われている。
+claim: 古い通常貨幣は回収後に溶かされ、新しい貨幣材料として再利用されることがある
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

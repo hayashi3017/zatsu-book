@@ -1,0 +1,23 @@
+id: weather-0132
+title: 夕焼けが赤いのは大気を長く通る間に青い光が散乱され赤い光が届きやすくなるからである
+genres:
+- 気象
+- 空
+tags:
+- 気象庁
+- 夕焼け
+summary: 気象庁FAQでは、夕方は太陽光が大気を通る距離が長く、波長の短い光が途中で散乱され、波長の長い赤色の光が多く地上に届くため夕焼けが赤く見えるとしている。
+claim: 夕焼けが赤いのは、太陽光が長い大気の道のりを通る間に青い光が散乱され、赤い光が届きやすくなるからである。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq13.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『空はどうして青いのですか？夕焼けはどうして赤いのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

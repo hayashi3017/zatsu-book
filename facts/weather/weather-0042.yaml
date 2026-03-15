@@ -1,0 +1,24 @@
+id: weather-0042
+title: 気象庁の予報用語で「猛烈な風」は平均風速30m/s以上を指す
+genres:
+- 気象
+- 風
+tags:
+- 気象庁
+- 風の強さ
+- 猛烈な風
+summary: 気象庁の予報用語で「猛烈な風」は平均風速30m/s以上を指すと公式FAQ・解説で扱われている。
+claim: 気象庁の予報用語で「猛烈な風」は平均風速30m/s以上を指す
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

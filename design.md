@@ -274,20 +274,22 @@ tags:
 ### 6.1 ID 形式
 
 ```text
-<genre-slug>-<serial>-<short-slug>
+<genre-slug>-<serial4>
 ```
 
 例:
 
-- `money-001-yen-tree-not-specific`
-- `mascots-004-kumamon-civil-servant`
-- `science-012-medaka-space-egg`
+- `money-0001`
+- `local-0004`
+- `weather-0123`
 
 ### 6.2 ルール
 
 - 小文字英数字とハイフンのみ
+- serial は 4 桁の連番を使う
 - 一度公開した `id` は原則変更しない
 - 同一主張を更新しても `id` は維持する
+- 移行期間中は旧形式 `<genre-slug>-<serial>-<short-slug>` も読み込み対象として許容する
 - 表示タイトルの変更は可能
 
 ---

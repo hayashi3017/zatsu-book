@@ -1,0 +1,23 @@
+id: weather-0127
+title: 不快指数は気象庁の統計種目ではない
+genres:
+- 気象
+- 気温
+tags:
+- 気象庁
+- 不快指数
+summary: 気象庁FAQでは、不快指数は気温と湿度から求める蒸し暑さの指数だが、風速などの条件でも体感は変わるため、気象庁の統計種目にはしていないとしている。
+claim: 不快指数は知られた指標だが、気象庁の統計種目ではない。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『不快指数って何ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

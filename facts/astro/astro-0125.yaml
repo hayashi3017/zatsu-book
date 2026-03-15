@@ -1,0 +1,22 @@
+id: astro-0125
+title: 赤い星と青い星の色の違いは表面温度の違いと関係する
+genres:
+- 天文
+tags:
+- 国立天文台
+- 天文
+summary: 赤い星と青い星の色の違いは表面温度の違いと関係すると公式FAQ・解説で扱われている。
+claim: 赤い星と青い星の色の違いは表面温度の違いと関係する
+sources:
+- url: https://www.nao.ac.jp/faq/
+  publisher: 国立天文台
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

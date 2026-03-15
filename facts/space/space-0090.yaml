@@ -1,0 +1,23 @@
+id: space-0090
+title: JAXAは宇宙滞在の代表的な生体変化として骨・筋肉・放射線・心理面などを挙げている
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 宇宙医学
+summary: JAXA FAQでは、代表的な生体変化として心循環器、骨カルシウム、筋肉、宇宙酔い、血液・免疫、放射線、精神心理面への影響などを挙げている。
+claim: JAXAは、宇宙滞在の代表的な生体変化として骨・筋肉・放射線・心理面などを挙げている。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000553.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙環境が人体や精神に与える影響にはどんな物がありますか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

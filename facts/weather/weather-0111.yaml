@@ -1,0 +1,23 @@
+id: weather-0111
+title: 気象情報で降水量を『ミリ』と呼ぶのは気象庁が意図的に省略している表現である
+genres:
+- 気象
+- 言葉
+tags:
+- 気象庁
+- 単位
+summary: 気象庁FAQでは、統計資料ではmmを使う一方、一般向け気象情報では社会一般での使われ方や字数制限を考慮し『ミリメートル』を『ミリ』と省略している。
+claim: 気象庁が降水量を『ミリ』と表現するのは、一般向けの情報で意図的に『ミリメートル』を省略しているためである。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『降水量の単位は「ミリメートル」なのに「メートル」を省略して「ミリ」と言っているのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

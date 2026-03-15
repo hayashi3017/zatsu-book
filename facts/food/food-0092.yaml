@@ -1,0 +1,23 @@
+id: food-0092
+title: 稲が日本に伝わったルートには朝鮮半島南部経由説と中国江南からの直接伝来説がある
+genres:
+- 食べ物
+- 米
+tags:
+- 農林水産省
+- 歴史
+summary: 農林水産省こども相談では、イネの伝来ルートとして朝鮮半島南部を経由した説と、中国江南地方あたりから直接伝わった説が有力だとしている。
+claim: 稲が日本に伝わったルートには、朝鮮半島南部経由説と中国江南からの直接伝来説がある。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0004/06.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『お米が日本に入ってきたルートを教えてください。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

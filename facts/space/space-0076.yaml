@@ -1,0 +1,24 @@
+id: space-0076
+title: JAXAの説明では宇宙滞在3か月時点の血液量減少は約16%である
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 血液量
+- 3か月
+summary: JAXAの説明では宇宙滞在3か月時点の血液量減少は約16%であると公式FAQ・解説で扱われている。
+claim: JAXAの説明では宇宙滞在3か月時点の血液量減少は約16%である
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/iss/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

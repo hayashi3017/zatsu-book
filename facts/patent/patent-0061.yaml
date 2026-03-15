@@ -1,0 +1,22 @@
+id: patent-0061
+title: 商標は会社ロゴの見た目だけでなく、読みや観念の近さでも似ていると判断されることがある
+genres:
+- 知財
+tags:
+- 特許庁
+- 知財
+summary: 商標は会社ロゴの見た目だけでなく、読みや観念の近さでも似ていると判断されることがあると公式FAQ・解説で扱われている。
+claim: 商標は会社ロゴの見た目だけでなく、読みや観念の近さでも似ていると判断されることがある
+sources:
+- url: https://www.jpo.go.jp/faq/yokuaru/index.html
+  publisher: 特許庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

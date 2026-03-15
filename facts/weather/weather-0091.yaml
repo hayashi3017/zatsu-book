@@ -1,0 +1,23 @@
+id: weather-0091
+title: 人工降雨は雲のない所から雨を作れず水不足解消レベルにも達していない
+genres:
+- 気象
+- 技術
+tags:
+- 気象庁
+- 人工降雨
+summary: 気象庁FAQでは、人工降雨は雲のある所に核をまいて雨を促すもので、雲のない所から雨を降らせることはできず、現在のところ水不足解消ほどの雨も降らせられないとしている。
+claim: 人工降雨は、雲のない所から雨を作れず、水不足を解消するほどの雨も現状では難しい。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『人工降雨は、どのように行うのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

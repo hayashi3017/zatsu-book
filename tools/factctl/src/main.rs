@@ -7,6 +7,7 @@ mod new;
 mod normalize;
 mod render;
 mod stale;
+mod terms;
 mod update;
 mod validate;
 

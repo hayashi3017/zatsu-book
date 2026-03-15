@@ -1,0 +1,22 @@
+id: finance-0024
+title: お札の識別マークは視覚障害者にも額面を分かりやすくする工夫である
+genres:
+- 金融
+tags:
+- 日本銀行
+- 金融
+summary: お札の識別マークは視覚障害者にも額面を分かりやすくする工夫であると公式FAQ・解説で扱われている。
+claim: お札の識別マークは視覚障害者にも額面を分かりやすくする工夫である
+sources:
+- url: https://www.boj.or.jp/about/education/oshiete/
+  publisher: 日本銀行
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

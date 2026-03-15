@@ -1,0 +1,23 @@
+id: weather-0134
+title: 厚い雲が灰色や黒っぽく見えるのは太陽光が雲の底まで届かないからである
+genres:
+- 気象
+- 雲
+tags:
+- 気象庁
+- 雲
+summary: 気象庁FAQでは、天気の悪い日は雲が厚く太陽光が雲の底まで届かないため、暗い色に見えるとしている。
+claim: 厚い雲が灰色や黒っぽく見えるのは、太陽光が雲の底まで届かないからである。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq13.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『雲の色が変化するのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

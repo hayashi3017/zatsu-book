@@ -1,0 +1,22 @@
+id: language-0002
+title: 常用漢字表は専門分野や固有名詞にまで一律適用する前提ではない
+genres:
+- ことば
+tags:
+- 文化庁
+- 国語
+summary: 常用漢字表は専門分野や固有名詞にまで一律適用する前提ではないと公式FAQ・解説で扱われている。
+claim: 常用漢字表は専門分野や固有名詞にまで一律適用する前提ではない
+sources:
+- url: https://www.bunka.go.jp/qa/
+  publisher: 文化庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

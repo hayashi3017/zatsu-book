@@ -1,0 +1,22 @@
+id: food-0067
+title: ヨーグルトは発酵食品だが、乳酸菌が生きているかどうかだけで価値が決まるわけではない
+genres:
+- 食べ物
+tags:
+- 農林水産省
+- 食
+summary: ヨーグルトは発酵食品だが、乳酸菌が生きているかどうかだけで価値が決まるわけではないと公式FAQ・解説で扱われている。
+claim: ヨーグルトは発酵食品だが、乳酸菌が生きているかどうかだけで価値が決まるわけではない
+sources:
+- url: https://www.maff.go.jp/j/pr/aff/
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

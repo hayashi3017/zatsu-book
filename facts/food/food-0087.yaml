@@ -1,0 +1,23 @@
+id: food-0087
+title: ご飯100グラムには炭水化物が37.1グラム含まれる
+genres:
+- 食べ物
+- 米
+tags:
+- 農林水産省
+- ご飯
+summary: 農林水産省こども相談では、ご飯100グラム当たり水分60グラム、炭水化物37.1グラム、たんぱく質2.5グラム、食物繊維1.5グラムなどを含むと説明している。
+claim: ご飯100グラムには、炭水化物が37.1グラム含まれる。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0011/02-2.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『ご飯の栄養について教えてください。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

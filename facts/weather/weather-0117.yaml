@@ -1,0 +1,23 @@
+id: weather-0117
+title: 100ミリ以上の日降水や50ミリ以上の時間雨量は長期的に増加傾向がある
+genres:
+- 気象
+- 統計
+tags:
+- 気象庁
+- 大雨
+summary: 気象庁FAQでは、1901年以降の51地点の日降水量100ミリ以上・200ミリ以上、1976年以降のアメダス約1300地点の時間降水量50ミリ以上・80ミリ以上はいずれも長期的に増加傾向と説明している。
+claim: 気象庁の統計では、日降水量100ミリ以上や時間降水量50ミリ以上の大雨発生回数には長期的な増加傾向がある。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『大雨の回数は増えているのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,23 @@
+id: space-0084
+title: 宇宙メダカは脊椎動物として初めて宇宙で産卵した
+genres:
+- 宇宙
+- 実験
+tags:
+- JAXA
+- メダカ
+summary: JAXA FAQでは、1994年に飛行した4匹のメダカが脊椎動物として初めて宇宙で産卵したと説明している。
+claim: 宇宙メダカは、脊椎動物として初めて宇宙で産卵した。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000550.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『向井宇宙飛行士がメダカを宇宙に持っていった実験とは…』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

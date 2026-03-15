@@ -1,0 +1,23 @@
+id: space-0085
+title: 宇宙メダカ実験では43個の卵が確認され8匹がふ化した
+genres:
+- 宇宙
+- 実験
+tags:
+- JAXA
+- メダカ
+summary: JAXA FAQでは、43個の卵が確認され、8匹がふ化したと説明している。
+claim: 宇宙メダカ実験では、43個の卵が確認され、8匹がふ化した。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000550.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 同ページの目的・結果説明。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

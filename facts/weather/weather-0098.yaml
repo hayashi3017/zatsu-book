@@ -1,0 +1,23 @@
+id: weather-0098
+title: 熱帯夜は『夜の最低気温が25℃以上』を指す
+genres:
+- 気象
+- 気温
+tags:
+- 気象庁
+- 熱帯夜
+summary: 気象庁FAQでは、夕方から翌朝までの最低気温が25℃以上となる夜を熱帯夜としている。
+claim: 熱帯夜は、夜間の最低気温が25℃以上の夜を指す。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq3.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『熱帯夜とは何ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

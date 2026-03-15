@@ -1,0 +1,23 @@
+id: space-0092
+title: JAXAは一般的な目安として高度100kmから先を宇宙としている
+genres:
+- 宇宙
+- 基礎知識
+tags:
+- JAXA
+- 宇宙
+summary: JAXA FAQでは、一般的には大気がほとんど無くなる100kmから先を宇宙としていると説明している。
+claim: JAXAの説明では、一般的な目安として高度100kmから先を宇宙としている。
+sources:
+- url: https://fanfun.jaxa.jp/faq/detail/103.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『空と宇宙の境目はどこですか？』本文。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

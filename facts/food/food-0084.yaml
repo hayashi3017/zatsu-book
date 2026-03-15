@@ -1,0 +1,23 @@
+id: food-0084
+title: りんごの赤色には太陽の光と低温も必要である
+genres:
+- 食べ物
+- 果物
+tags:
+- 農林水産省
+- りんご
+summary: 農林水産省こども相談では、アントシアニンができるには果実の糖分増加に加えて太陽の光と低温も必要だとしている。
+claim: りんごの赤色がしっかり出るには、太陽の光と低温も必要である。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0206/06.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『りんごが赤い理由を教えてください。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

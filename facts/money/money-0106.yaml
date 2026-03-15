@@ -1,0 +1,23 @@
+id: money-0106
+title: 造幣局が『硬貨』ではなく『貨幣』と言うのは法律の用語に合わせているから
+genres:
+- お金
+- 用語
+tags:
+- 造幣局
+- 法律
+summary: 造幣局Q&Aでは、根拠法令が『貨幣』という語を用いており、それが一般にいう『硬貨』を指すと説明している。
+claim: 造幣局が『貨幣』という語を使うのは、法律上の用語に合わせているためである。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『どうして「硬貨」ではなく「貨幣」という言葉を用いているのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

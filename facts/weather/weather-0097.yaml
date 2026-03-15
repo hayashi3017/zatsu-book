@@ -1,0 +1,23 @@
+id: weather-0097
+title: 猛暑日・真夏日・真冬日・冬日には気象庁の定義がある
+genres:
+- 気象
+- 気温
+tags:
+- 気象庁
+- 用語
+summary: 気象庁FAQでは、猛暑日は最高35℃以上、真夏日は30℃以上、夏日は25℃以上、真冬日は最高0℃未満、冬日は最低0℃未満としている。
+claim: 猛暑日や真冬日などの言葉には、気象庁の明確な温度基準がある。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq3.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『猛暑日、真夏日、真冬日とは何ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

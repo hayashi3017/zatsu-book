@@ -1,0 +1,24 @@
+id: weather-0005
+title: 降水量を簡単に測るなら、開口部から底面まで同じ面積の筒状容器なら雨量計として使える
+genres:
+- 気象
+- 観測
+tags:
+- 気象庁
+- 雨量計
+- 工作
+summary: 降水量を簡単に測るなら、開口部から底面まで同じ面積の筒状容器なら雨量計として使えると公式FAQ・解説で扱われている。
+claim: 降水量を簡単に測るなら、開口部から底面まで同じ面積の筒状容器なら雨量計として使える
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

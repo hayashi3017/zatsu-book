@@ -1,0 +1,23 @@
+id: space-0102
+title: 宇宙滞在では1か月で血液量が約8パーセント減り体重も減る
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 宇宙医学
+summary: JAXA FAQでは、宇宙滞在1か月で血液が約8％減り、その分だけ体重も減少すると説明している。
+claim: 宇宙滞在では、1か月で血液量が約8％減り体重も減る。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000732.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙へ行くと、体重は変化するのでしょうか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

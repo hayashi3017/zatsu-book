@@ -1,0 +1,22 @@
+id: copyright-0069
+title: 引用に使うために必要以上の高画質画像を丸ごと載せると、必要性の条件を満たしにくい
+genres:
+- 著作権
+tags:
+- 文化庁
+- 著作権
+summary: 引用に使うために必要以上の高画質画像を丸ごと載せると、必要性の条件を満たしにくいと公式FAQ・解説で扱われている。
+claim: 引用に使うために必要以上の高画質画像を丸ごと載せると、必要性の条件を満たしにくい
+sources:
+- url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
+  publisher: 文化庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,23 @@
+id: weather-0114
+title: 積乱雲が次々に世代交代すると激しい雨が数時間から十数時間続くことがある
+genres:
+- 気象
+- 雨
+tags:
+- 気象庁
+- 集中豪雨
+summary: 気象庁FAQでは、積乱雲が同じような場所で次々に発生・発達・衰弱を繰り返すと、激しい雨が数時間から十数時間継続することがあると説明している。
+claim: 積乱雲が同じ地域で次々に世代交代すると、激しい雨が数時間から十数時間続くことがある。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『集中豪雨はなぜ発生するのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

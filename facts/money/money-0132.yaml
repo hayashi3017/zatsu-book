@@ -1,0 +1,23 @@
+id: money-0132
+title: 5円貨と10円貨の成分幅は現在もリサイクルと工業管理の都合で維持されている
+genres:
+- お金
+- 素材
+tags:
+- 造幣局
+- リサイクル
+summary: 造幣局FAQでは、回収貨幣を溶解して新しい貨幣材料に再使用するリサイクルと工業的管理の意味合いから、現在でも成分に幅を持たせて管理しているとしている。
+claim: 5円貨と10円貨の成分幅は、現在も貨幣リサイクルと工業管理の都合で維持されている。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『5円貨と10円貨の素材の品位に、幅があるのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

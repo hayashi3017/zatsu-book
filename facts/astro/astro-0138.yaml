@@ -1,0 +1,23 @@
+id: astro-0138
+title: 新月後の月は1日あたり約12度ずつ太陽から東へ離れていく
+genres:
+- 天文
+- 月
+tags:
+- 国立天文台
+- 月
+summary: 国立天文台FAQでは、新月の後、月は1日に約12度ずつ東に向かって太陽から離れていくと説明している。
+claim: 新月後の月は、1日あたり約12度ずつ太陽から東へ離れていく。
+sources:
+- url: https://www.nao.ac.jp/faq/a0201.html
+  publisher: 国立天文台
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 同ページ本文。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

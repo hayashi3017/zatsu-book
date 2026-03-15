@@ -1,0 +1,24 @@
+id: local-0011
+title: くまモンの仕事欄には『いちおう公務員』とある
+genres:
+- ご当地
+- マスコット
+tags:
+- 熊本県
+- くまモン
+- 肩書き
+summary: くまモン公式プロフィールの仕事欄には『いちおう公務員』『熊本県の営業部長兼しあわせ部長』と記載されている。
+claim: くまモンの公式プロフィールでは、仕事が『いちおう公務員』とされている。
+sources:
+- url: https://kumamon-land.jp/profile/
+  publisher: くまモンオフィシャルサイト
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: プロフィールの仕事欄。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

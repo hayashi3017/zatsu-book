@@ -1,0 +1,23 @@
+id: space-0101
+title: スペースシャトルでは打上げからの経過時間METが主に使われていた
+genres:
+- 宇宙
+- スペースシャトル
+tags:
+- JAXA
+- 時刻
+summary: JAXA FAQでは、スペースシャトルではMET（Mission Elapsed Time）という打上げからの経過時間を主に使用していたと説明している。
+claim: スペースシャトルでは、打上げからの経過時間METが主に使われていた。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000531.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙飛行ではどこの時間を使用しているのですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

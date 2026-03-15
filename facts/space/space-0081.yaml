@@ -1,0 +1,23 @@
+id: space-0081
+title: 宇宙飛行士が鼻づまりになりやすいのも体液シフトの影響
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 無重力
+summary: JAXAの解説では、顔のむくみと同じ理由で鼻の粘膜もむくみ、鼻づまり状態になることがよくあるとしている。
+claim: 宇宙飛行士が鼻づまりになりやすいのは、体液シフトで鼻の粘膜もむくむためである。
+sources:
+- url: https://humans-in-space.jaxa.jp/life/health-in-space/body-impact/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 顔のむくみ解説の本文。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

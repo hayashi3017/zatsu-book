@@ -1,0 +1,21 @@
+id: space-0020
+title: JAXAの説明では宇宙滞在2か月で血液量が約13%減ることがある
+genres:
+- 宇宙
+tags:
+- JAXA
+summary: JAXAの説明では宇宙滞在2か月で血液量が約13%減ることがあると公式FAQ・解説で扱われている。
+claim: JAXAの説明では宇宙滞在2か月で血液量が約13%減ることがある
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/iss/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

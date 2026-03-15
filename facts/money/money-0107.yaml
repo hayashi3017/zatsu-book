@@ -1,0 +1,23 @@
+id: money-0107
+title: 1円玉の木は特定樹種名ではなく『若木』として説明されている
+genres:
+- お金
+- デザイン
+tags:
+- 造幣局
+- 1円玉
+summary: 造幣局の子ども向け解説では、1円貨表面のデザインは『若木』で、伸びゆく日本を象徴すると説明している。
+claim: 1円玉の木は、造幣局では特定の樹種名ではなく『若木』として説明されている。
+sources:
+- url: https://www.mint.go.jp/kids/know/know_01
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『貨幣のデザイン』の1円貨解説。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

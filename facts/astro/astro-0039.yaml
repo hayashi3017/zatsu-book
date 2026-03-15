@@ -1,0 +1,24 @@
+id: astro-0039
+title: 水星が見つけにくいのは小さいからより、太陽から離れて見えない時間帯が短いからである
+genres:
+- 天文
+- 惑星
+tags:
+- 国立天文台
+- 水星
+- 観望
+summary: 水星が見つけにくいのは小さいからより、太陽から離れて見えない時間帯が短いからであると公式FAQ・解説で扱われている。
+claim: 水星が見つけにくいのは小さいからより、太陽から離れて見えない時間帯が短いからである
+sources:
+- url: https://www.nao.ac.jp/faq/
+  publisher: 国立天文台
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

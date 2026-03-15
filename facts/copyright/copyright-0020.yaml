@@ -1,0 +1,22 @@
+id: copyright-0020
+title: 引用には主従関係や必要性、明瞭区分性などの条件がある
+genres:
+- 著作権
+tags:
+- 文化庁
+- 著作権
+summary: 引用には主従関係や必要性、明瞭区分性などの条件があると公式FAQ・解説で扱われている。
+claim: 引用には主従関係や必要性、明瞭区分性などの条件がある
+sources:
+- url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
+  publisher: 文化庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

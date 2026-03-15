@@ -1,0 +1,23 @@
+id: food-0089
+title: 炊いたご飯の重さは一般に精米の2.2倍から2.3倍になる
+genres:
+- 食べ物
+- 米
+tags:
+- 農林水産省
+- 炊飯
+summary: 農林水産省こども相談では、一般的に『ご飯（重量）＝お米（重量）×2.2～2.3』で計算できると説明している。
+claim: 炊いたご飯の重さは、一般に精米の2.2倍から2.3倍になる。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0103/01.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『お米の重さとご飯の重さの違いを教えてください。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

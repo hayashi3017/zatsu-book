@@ -1,0 +1,23 @@
+id: astro-0148
+title: 季節に対応する1年の長さは平均365.24219日
+genres:
+- 天文
+- 暦
+tags:
+- 国立天文台
+- 春分
+summary: 国立天文台FAQでは、春分点から次の春分点までの時間の平均を365.24219日として説明している。
+claim: 季節に対応する1年の長さは、平均365.24219日である。
+sources:
+- url: https://www.nao.ac.jp/faq/a0302.html
+  publisher: 国立天文台
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『春分の日はなぜ年によって違うの？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

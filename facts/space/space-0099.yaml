@@ -1,0 +1,23 @@
+id: space-0099
+title: ISSで使う時刻は協定世界時UTCである
+genres:
+- 宇宙
+- ISS
+tags:
+- JAXA
+- 時刻
+summary: JAXA FAQでは、国際宇宙ステーションでの時刻は協定世界時（UTC）を使用していると説明している。
+claim: ISSで使う時刻は、協定世界時UTCである。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000531.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙飛行ではどこの時間を使用しているのですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

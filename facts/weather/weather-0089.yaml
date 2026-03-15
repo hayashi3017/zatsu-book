@@ -1,0 +1,23 @@
+id: weather-0089
+title: 北海道には毎年現れるわけではないため気象庁の『梅雨情報』がない
+genres:
+- 気象
+- 季節
+tags:
+- 気象庁
+- 梅雨
+summary: 気象庁FAQでは、北海道でも『えぞ梅雨』のような天気になることはあるが毎年のように出現しないため、『梅雨に関する気象情報』は発表していないとしている。
+claim: 北海道には、毎年現れるわけではないため気象庁の公式な『梅雨情報』がない。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『北海道に梅雨がないのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

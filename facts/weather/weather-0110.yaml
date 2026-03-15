@@ -1,0 +1,23 @@
+id: weather-0110
+title: 気象庁の『12時の降水量』は11時から12時までの1時間を指す
+genres:
+- 気象
+- 観測
+tags:
+- 気象庁
+- 降水量
+summary: 気象庁FAQでは、アメダスの『12時の降水量』は12時ちょうどまでの前1時間、つまり11時00分から12時00分の降水量だとしている。
+claim: 気象庁の『12時の降水量』は、11時00分から12時00分までの1時間に降った量を示す。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『降水量は、いつ降った雨の量ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

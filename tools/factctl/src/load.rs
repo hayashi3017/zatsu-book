@@ -1,5 +1,7 @@
-use crate::model::{Fact, Taxonomy};
+use crate::model::{Editorial, Fact, FactStatus, Source, SourceKind, Taxonomy};
 use anyhow::{Context, Result, bail};
+use chrono::NaiveDate;
+use serde::Deserialize;
 use std::collections::HashMap;
 use std::fs;
 use std::path::{Path, PathBuf};
@@ -18,6 +20,56 @@ pub struct LoadedFact {
 pub struct FactCollection {
     facts: Vec<LoadedFact>,
     by_id: HashMap<String, usize>,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq, Deserialize)]
+struct RawSource {
+    #[serde(default)]
+    id: Option<String>,
+    url: String,
+    #[serde(default)]
+    title: Option<String>,
+    publisher: String,
+    kind: SourceKind,
+    accessed_at: NaiveDate,
+    #[serde(default)]
+    quoted_fact: Option<String>,
+}
+
+#[derive(Debug, Clone, PartialEq, Deserialize)]
+struct RawFact {
+    id: String,
+    title: String,
+    #[serde(default)]
+    primary_genre: Option<String>,
+    #[serde(default)]
+    genres: Vec<String>,
+    #[serde(default)]
+    tags: Vec<String>,
+    summary: String,
+    claim: String,
+    #[serde(default)]
+    explanation: Option<String>,
+    #[serde(default)]
+    sources: Vec<RawSource>,
+    status: FactStatus,
+    created_at: NaiveDate,
+    updated_at: NaiveDate,
+    revision: u32,
+    #[serde(default)]
+    aliases: Vec<String>,
+    #[serde(default)]
+    duplicate_of: Option<String>,
+    #[serde(default)]
+    supersedes: Option<String>,
+    #[serde(default = "default_canonical")]
+    canonical: bool,
+    #[serde(default)]
+    importance: Option<f32>,
+    #[serde(default)]
+    editorial: Option<Editorial>,
+    #[serde(default)]
+    evidence_note: Option<String>,
 }
 
 impl FactCollection {
@@ -91,8 +143,9 @@ pub fn discover_fact_paths(facts_root: &Path) -> Result<Vec<PathBuf>> {
 pub fn load_fact_from(path: &Path) -> Result<LoadedFact> {
     let raw = fs::read_to_string(path)
         .with_context(|| format!("failed to read fact '{}'", path.display()))?;
-    let fact: Fact = serde_yaml::from_str(&raw)
+    let raw_fact: RawFact = serde_yaml::from_str(&raw)
         .with_context(|| format!("failed to parse fact '{}'", path.display()))?;
+    let fact = normalize_fact(path, raw_fact)?;
 
     let file_stem = path
         .file_stem()
@@ -110,6 +163,131 @@ pub fn load_fact_from(path: &Path) -> Result<LoadedFact> {
         path: path.to_path_buf(),
         fact,
     })
+}
+
+fn normalize_fact(path: &Path, raw: RawFact) -> Result<Fact> {
+    let primary_genre = raw
+        .primary_genre
+        .as_deref()
+        .and_then(normalize_optional_string)
+        .map(str::to_owned)
+        .or_else(|| infer_primary_genre(path, &raw.id))
+        .with_context(|| {
+            format!(
+                "failed to determine primary_genre for fact '{}'",
+                path.display()
+            )
+        })?;
+
+    let mut genres = raw
+        .genres
+        .into_iter()
+        .filter_map(|genre| normalize_optional_string(&genre).map(str::to_owned))
+        .collect::<Vec<_>>();
+    if genres.is_empty() {
+        genres.push(primary_genre.clone());
+    }
+
+    let evidence_note = raw
+        .evidence_note
+        .as_deref()
+        .and_then(normalize_optional_string)
+        .map(str::to_owned);
+    let sources = normalize_sources(raw.sources, evidence_note);
+
+    Ok(Fact {
+        id: raw.id,
+        title: raw.title,
+        primary_genre,
+        genres,
+        tags: raw
+            .tags
+            .into_iter()
+            .filter_map(|tag| normalize_optional_string(&tag).map(str::to_owned))
+            .collect(),
+        summary: raw.summary,
+        claim: raw.claim,
+        explanation: raw
+            .explanation
+            .and_then(|value| normalize_optional_string(&value).map(str::to_owned)),
+        sources,
+        status: raw.status,
+        created_at: raw.created_at,
+        updated_at: raw.updated_at,
+        revision: raw.revision,
+        aliases: raw.aliases,
+        duplicate_of: raw.duplicate_of,
+        supersedes: raw.supersedes,
+        canonical: raw.canonical,
+        importance: raw.importance,
+        editorial: raw.editorial,
+    })
+}
+
+fn normalize_sources(raw_sources: Vec<RawSource>, evidence_note: Option<String>) -> Vec<Source> {
+    raw_sources
+        .into_iter()
+        .enumerate()
+        .map(|(index, raw)| {
+            let title = raw
+                .title
+                .as_deref()
+                .and_then(normalize_optional_string)
+                .map(str::to_owned)
+                .unwrap_or_else(|| fallback_source_title(&raw.publisher, &raw.url));
+            let id = raw
+                .id
+                .as_deref()
+                .and_then(normalize_optional_string)
+                .map(str::to_owned)
+                .unwrap_or_else(|| format!("source-{}", index + 1));
+            let quoted_fact = raw
+                .quoted_fact
+                .as_deref()
+                .and_then(normalize_optional_string)
+                .map(str::to_owned)
+                .or_else(|| (index == 0).then(|| evidence_note.clone()).flatten());
+
+            Source {
+                id,
+                url: raw.url,
+                title,
+                publisher: raw.publisher,
+                kind: raw.kind,
+                accessed_at: raw.accessed_at,
+                quoted_fact,
+            }
+        })
+        .collect()
+}
+
+fn fallback_source_title(publisher: &str, url: &str) -> String {
+    normalize_optional_string(publisher)
+        .map(str::to_owned)
+        .unwrap_or_else(|| url.to_owned())
+}
+
+fn infer_primary_genre(path: &Path, id: &str) -> Option<String> {
+    path.parent()
+        .and_then(|parent| parent.file_name())
+        .and_then(|name| name.to_str())
+        .and_then(normalize_optional_string)
+        .map(str::to_owned)
+        .or_else(|| {
+            id.split_once('-')
+                .map(|(prefix, _)| prefix)
+                .and_then(normalize_optional_string)
+                .map(str::to_owned)
+        })
+}
+
+fn normalize_optional_string(value: &str) -> Option<&str> {
+    let trimmed = value.trim();
+    (!trimmed.is_empty()).then_some(trimmed)
+}
+
+const fn default_canonical() -> bool {
+    true
 }
 
 fn is_yaml_file(path: &Path) -> bool {
@@ -156,6 +334,48 @@ mod tests {
         assert!(
             err.to_string()
                 .contains("does not match filename 'not-the-fact-id'")
+        );
+    }
+
+    #[test]
+    fn normalizes_compact_fact_shape() {
+        let temp = tempfile::TempDir::new().expect("temp dir");
+        let facts_dir = temp.path().join("facts/food");
+        fs::create_dir_all(&facts_dir).expect("facts dir");
+        let fact_path = facts_dir.join("food-0001.yaml");
+        fs::write(
+            &fact_path,
+            r#"
+id: food-0001
+title: 国産牛は品種名ではない
+genres:
+  - 食べ物
+tags:
+  - 農林水産省
+summary: summary
+claim: claim
+sources:
+  - url: https://example.com/facts
+    publisher: 農林水産省
+    kind: official
+    accessed_at: 2026-03-15
+evidence_note: 公式FAQを参照
+status: draft
+created_at: 2026-03-15
+updated_at: 2026-03-15
+revision: 1
+"#,
+        )
+        .expect("write compact fact");
+
+        let loaded = load_fact_from(&fact_path).expect("compact fact loads");
+
+        assert_eq!(loaded.fact.primary_genre, "food");
+        assert_eq!(loaded.fact.sources[0].id, "source-1");
+        assert_eq!(loaded.fact.sources[0].title, "農林水産省");
+        assert_eq!(
+            loaded.fact.sources[0].quoted_fact.as_deref(),
+            Some("公式FAQを参照")
         );
     }
 }

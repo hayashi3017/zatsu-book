@@ -1,0 +1,23 @@
+id: astro-0147
+title: 『スーパームーン』は厳密な定義がはっきりしない言葉
+genres:
+- 天文
+- 月
+tags:
+- 国立天文台
+- スーパームーン
+summary: 国立天文台FAQでは、『スーパームーン』には『満月』のようなはっきりとした定義がないと説明している。
+claim: 『スーパームーン』は、厳密な定義がはっきりしない言葉である。
+sources:
+- url: https://www.nao.ac.jp/faq/a0207.html
+  publisher: 国立天文台
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『スーパームーンってなに？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,23 @@
+id: astro-0155
+title: 日本では夏と冬の昼の長さの差は北へ行くほど大きい
+genres:
+- 天文
+- 太陽
+tags:
+- 国立天文台
+- 昼の長さ
+summary: 国立天文台FAQでは、日本国内では夏と冬の昼の長さの違いは北に行くほど顕著になると説明している。
+claim: 日本では、夏と冬の昼の長さの差は北へ行くほど大きい。
+sources:
+- url: https://www.nao.ac.jp/faq/a0101.html
+  publisher: 国立天文台
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『場所によって日の出・日の入りの時刻って違うの？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

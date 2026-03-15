@@ -1,0 +1,23 @@
+id: food-0082
+title: 農水省の果樹区分では栗や梅は果樹扱いになる
+genres:
+- 食べ物
+- 果物
+tags:
+- 農林水産省
+- 果樹
+summary: 農林水産省の果樹定義ページでは、木本植物や多年生草本植物で果実を食用とするものを果樹として扱うため、栗や梅なども果樹に含まれると説明している。
+claim: 農水省の果樹区分では、栗や梅は果樹扱いになる。
+sources:
+- url: https://www.maff.go.jp/j/seisan/ryutu/fruits/teigi.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『果樹とは』の説明。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

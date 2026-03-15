@@ -1,0 +1,21 @@
+id: space-0053
+title: 衛星が寿命を迎える理由は燃料切れだけではなく、部品劣化や需要変化もある
+genres:
+- 宇宙
+tags:
+- JAXA
+summary: 衛星が寿命を迎える理由は燃料切れだけではなく、部品劣化や需要変化もあると公式FAQ・解説で扱われている。
+claim: 衛星が寿命を迎える理由は燃料切れだけではなく、部品劣化や需要変化もある
+sources:
+- url: https://fanfun.jaxa.jp/faq/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

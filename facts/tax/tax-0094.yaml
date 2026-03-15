@@ -1,0 +1,23 @@
+id: tax-0094
+title: 収集品として扱う貨幣は非課税扱いではない
+genres:
+- 税
+- 制度
+tags:
+- 国税庁
+- 消費税
+summary: 国税庁タックスアンサーでは、銀行券や貨幣でも収集品として譲渡する場合は非課税取引に含まれないとしている。
+claim: 収集品として扱う貨幣は、非課税扱いではない。
+sources:
+- url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6201.htm
+  publisher: 国税庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: No.6201『非課税となる取引』の注記。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

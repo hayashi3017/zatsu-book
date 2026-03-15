@@ -1,0 +1,24 @@
+id: weather-0047
+title: 活断層は第四紀に活動し、今後も活動しそうな断層地形を指す
+genres:
+- 気象
+- 地震
+tags:
+- 気象庁
+- 活断層
+- 第四紀
+summary: 活断層は第四紀に活動し、今後も活動しそうな断層地形を指すと公式FAQ・解説で扱われている。
+claim: 活断層は第四紀に活動し、今後も活動しそうな断層地形を指す
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq7.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

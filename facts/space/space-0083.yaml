@@ -1,0 +1,23 @@
+id: space-0083
+title: 宇宙から帰ると立ちくらみが起きやすい
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 帰還
+summary: JAXAの解説では、帰還後は重力下で頭へ血液を届けにくくなることなどから、立ちくらみ（起立性低血圧）を起こしやすいとしている。
+claim: 宇宙から帰った宇宙飛行士は、立ちくらみを起こしやすい。
+sources:
+- url: https://humans-in-space.jaxa.jp/life/health-in-space/body-impact/
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 顔のむくみ解説の本文。
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

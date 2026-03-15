@@ -1,0 +1,23 @@
+id: weather-0116
+title: 気象庁の『猛烈な雨』は1時間80ミリ以上である
+genres:
+- 気象
+- 雨
+tags:
+- 気象庁
+- 雨の強さ
+summary: 気象庁FAQでは、『猛烈な雨』は1時間に80ミリ以上の雨で、息苦しくなるような圧迫感や恐怖を感じるイメージとしている。
+claim: 気象庁の『猛烈な雨』は、1時間に80ミリ以上の雨を指す。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『「激しい雨」、「猛烈な雨」とは、どのくらいの雨を指すのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

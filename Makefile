@@ -1,4 +1,4 @@
-.PHONY: validate dedupe build-pages stale doctor book serve ci-content
+.PHONY: validate dedupe build-pages build stale doctor book serve ci-content
 
 validate:
 	cargo run -p factctl -- validate
@@ -8,6 +8,8 @@ dedupe:
 
 build-pages:
 	cargo run -p factctl -- build-pages
+
+build: book
 
 stale:
 	cargo run -p factctl -- stale

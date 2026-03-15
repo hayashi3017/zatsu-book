@@ -1,0 +1,23 @@
+id: weather-0138
+title: 気象庁は虹の色を基本的に6色として説明している
+genres:
+- 気象
+- 虹
+tags:
+- 気象庁
+- 色
+summary: 気象庁FAQでは、可視光の境界には個人差があるとしたうえで、理科年表に合わせて虹の色は赤・だいだい・黄・緑・青・むらさきの6色として説明している。
+claim: 気象庁は、虹の色を基本的に6色として説明している。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq13.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『虹は何色ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

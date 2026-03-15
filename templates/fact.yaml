@@ -1,5 +1,5 @@
 # 1 file = 1 fact = 1 claim
-id: <genre-slug>-<serial>-<short-slug>
+id: <id>
 title: <title>
 primary_genre: <genre-slug>
 genres:

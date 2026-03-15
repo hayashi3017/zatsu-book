@@ -1,0 +1,22 @@
+id: patent-0034
+title: 同じ名前でも商品・サービス分野が違えば共存できることがある
+genres:
+- 知財
+tags:
+- 特許庁
+- 知財
+summary: 同じ名前でも商品・サービス分野が違えば共存できることがあると公式FAQ・解説で扱われている。
+claim: 同じ名前でも商品・サービス分野が違えば共存できることがある
+sources:
+- url: https://www.jpo.go.jp/faq/yokuaru/index.html
+  publisher: 特許庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

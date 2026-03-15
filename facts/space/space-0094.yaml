@@ -1,0 +1,23 @@
+id: space-0094
+title: ISSは条件が良ければ木星並みの明るさで見える
+genres:
+- 宇宙
+- 観測
+tags:
+- JAXA
+- ISS
+summary: JAXA FAQでは、ISSは条件が良いと木星並み（-2等級）の明るさで見えると説明している。
+claim: ISSは、条件が良ければ木星並みの明るさで見える。
+sources:
+- url: https://fanfun.jaxa.jp/faq/detail/78.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『地上から肉眼でISSを見ることはできますか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

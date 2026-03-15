@@ -1,0 +1,23 @@
+id: weather-0137
+title: 虹の色がくっきり見えるかどうかは水滴の大きさに左右される
+genres:
+- 気象
+- 虹
+tags:
+- 気象庁
+- 大気光象
+summary: 気象庁FAQでは、虹の見え方は空気中の水滴の大きさに関係し、水滴が大きいほど色がくっきり見えるとしている。
+claim: 虹の色がくっきり見えるかどうかは水滴の大きさに左右され、水滴が大きいほど鮮やかに見える。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq13.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『虹はどうしてできるのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

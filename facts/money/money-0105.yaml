@@ -1,0 +1,23 @@
+id: money-0105
+title: 貨幣セットの中の貨幣も額面どおり使える
+genres:
+- お金
+- 収集
+tags:
+- 造幣局
+- 貨幣セット
+summary: 造幣局Q&Aでは、貨幣セットに収納されている貨幣は記念貨幣を含めすべて使用可能だが、購入価格ではなく額面価格での使用になると説明している。
+claim: 貨幣セットに入った貨幣も、額面価格でなら使える。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『記念貨幣や貨幣セットに収納されている貨幣は、貨幣として使用できるのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

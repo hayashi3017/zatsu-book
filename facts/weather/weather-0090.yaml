@@ -1,0 +1,23 @@
+id: weather-0090
+title: 梅雨前線の雨でなくても雨が続けば『梅雨明け』にならないことがある
+genres:
+- 気象
+- 季節
+tags:
+- 気象庁
+- 梅雨
+summary: 気象庁FAQでは、梅雨は雨や曇りの日が現れる現象・期間を指すため、梅雨前線が原因でない雨でも雨が続くなら梅雨明けにならないとしている。
+claim: 梅雨前線の雨でなくても、雨が続けば『梅雨明け』とならないことがある。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『梅雨前線が原因でない雨なのに、梅雨明けしないのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

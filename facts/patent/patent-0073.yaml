@@ -1,0 +1,22 @@
+id: patent-0073
+title: 技術を秘密にしたいなら、特許出願は公開と引き換えの制度であることを理解する必要がある
+genres:
+- 知財
+tags:
+- 特許庁
+- 知財
+summary: 技術を秘密にしたいなら、特許出願は公開と引き換えの制度であることを理解する必要があると公式FAQ・解説で扱われている。
+claim: 技術を秘密にしたいなら、特許出願は公開と引き換えの制度であることを理解する必要がある
+sources:
+- url: https://www.jpo.go.jp/faq/yokuaru/index.html
+  publisher: 特許庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

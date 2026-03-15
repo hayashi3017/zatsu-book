@@ -1,0 +1,23 @@
+id: space-0107
+title: 宇宙飛行士はISSで健康維持のため毎日2時間運動する
+genres:
+- 宇宙
+- 人体
+tags:
+- JAXA
+- 運動
+summary: JAXA FAQでは、筋肉や骨への悪影響を避けるため、宇宙飛行士は毎日2時間の運動を行うとしている。
+claim: 宇宙飛行士は、ISSで健康維持のため毎日2時間運動する。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000529.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『国際宇宙ステーション（ISS）ではどのようにして健康を保つのですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

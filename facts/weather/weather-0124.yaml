@@ -1,0 +1,23 @@
+id: weather-0124
+title: 気象庁の風向観測で『北』は磁北ではなく真北である
+genres:
+- 気象
+- 風
+tags:
+- 気象庁
+- 風向
+summary: 気象庁FAQでは、風向観測の『北』は真北であると明記している。
+claim: 気象庁の風向観測における『北』は、磁北ではなく真北である。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq2.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『気象庁の風向の観測の『北』とは「真北」ですか？それとも「磁北」ですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

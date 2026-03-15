@@ -1,0 +1,23 @@
+id: space-0105
+title: ISSのトイレは重力の代わりにファンで空気の流れを作って排泄物を吸い込む
+genres:
+- 宇宙
+- ISS
+tags:
+- JAXA
+- トイレ
+summary: JAXA FAQでは、ISSのトイレはファンを回して空気の流れで尿と便を吸い込む仕組みだとしている。
+claim: ISSのトイレは、重力の代わりにファンで空気の流れを作って排泄物を吸い込む。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000517.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙ではどうやってお風呂やトイレに入るのですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

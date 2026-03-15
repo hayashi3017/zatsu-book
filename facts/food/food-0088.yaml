@@ -1,0 +1,23 @@
+id: food-0088
+title: ご飯に多い炭水化物から得られるブドウ糖は脳の活動エネルギー源である
+genres:
+- 食べ物
+- 米
+tags:
+- 農林水産省
+- 栄養
+summary: 農林水産省こども相談では、ご飯に多く含まれる炭水化物（ブドウ糖）は脳の活動エネルギー源だとしている。
+claim: ご飯に多い炭水化物から得られるブドウ糖は、脳の活動エネルギー源である。
+sources:
+- url: https://www.maff.go.jp/j/heya/kodomo_sodan/0011/02-2.html
+  publisher: 農林水産省
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『ご飯の栄養について教えてください。』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

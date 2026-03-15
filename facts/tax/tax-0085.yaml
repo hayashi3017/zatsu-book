@@ -1,0 +1,22 @@
+id: tax-0085
+title: 通院のための公共交通機関利用は医療費控除対象になり得るが、自家用車のガソリン代は通常対象外である
+genres:
+- 税
+tags:
+- 国税庁
+- 税
+summary: 通院のための公共交通機関利用は医療費控除対象になり得るが、自家用車のガソリン代は通常対象外であると公式FAQ・解説で扱われている。
+claim: 通院のための公共交通機関利用は医療費控除対象になり得るが、自家用車のガソリン代は通常対象外である
+sources:
+- url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
+  publisher: 国税庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

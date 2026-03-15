@@ -583,7 +583,9 @@ mod tests {
         fs::write(
             temp.path()
                 .join("facts/money/money-001-yen-tree-not-specific.yaml"),
-            include_str!("../../../facts/money/money-001-yen-tree-not-specific.yaml"),
+            include_str!(
+                "../tests/fixtures/facts/valid/money/money-001-yen-tree-not-specific.yaml"
+            ),
         )
         .expect("seed fact");
 

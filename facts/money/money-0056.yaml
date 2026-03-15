@@ -1,0 +1,24 @@
+id: money-0056
+title: 現行の5円玉の直径は22.0mmである
+genres:
+- お金
+- 貨幣
+tags:
+- 造幣局
+- 5円玉
+- 直径
+summary: 現行の5円玉の直径は22.0mmであると公式FAQ・解説で扱われている。
+claim: 現行の5円玉の直径は22.0mmである
+sources:
+- url: https://www.mint.go.jp/kids/know/know_01
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

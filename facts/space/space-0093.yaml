@@ -1,0 +1,23 @@
+id: space-0093
+title: 宇宙が黒く見えるのは光を散乱・反射するものがほとんどないから
+genres:
+- 宇宙
+- 光
+tags:
+- JAXA
+- 宇宙
+summary: JAXA FAQでは、宇宙空間はほとんど真空で、反射する物がなく光が通り抜けてしまうため黒く見えると説明している。
+claim: 宇宙が黒く見えるのは、光を散乱・反射するものがほとんどないためである。
+sources:
+- url: https://fanfun.jaxa.jp/faq/detail/104.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『宇宙はなぜ黒く見えるのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

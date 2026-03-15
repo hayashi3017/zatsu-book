@@ -1,0 +1,23 @@
+id: weather-0129
+title: 気圧は地点の数値より分布が重要なため天気図で予想される
+genres:
+- 気象
+- 気圧
+tags:
+- 気象庁
+- 天気図
+summary: 気象庁FAQでは、気圧はある地点の値よりも分布で気象状況を表す性質が強いため、気温のような地点予報ではなく予想天気図として発表している。
+claim: 気圧は点の数値より分布が重要なため、気象庁は地点ごとの気圧予報ではなく天気図で予想する。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『気圧の予報をしないのはなぜですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

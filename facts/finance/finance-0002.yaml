@@ -1,0 +1,28 @@
+id: finance-0002
+title: 硬貨は政府が発行し、お札は日本銀行が発行するので発行主体が違う
+genres:
+- 金融
+- お金
+tags:
+- 日本銀行
+- 造幣局
+- 発行主体
+summary: 硬貨は政府が発行し、お札は日本銀行が発行するので発行主体が違うと公式FAQ・解説で扱われている。
+claim: 硬貨は政府が発行し、お札は日本銀行が発行するので発行主体が違う
+sources:
+- url: https://www.boj.or.jp/about/education/oshiete/
+  publisher: 日本銀行
+  kind: official
+  accessed_at: '2026-03-15'
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

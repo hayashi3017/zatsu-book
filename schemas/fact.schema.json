@@ -6,7 +6,6 @@
   "required": [
     "id",
     "title",
-    "primary_genre",
     "genres",
     "summary",
     "claim",
@@ -19,7 +18,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z0-9]+-\\d{3}-[a-z0-9]+(?:-[a-z0-9]+)*$"
+      "pattern": "^[a-z0-9]+-(?:\\d{4}|\\d{3}-[a-z0-9]+(?:-[a-z0-9]+)*)$"
     },
     "title": {
       "type": "string"
@@ -58,9 +57,7 @@
       "items": {
         "type": "object",
         "required": [
-          "id",
           "url",
-          "title",
           "publisher",
           "kind",
           "accessed_at"
@@ -142,6 +139,9 @@
           "type": "boolean"
         }
       }
+    },
+    "evidence_note": {
+      "type": "string"
     }
   }
 }

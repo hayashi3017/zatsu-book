@@ -1,0 +1,23 @@
+id: space-0091
+title: 空と宇宙の間に厳密な境界線はない
+genres:
+- 宇宙
+- 基礎知識
+tags:
+- JAXA
+- 宇宙
+summary: JAXA FAQでは、地表から宇宙空間までは無段階につながっているため、どこからが宇宙という境は実はないと説明している。
+claim: 空と宇宙の間に、厳密な境界線はない。
+sources:
+- url: https://fanfun.jaxa.jp/faq/detail/103.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『空と宇宙の境目はどこですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

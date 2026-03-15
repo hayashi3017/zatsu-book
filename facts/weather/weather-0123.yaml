@@ -1,0 +1,23 @@
+id: weather-0123
+title: アメダス地図の風速は小数第1位を四捨五入して1メートル毎秒単位で表示される
+genres:
+- 気象
+- 観測
+tags:
+- 気象庁
+- アメダス
+summary: 気象庁FAQでは、アメダス（地図形式）の風速は毎正時前10分間の平均風速の小数第1位を四捨五入して表示している。
+claim: アメダスの地図表示の風速は、小数第1位を四捨五入した1メートル毎秒単位である。
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq2.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『気象庁ホームページに記載されているアメダスの風速は1m/s単位となっていますが、四捨五入して表示しているのでしょうか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,23 @@
+id: space-0108
+title: ISSではトレッドミルやエルゴメーターで筋肉と骨への負荷を補っている
+genres:
+- 宇宙
+- ISS
+tags:
+- JAXA
+- 運動
+summary: JAXA FAQでは、トレッドミルやエルゴメーターなどの器具を使って重力下と同様な条件を体に与えるとしている。
+claim: ISSでは、トレッドミルやエルゴメーターで筋肉と骨への負荷を補っている。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000529.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『国際宇宙ステーション（ISS）ではどのようにして健康を保つのですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

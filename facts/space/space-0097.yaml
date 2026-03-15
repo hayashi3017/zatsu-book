@@ -1,0 +1,23 @@
+id: space-0097
+title: ISSではロシアモジュール管理を除けば英語が共通語である
+genres:
+- 宇宙
+- ISS
+tags:
+- JAXA
+- 言語
+summary: JAXA FAQでは、ISSは多国籍開発のため、ロシア語が使われるロシアモジュールの管理を除けば英語を共通語として仕事を進めるとしている。
+claim: ISSでは、ロシアモジュール管理を除けば英語が共通語である。
+sources:
+- url: https://humans-in-space.jaxa.jp/faq/detail/000516.html
+  publisher: JAXA
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『国際宇宙ステーション（ISS）ではどのような言葉を使うのですか』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

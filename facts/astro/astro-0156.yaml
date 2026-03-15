@@ -1,0 +1,23 @@
+id: astro-0156
+title: 日本で日の出が最も早いのは夏至その日ではなく1週間ほど前である
+genres:
+- 天文
+- 太陽
+tags:
+- 国立天文台
+- 夏至
+summary: 国立天文台FAQでは、日本では日の出がもっとも早い日は夏至より1週間ほど早いとしている。
+claim: 日本で日の出が最も早いのは、夏至その日ではなく1週間ほど前である。
+sources:
+- url: https://www.nao.ac.jp/faq/a0104.html
+  publisher: 国立天文台
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『1年のうちで、日の出、日の入が一番早い日（遅い日）はいつ？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

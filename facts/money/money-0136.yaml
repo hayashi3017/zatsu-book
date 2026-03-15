@@ -1,0 +1,23 @@
+id: money-0136
+title: カラーコインの着色にはパッド印刷が使われる
+genres:
+- お金
+- 記念貨幣
+tags:
+- 造幣局
+- カラーコイン
+summary: 造幣局FAQでは、彩色された貨幣にはパッド印刷という方法で色を付けていると説明している。
+claim: カラーコインの着色には、パッド印刷が使われる。
+sources:
+- url: https://www.mint.go.jp/faq-list/faq_coin
+  publisher: 造幣局
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 『彩色された貨幣（カラーコイン）には、どうやって色を付けているのですか？』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,24 @@
+id: weather-0031
+title: 虹は太陽と反対側の空に現れる
+genres:
+- 気象
+- 光学現象
+tags:
+- 気象庁
+- 虹
+- 太陽
+summary: 虹は太陽と反対側の空に現れると公式FAQ・解説で扱われている。
+claim: 虹は太陽と反対側の空に現れる
+sources:
+- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+  publisher: 気象庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: 公式FAQ・解説ページを参照。
+status: draft
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

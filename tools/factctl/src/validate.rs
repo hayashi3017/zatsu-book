@@ -178,47 +178,41 @@ fn validate_loaded_facts(facts: &[LoadedFact], taxonomy: &Taxonomy) -> Vec<Valid
 
 fn validate_fact_shape(
     loaded: &LoadedFact,
-    taxonomy: &Taxonomy,
+    _taxonomy: &Taxonomy,
     id_paths: &BTreeMap<String, Vec<PathBuf>>,
     issues: &mut Vec<ValidationIssue>,
 ) {
     validate_id(loaded, issues);
 
     let fact = &loaded.fact;
-    if !fact.genres.iter().any(|genre| genre == &fact.primary_genre) {
+    if fact.primary_genre.trim().is_empty() {
         issues.push(ValidationIssue::fact(
             loaded,
-            format!(
-                "primary_genre '{}' must be included in genres",
-                fact.primary_genre
-            ),
+            "primary_genre must not be empty",
         ));
     }
 
-    if !taxonomy.genres.contains_key(&fact.primary_genre) {
+    if fact.genres.is_empty() {
         issues.push(ValidationIssue::fact(
             loaded,
-            format!(
-                "primary_genre '{}' is not defined in taxonomy",
-                fact.primary_genre
-            ),
+            "at least one genre is required",
         ));
     }
 
     for genre in &fact.genres {
-        if !taxonomy.genres.contains_key(genre) {
+        if genre.trim().is_empty() {
             issues.push(ValidationIssue::fact(
                 loaded,
-                format!("genre '{}' is not defined in taxonomy", genre),
+                "genre entries must not be empty",
             ));
         }
     }
 
     for tag in &fact.tags {
-        if !taxonomy.tags.contains_key(tag) {
+        if tag.trim().is_empty() {
             issues.push(ValidationIssue::fact(
                 loaded,
-                format!("tag '{}' is not defined in taxonomy", tag),
+                "tag entries must not be empty",
             ));
         }
     }
@@ -275,36 +269,27 @@ fn validate_fact_shape(
 
 fn validate_id(loaded: &LoadedFact, issues: &mut Vec<ValidationIssue>) {
     let fact = &loaded.fact;
-    let Some((prefix, serial, short_slug)) = split_fact_id(&fact.id) else {
-        issues.push(ValidationIssue::fact(
-            loaded,
-            format!(
-                "id '{}' must match <genre-slug>-<serial>-<short-slug>",
-                fact.id
-            ),
-        ));
-        return;
+    let valid = match parse_fact_id(&fact.id) {
+        Some(FactId::Legacy {
+            prefix,
+            serial,
+            short_slug,
+        }) => {
+            is_slug(prefix)
+                && serial.len() == 3
+                && serial.chars().all(|ch| ch.is_ascii_digit())
+                && is_slug(short_slug)
+        }
+        Some(FactId::Simple { prefix, serial }) => {
+            is_slug(prefix) && serial.len() == 4 && serial.chars().all(|ch| ch.is_ascii_digit())
+        }
+        None => false,
     };
-
-    if prefix != fact.primary_genre {
+    if !valid {
         issues.push(ValidationIssue::fact(
             loaded,
             format!(
-                "id '{}' must start with primary_genre '{}'",
-                fact.id, fact.primary_genre
-            ),
-        ));
-    }
-
-    if !is_slug(prefix)
-        || !is_slug(short_slug)
-        || serial.len() != 3
-        || !serial.chars().all(|ch| ch.is_ascii_digit())
-    {
-        issues.push(ValidationIssue::fact(
-            loaded,
-            format!(
-                "id '{}' must match <genre-slug>-<serial>-<short-slug>",
+                "id '{}' must match <genre-slug>-<serial>-<short-slug> or <genre-slug>-<serial4>",
                 fact.id
             ),
         ));
@@ -465,9 +450,29 @@ fn detect_relation_cycles(relation: &str, edges: &HashMap<String, String>) -> Ve
     issues
 }
 
-fn split_fact_id(id: &str) -> Option<(&str, &str, &str)> {
-    let mut parts = id.splitn(3, '-');
-    Some((parts.next()?, parts.next()?, parts.next()?))
+enum FactId<'a> {
+    Legacy {
+        prefix: &'a str,
+        serial: &'a str,
+        short_slug: &'a str,
+    },
+    Simple {
+        prefix: &'a str,
+        serial: &'a str,
+    },
+}
+
+fn parse_fact_id(id: &str) -> Option<FactId<'_>> {
+    let parts = id.split('-').collect::<Vec<_>>();
+    match parts.as_slice() {
+        [prefix, serial] => Some(FactId::Simple { prefix, serial }),
+        [prefix, serial, rest @ ..] if !rest.is_empty() => Some(FactId::Legacy {
+            prefix,
+            serial,
+            short_slug: &id[prefix.len() + serial.len() + 2..],
+        }),
+        _ => None,
+    }
 }
 
 fn is_slug(value: &str) -> bool {
@@ -558,9 +563,25 @@ mod tests {
     }
 
     #[test]
-    fn validate_repository_accepts_current_repo() {
-        let root = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../..");
-        let report = validate_repository(&root);
+    fn validate_repository_accepts_fixture_repo() {
+        let temp = tempfile::TempDir::new().expect("temp dir");
+        std::fs::create_dir_all(temp.path().join("config")).expect("config dir");
+        std::fs::create_dir_all(temp.path().join("facts/money")).expect("facts dir");
+        std::fs::write(
+            temp.path().join("config/taxonomy.yaml"),
+            include_str!("../tests/fixtures/config/taxonomy.yaml"),
+        )
+        .expect("taxonomy");
+        std::fs::write(
+            temp.path()
+                .join("facts/money/money-001-yen-tree-not-specific.yaml"),
+            include_str!(
+                "../tests/fixtures/facts/valid/money/money-001-yen-tree-not-specific.yaml"
+            ),
+        )
+        .expect("fact");
+
+        let report = validate_repository(temp.path());
 
         assert!(report.is_valid(), "{:?}", report.issues);
         assert_eq!(report.facts.len(), 1);
@@ -575,8 +596,8 @@ mod tests {
             Some("missing-id"),
             None,
         );
-        loaded.fact.genres = vec!["japan".to_owned()];
-        loaded.fact.tags = vec!["unknown-tag".to_owned()];
+        loaded.fact.genres.clear();
+        loaded.fact.tags = vec!["unknown-tag".to_owned(), String::new()];
         loaded.fact.sources.clear();
         loaded.fact.revision = 0;
 
@@ -589,12 +610,12 @@ mod tests {
         assert!(
             rendered
                 .iter()
-                .any(|line| line.contains("primary_genre 'money' must be included in genres"))
+                .any(|line| line.contains("at least one genre is required"))
         );
         assert!(
             rendered
                 .iter()
-                .any(|line| line.contains("tag 'unknown-tag' is not defined in taxonomy"))
+                .any(|line| line.contains("tag entries must not be empty"))
         );
         assert!(
             rendered

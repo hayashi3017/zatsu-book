@@ -1,0 +1,23 @@
+id: tax-0093
+title: ふつうの紙幣や硬貨の譲渡は消費税の非課税取引に含まれる
+genres:
+- 税
+- 制度
+tags:
+- 国税庁
+- 消費税
+summary: 国税庁タックスアンサーでは、銀行券・政府紙幣・硬貨などの譲渡を非課税取引に挙げている。
+claim: ふつうの紙幣や硬貨の譲渡は、消費税の非課税取引に含まれる。
+sources:
+- url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6201.htm
+  publisher: 国税庁
+  kind: official
+  accessed_at: '2026-03-15'
+evidence_note: No.6201『非課税となる取引』
+status: published
+created_at: '2026-03-15'
+updated_at: '2026-03-15'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1
