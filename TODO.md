@@ -91,15 +91,15 @@
 
 ## Phase 4: new / update 実装
 
-- [ ] `factctl new` を実装する
-- [ ] ジャンルごとの serial 採番を実装する
-- [ ] タイトルから `short-slug` を生成する
-- [ ] `primary_genre` をもとに保存先ディレクトリを決める
-- [ ] テンプレート YAML を新規作成できるようにする
-- [ ] `factctl update <id>` を実装する
-- [ ] `updated_at` 更新を実装する
-- [ ] `revision += 1` を実装する
-- [ ] エディタ起動の扱いを決める
+- [x] `factctl new` を実装する
+- [x] ジャンルごとの serial 採番を実装する
+- [x] タイトルから `short-slug` を生成する
+- [x] `primary_genre` をもとに保存先ディレクトリを決める
+- [x] テンプレート YAML を新規作成できるようにする
+- [x] `factctl update <id>` を実装する
+- [x] `updated_at` 更新を実装する
+- [x] `revision += 1` を実装する
+- [x] エディタ起動の扱いを決める
 
 ## Phase 5: dedupe 実装
 
@@ -129,7 +129,7 @@
 
 - [ ] `mdbook build` が通る最小構成を整える
 - [ ] `Makefile` か `justfile` を追加する
-- [ ] `book/` を `.gitignore` に追加する
+- [x] `book/` を `.gitignore` に追加する
 - [ ] GitHub Actions で以下を自動化する
   - [ ] format / lint
   - [ ] `factctl validate`
@@ -158,7 +158,7 @@
 - [ ] `factctl dedupe` で重複候補を提示できる
 - [ ] `mdbook build` が成功する
 - [ ] `draft` が公開導線に出ない
-- [ ] `factctl update` で `revision` と `updated_at` を更新できる
+- [x] `factctl update` で `revision` と `updated_at` を更新できる
 - [ ] GitHub Pages の project site でアセットとリンクが崩れない
 
 ## 日々の実行コマンド

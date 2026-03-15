@@ -10,5 +10,10 @@ chrono.workspace = true
 clap.workspace = true
 serde.workspace = true
 serde_yaml.workspace = true
+shlex.workspace = true
+unicode-normalization.workspace = true
 url.workspace = true
 walkdir.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
