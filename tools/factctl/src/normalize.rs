@@ -1,7 +1,5 @@
-use crate::model::{Fact, SourceKind};
 use std::collections::BTreeSet;
 use unicode_normalization::UnicodeNormalization;
-use url::Url;
 
 const JAPANESE_PUNCTUATION: &[char] = &[
     '、', '。', '・', '：', '；', '？', '！', '「', '」', '『', '』', '（', '）', '［', '］', '｛',
@@ -37,16 +35,6 @@ pub fn normalize_text(value: &str) -> String {
     out.trim().to_owned()
 }
 
-pub fn normalize_primary_source_url(fact: &Fact) -> Option<String> {
-    let primary = fact
-        .sources
-        .iter()
-        .find(|source| matches!(source.kind, SourceKind::Official | SourceKind::Primary))
-        .or_else(|| fact.sources.first())?;
-
-    normalize_url(&primary.url)
-}
-
 pub fn trigram_jaccard(left: &str, right: &str) -> f64 {
     if left.is_empty() || right.is_empty() {
         return 0.0;
@@ -65,24 +53,6 @@ pub fn trigram_jaccard(left: &str, right: &str) -> f64 {
     } else {
         intersection / union
     }
-}
-
-fn normalize_url(value: &str) -> Option<String> {
-    let mut url = Url::parse(value).ok()?;
-    url.set_fragment(None);
-    match (url.scheme(), url.port()) {
-        ("http", Some(80)) | ("https", Some(443)) => {
-            let _ = url.set_port(None);
-        }
-        _ => {}
-    }
-
-    if url.path() != "/" {
-        let trimmed = url.path().trim_end_matches('/').to_owned();
-        url.set_path(&trimmed);
-    }
-
-    Some(url.to_string())
 }
 
 fn fold_katakana_to_hiragana(ch: char) -> char {
@@ -126,53 +96,10 @@ fn trigrams(value: &str) -> BTreeSet<String> {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::model::{Fact, FactStatus, Source};
-    use chrono::NaiveDate;
-
-    fn sample_fact(url: &str) -> Fact {
-        Fact {
-            id: "money-001-sample".to_owned(),
-            title: "Title".to_owned(),
-            primary_genre: "money".to_owned(),
-            genres: vec!["money".to_owned()],
-            tags: Vec::new(),
-            summary: "Summary".to_owned(),
-            claim: "Claim".to_owned(),
-            explanation: None,
-            sources: vec![Source {
-                id: "source-1".to_owned(),
-                url: url.to_owned(),
-                title: "Source".to_owned(),
-                publisher: "Publisher".to_owned(),
-                kind: SourceKind::Official,
-                accessed_at: NaiveDate::from_ymd_opt(2026, 3, 15).expect("valid date"),
-                quoted_fact: None,
-            }],
-            status: FactStatus::Published,
-            created_at: NaiveDate::from_ymd_opt(2026, 3, 15).expect("valid date"),
-            updated_at: NaiveDate::from_ymd_opt(2026, 3, 15).expect("valid date"),
-            revision: 1,
-            aliases: Vec::new(),
-            duplicate_of: None,
-            supersedes: None,
-            canonical: true,
-            importance: None,
-            editorial: None,
-        }
-    }
 
     #[test]
     fn normalizes_text_for_similarity() {
         assert_eq!(normalize_text("ネタ　ＡＢＣ１２３！？"), "ねた abc123");
-    }
-
-    #[test]
-    fn normalizes_primary_source_url_conservatively() {
-        let normalized =
-            normalize_primary_source_url(&sample_fact("HTTPS://Example.com/path/?q=1#fragment"))
-                .expect("url should normalize");
-
-        assert_eq!(normalized, "https://example.com/path?q=1");
     }
 
     #[test]

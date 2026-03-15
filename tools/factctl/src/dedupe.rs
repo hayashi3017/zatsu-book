@@ -1,8 +1,6 @@
 use crate::load::{LoadedFact, discover_fact_paths, load_fact_from};
 use crate::model::{Fact, FactStatus};
-use crate::normalize::{
-    normalize_claim, normalize_primary_source_url, normalize_text, trigram_jaccard,
-};
+use crate::normalize::{normalize_claim, normalize_text, trigram_jaccard};
 use anyhow::{Result, bail};
 use std::cmp::Ordering;
 use std::collections::{BTreeMap, BTreeSet};
@@ -12,7 +10,7 @@ use std::path::{Path, PathBuf};
 const FACTS_DIR: &str = "facts";
 const REPORT_PATH: &str = "generated/reports/duplicate_candidates.md";
 const NEAR_DUPLICATE_THRESHOLD: f64 = 0.40;
-const HIGH_CONFIDENCE_THRESHOLD: f64 = 0.85;
+const HIGH_CONFIDENCE_THRESHOLD: f64 = 0.94;
 
 pub fn run(root: &Path, fail_on_high_confidence_duplicate: bool) -> Result<()> {
     let facts = load_facts_allow_duplicate_ids(root)?;
@@ -35,7 +33,6 @@ pub fn run(root: &Path, fail_on_high_confidence_duplicate: bool) -> Result<()> {
 enum ExactDuplicateKind {
     Id,
     Claim,
-    PrimarySourceUrl,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -76,7 +73,6 @@ struct NormalizedFact<'a> {
     title_variants: Vec<String>,
     summary: String,
     claim: String,
-    primary_source_url: Option<String>,
 }
 
 impl<'a> NormalizedFact<'a> {
@@ -85,7 +81,6 @@ impl<'a> NormalizedFact<'a> {
             title_variants: title_variants(&loaded.fact),
             summary: normalize_text(&loaded.fact.summary),
             claim: normalize_claim(&loaded.fact.claim),
-            primary_source_url: normalize_primary_source_url(&loaded.fact),
             loaded,
         }
     }
@@ -148,11 +143,6 @@ fn collect_exact_duplicates(facts: &[NormalizedFact<'_>]) -> Vec<ExactDuplicateG
     groups.extend(collect_groups(facts, ExactDuplicateKind::Claim, |fact| {
         (!fact.claim.is_empty()).then(|| fact.claim.clone())
     }));
-    groups.extend(collect_groups(
-        facts,
-        ExactDuplicateKind::PrimarySourceUrl,
-        |fact| fact.primary_source_url.clone(),
-    ));
     groups.sort_by(|left, right| {
         left.kind
             .cmp(&right.kind)
@@ -263,7 +253,8 @@ fn near_duplicate_candidate(
     let claim_score = trigram_jaccard(&left.claim, &right.claim);
     let overall_score = (claim_score * 0.55) + (title_score * 0.30) + (summary_score * 0.15);
     let high_confidence =
-        overall_score >= HIGH_CONFIDENCE_THRESHOLD || (claim_score >= 0.92 && title_score >= 0.70);
+        (overall_score >= HIGH_CONFIDENCE_THRESHOLD && claim_score >= 0.90 && title_score >= 0.90)
+            || (claim_score >= 0.96 && title_score >= 0.92);
 
     if overall_score < NEAR_DUPLICATE_THRESHOLD && claim_score < 0.75 {
         return None;
@@ -344,7 +335,13 @@ fn print_summary(analysis: &DedupeAnalysis) {
         );
     }
 
-    for candidate in &analysis.near_duplicates {
+    let high_confidence_candidates = analysis
+        .near_duplicates
+        .iter()
+        .filter(|candidate| candidate.high_confidence)
+        .collect::<Vec<_>>();
+
+    for candidate in &high_confidence_candidates {
         println!(
             "near duplicate [{}] {:.2}: {} <-> {} (claim {:.2}, title {:.2}, summary {:.2})",
             if candidate.high_confidence {
@@ -358,6 +355,14 @@ fn print_summary(analysis: &DedupeAnalysis) {
             candidate.claim_score,
             candidate.title_score,
             candidate.summary_score
+        );
+    }
+
+    let candidate_only_count = analysis.near_duplicates.len() - high_confidence_candidates.len();
+    if candidate_only_count > 0 {
+        println!(
+            "near duplicate candidate pairs below fail threshold: {}",
+            candidate_only_count
         );
     }
 
@@ -429,7 +434,6 @@ fn group_kind_label(kind: &ExactDuplicateKind) -> &'static str {
     match kind {
         ExactDuplicateKind::Id => "ID",
         ExactDuplicateKind::Claim => "Normalized claim",
-        ExactDuplicateKind::PrimarySourceUrl => "Primary source URL",
     }
 }
 
@@ -594,5 +598,62 @@ mod tests {
         let report = fs::read_to_string(temp.path().join(REPORT_PATH)).expect("read report");
         assert!(report.contains("Exact duplicate groups: 0"));
         assert!(report.contains("Near duplicate pairs: 0"));
+    }
+
+    #[test]
+    fn shared_primary_source_url_alone_is_not_an_exact_duplicate() {
+        let facts = vec![
+            sample_loaded_fact(
+                "money-0001",
+                "1円玉は1グラム",
+                "summary 1",
+                "1円玉は1グラムである",
+                &[],
+                "https://example.com/faq",
+                "facts/money/money-0001.yaml",
+            ),
+            sample_loaded_fact(
+                "money-0002",
+                "5円玉には穴がある",
+                "summary 2",
+                "5円玉には穴がある",
+                &[],
+                "https://example.com/faq",
+                "facts/money/money-0002.yaml",
+            ),
+        ];
+
+        let analysis = analyze(&facts);
+
+        assert!(analysis.exact_duplicates.is_empty());
+    }
+
+    #[test]
+    fn patterned_sibling_facts_are_candidates_but_not_high_confidence() {
+        let facts = vec![
+            sample_loaded_fact(
+                "weather-0064",
+                "気象庁は九州南部の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがある",
+                "気象庁は九州南部の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがあると公式FAQ・解説で扱われている。",
+                "気象庁は九州南部の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがある",
+                &[],
+                "https://example.com/faq1",
+                "facts/weather/weather-0064.yaml",
+            ),
+            sample_loaded_fact(
+                "weather-0065",
+                "気象庁は九州北部の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがある",
+                "気象庁は九州北部の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがあると公式FAQ・解説で扱われている。",
+                "気象庁は九州北部の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがある",
+                &[],
+                "https://example.com/faq1",
+                "facts/weather/weather-0065.yaml",
+            ),
+        ];
+
+        let analysis = analyze(&facts);
+
+        assert_eq!(analysis.near_duplicates.len(), 1);
+        assert!(!analysis.near_duplicates[0].high_confidence);
     }
 }
