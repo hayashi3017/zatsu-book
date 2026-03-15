@@ -118,12 +118,12 @@
 
 ## Phase 6: stale / doctor 実装
 
-- [ ] `factctl stale` を実装する
-- [ ] `accessed_at` が 180 日超のソースを抽出する
-- [ ] `kind != official` しかないレコードを抽出する
-- [ ] `generated/reports/stale_sources.md` を出力する
-- [ ] `factctl doctor` を実装する
-- [ ] `validate`, `dedupe`, `stale`, `build-pages --dry-run` 相当をまとめて実行する
+- [x] `factctl stale` を実装する
+- [x] `accessed_at` が 180 日超のソースを抽出する
+- [x] `kind != official` しかないレコードを抽出する
+- [x] `generated/reports/stale_sources.md` を出力する
+- [x] `factctl doctor` を実装する
+- [x] `validate`, `dedupe`, `stale`, `build-pages --dry-run` 相当をまとめて実行する
 
 ## Phase 7: mdBook / CI / 運用整備
 

@@ -14,6 +14,20 @@ struct TermPage<'a> {
 }
 
 pub fn build_pages(root: &Path) -> Result<()> {
+    build_pages_with_mode(root, BuildMode::Write)
+}
+
+pub fn build_pages_dry_run(root: &Path) -> Result<()> {
+    build_pages_with_mode(root, BuildMode::DryRun)
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+enum BuildMode {
+    Write,
+    DryRun,
+}
+
+fn build_pages_with_mode(root: &Path, mode: BuildMode) -> Result<()> {
     let report = validate::validate_repository(root);
     if !report.is_valid() {
         eprintln!("build-pages requires valid input data:");
@@ -42,59 +56,78 @@ pub fn build_pages(root: &Path) -> Result<()> {
     let genres = build_term_pages(&published, &taxonomy, |fact| &fact.genres, true);
     let tags = build_term_pages(&published, &taxonomy, |fact| &fact.tags, false);
 
-    write_markdown(
-        root,
-        "src/README.md",
-        render_top_page(&published, &genres, &tags),
-    )?;
-    write_markdown(root, "src/all/README.md", render_all_page(&published))?;
-    write_markdown(
-        root,
-        "src/genres/README.md",
-        render_term_index("ジャンル一覧", &genres, "README.md"),
-    )?;
-    write_markdown(
-        root,
-        "src/tags/README.md",
-        render_term_index("タグ一覧", &tags, "README.md"),
-    )?;
-    write_markdown(
-        root,
-        "src/updates/README.md",
-        render_updates_page(&published),
-    )?;
-    write_markdown(
-        root,
-        "src/SUMMARY.md",
-        render_summary(&published, &genres, &tags),
-    )?;
-    write_markdown(root, "src/404.md", render_404_page())?;
-    write_markdown(
-        root,
-        "generated/reports/unpublished.md",
-        render_unpublished_report(&unpublished),
-    )?;
+    let mut outputs = vec![
+        (
+            "src/README.md".to_owned(),
+            render_top_page(&published, &genres, &tags),
+        ),
+        ("src/all/README.md".to_owned(), render_all_page(&published)),
+        (
+            "src/genres/README.md".to_owned(),
+            render_term_index("ジャンル一覧", &genres, "README.md"),
+        ),
+        (
+            "src/tags/README.md".to_owned(),
+            render_term_index("タグ一覧", &tags, "README.md"),
+        ),
+        (
+            "src/updates/README.md".to_owned(),
+            render_updates_page(&published),
+        ),
+        (
+            "src/SUMMARY.md".to_owned(),
+            render_summary(&published, &genres, &tags),
+        ),
+        ("src/404.md".to_owned(), render_404_page()),
+        (
+            "generated/reports/unpublished.md".to_owned(),
+            render_unpublished_report(&unpublished),
+        ),
+    ];
 
     for fact in &published {
-        let path = format!("src/facts/{}/{}.md", fact.fact.primary_genre, fact.fact.id);
-        write_markdown(root, &path, render_fact_page(fact, &taxonomy))?;
+        outputs.push((
+            format!("src/facts/{}/{}.md", fact.fact.primary_genre, fact.fact.id),
+            render_fact_page(fact, &taxonomy),
+        ));
     }
 
     for genre in &genres {
-        let path = format!("src/genres/{}/README.md", genre.slug);
-        write_markdown(root, &path, render_term_page("ジャンル", genre, "../../"))?;
+        outputs.push((
+            format!("src/genres/{}/README.md", genre.slug),
+            render_term_page("ジャンル", genre, "../../"),
+        ));
     }
 
     for tag in &tags {
-        let path = format!("src/tags/{}/README.md", tag.slug);
-        write_markdown(root, &path, render_term_page("タグ", tag, "../../"))?;
+        outputs.push((
+            format!("src/tags/{}/README.md", tag.slug),
+            render_term_page("タグ", tag, "../../"),
+        ));
     }
 
+    emit_outputs(root, &outputs, mode)?;
+
     println!(
-        "build-pages ok: {} published facts, {} unpublished facts",
+        "{}: {} published facts, {} unpublished facts",
+        match mode {
+            BuildMode::Write => "build-pages ok",
+            BuildMode::DryRun => "build-pages dry-run ok",
+        },
         published.len(),
         unpublished.len()
     );
+    Ok(())
+}
+
+fn emit_outputs(root: &Path, outputs: &[(String, String)], mode: BuildMode) -> Result<()> {
+    if mode == BuildMode::DryRun {
+        return Ok(());
+    }
+
+    for (relative_path, content) in outputs {
+        write_markdown(root, relative_path, content.clone())?;
+    }
     Ok(())
 }
 
@@ -449,6 +482,8 @@ mod tests {
     use super::*;
     use crate::model::{Editorial, Fact, Source, SourceKind, TaxonomyEntry};
     use chrono::NaiveDate;
+    use std::fs;
+    use tempfile::TempDir;
 
     fn sample_taxonomy() -> Taxonomy {
         let genres = [
@@ -551,5 +586,38 @@ mod tests {
         ));
         assert!(rendered.contains("  - [お金](genres/money/README.md)"));
         assert!(rendered.contains("  - [貨幣](tags/currency/README.md)"));
+    }
+
+    fn temp_repo() -> TempDir {
+        let temp = TempDir::new().expect("tempdir");
+        fs::create_dir_all(temp.path().join("config")).expect("config dir");
+        fs::create_dir_all(temp.path().join("facts/money")).expect("facts dir");
+        fs::write(
+            temp.path().join("config/taxonomy.yaml"),
+            include_str!("../../../config/taxonomy.yaml"),
+        )
+        .expect("taxonomy");
+        fs::write(
+            temp.path()
+                .join("facts/money/money-001-yen-tree-not-specific.yaml"),
+            include_str!("../../../facts/money/money-001-yen-tree-not-specific.yaml"),
+        )
+        .expect("seed fact");
+        temp
+    }
+
+    #[test]
+    fn dry_run_does_not_write_generated_pages() {
+        let temp = temp_repo();
+
+        build_pages_dry_run(temp.path()).expect("dry run should succeed");
+
+        assert!(!temp.path().join("src/README.md").exists());
+        assert!(
+            !temp
+                .path()
+                .join("generated/reports/unpublished.md")
+                .exists()
+        );
     }
 }

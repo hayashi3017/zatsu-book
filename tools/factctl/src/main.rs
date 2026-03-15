@@ -1,10 +1,12 @@
 mod cli;
 mod dedupe;
+mod doctor;
 mod load;
 mod model;
 mod new;
 mod normalize;
 mod render;
+mod stale;
 mod update;
 mod validate;
 
@@ -32,13 +34,7 @@ fn run(command: Command) -> Result<()> {
             fail_on_high_confidence_duplicate,
         } => dedupe::run(Path::new("."), fail_on_high_confidence_duplicate),
         Command::Update { id, edit } => update::run(Path::new("."), &id, edit),
-        Command::Stale => {
-            println!("stale is not implemented yet");
-            Ok(())
-        }
-        Command::Doctor => {
-            println!("doctor is not implemented yet");
-            Ok(())
-        }
+        Command::Stale => stale::run(Path::new(".")),
+        Command::Doctor => doctor::run(Path::new(".")),
     }
 }

@@ -103,4 +103,16 @@ mod tests {
             }
         ));
     }
+
+    #[test]
+    fn parses_stale_subcommand() {
+        let cli = Cli::try_parse_from(["factctl", "stale"]).expect("stale should parse");
+        assert!(matches!(cli.command, Command::Stale));
+    }
+
+    #[test]
+    fn parses_doctor_subcommand() {
+        let cli = Cli::try_parse_from(["factctl", "doctor"]).expect("doctor should parse");
+        assert!(matches!(cli.command, Command::Doctor));
+    }
 }
