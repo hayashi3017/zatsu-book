@@ -27,7 +27,10 @@ pub enum Command {
     /// Generate mdBook input pages.
     BuildPages,
     /// Detect duplicate candidates.
-    Dedupe,
+    Dedupe {
+        #[arg(long = "fail-on-high-confidence-duplicate")]
+        fail_on_high_confidence_duplicate: bool,
+    },
     /// Update an existing fact.
     Update {
         id: String,
@@ -86,5 +89,18 @@ mod tests {
         .expect("update should parse");
 
         assert!(matches!(cli.command, Command::Update { edit: true, .. }));
+    }
+
+    #[test]
+    fn parses_dedupe_subcommand() {
+        let cli = Cli::try_parse_from(["factctl", "dedupe", "--fail-on-high-confidence-duplicate"])
+            .expect("dedupe should parse");
+
+        assert!(matches!(
+            cli.command,
+            Command::Dedupe {
+                fail_on_high_confidence_duplicate: true
+            }
+        ));
     }
 }

@@ -103,18 +103,18 @@
 
 ## Phase 5: dedupe 実装
 
-- [ ] `factctl dedupe` を実装する
-- [ ] `claim` の正規化関数を実装する
-- [ ] `title`, `summary`, `claim`, `aliases` の比較前正規化を実装する
-- [ ] 完全重複チェックを実装する
-  - [ ] `id`
-  - [ ] 正規化済み `claim`
-  - [ ] 正規化済み主要ソース URL
-- [ ] 準重複チェックを実装する
-- [ ] 初期版は trigram Jaccard + title/claim 重み付き平均で実装する
-- [ ] ターミナル出力を整える
-- [ ] `generated/reports/duplicate_candidates.md` を出力する
-- [ ] 高信頼候補で fail できるオプションを実装する
+- [x] `factctl dedupe` を実装する
+- [x] `claim` の正規化関数を実装する
+- [x] `title`, `summary`, `claim`, `aliases` の比較前正規化を実装する
+- [x] 完全重複チェックを実装する
+  - [x] `id`
+  - [x] 正規化済み `claim`
+  - [x] 正規化済み主要ソース URL
+- [x] 準重複チェックを実装する
+- [x] 初期版は trigram Jaccard + title/claim 重み付き平均で実装する
+- [x] ターミナル出力を整える
+- [x] `generated/reports/duplicate_candidates.md` を出力する
+- [x] 高信頼候補で fail できるオプションを実装する
 
 ## Phase 6: stale / doctor 実装
 
@@ -155,7 +155,7 @@
 - [ ] `facts/*.yaml` から mdBook 用 Markdown を自動生成できる
 - [ ] `src/SUMMARY.md` を手編集しなくてよい
 - [ ] `factctl validate` で基本エラーを検出できる
-- [ ] `factctl dedupe` で重複候補を提示できる
+- [x] `factctl dedupe` で重複候補を提示できる
 - [ ] `mdbook build` が成功する
 - [ ] `draft` が公開導線に出ない
 - [x] `factctl update` で `revision` と `updated_at` を更新できる

@@ -1,7 +1,9 @@
 mod cli;
+mod dedupe;
 mod load;
 mod model;
 mod new;
+mod normalize;
 mod render;
 mod update;
 mod validate;
@@ -26,10 +28,9 @@ fn run(command: Command) -> Result<()> {
         } => new::run(Path::new("."), &genre, &title, slug.as_deref(), edit),
         Command::Validate => validate::run(Path::new(".")),
         Command::BuildPages => render::build_pages(Path::new(".")),
-        Command::Dedupe => {
-            println!("dedupe is not implemented yet");
-            Ok(())
-        }
+        Command::Dedupe {
+            fail_on_high_confidence_duplicate,
+        } => dedupe::run(Path::new("."), fail_on_high_confidence_duplicate),
         Command::Update { id, edit } => update::run(Path::new("."), &id, edit),
         Command::Stale => {
             println!("stale is not implemented yet");

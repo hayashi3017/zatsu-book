@@ -163,14 +163,6 @@ fn slugify_title(title: &str) -> String {
             slug.push(lower);
             has_letter |= lower.is_ascii_lowercase();
             needs_separator = false;
-        } else if ch.to_digit(10).is_some() {
-            if !slug.is_empty() && needs_separator {
-                slug.push('-');
-            }
-            slug.push(
-                char::from_digit(ch.to_digit(10).expect("checked digit"), 10).expect("ascii digit"),
-            );
-            needs_separator = false;
         } else if !slug.is_empty() {
             needs_separator = true;
         }
