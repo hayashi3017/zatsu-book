@@ -1,49 +1,37 @@
-# rs-version-template
+# zatsu-book
 
-A minimal Rust-only template repository for tag-driven releases using the `xtask` pattern.
+`facts/*.yaml` を正本にして、`factctl` で mdBook 用 Markdown と運用レポートを生成するリポジトリです。
 
-## Purpose
-
-This template mirrors the release model used by `openai/codex` with a minimal setup:
-- Version source of truth is root `Cargo.toml` at `[workspace.package].version`.
-- Releases are driven by pushing tags like `rust-vX.Y.Z`.
-- GitHub Releases are the changelog.
-- Project automation is centralized in the `xtask` binary.
-
-## Project Layout
-
-- `Cargo.toml`: workspace settings and shared package metadata.
-- `xtask/`: automation binary crate.
-- `.cargo/config.toml`: `cargo xtask` alias.
-- `.github/workflows/ci.yml`: CI using `xtask` commands.
-- `.github/workflows/rust-release.yml`: tag validation, multi-target build, and GitHub Release.
-
-## Local Development
+## Local Commands
 
 ```bash
-cargo xtask --help
-cargo xtask hello
-cargo xtask ci
+make validate
+make dedupe
+make build-pages
+make stale
+make book
+make doctor
 ```
 
-Equivalent explicit invocation:
-
-```bash
-cargo run -p xtask -- hello
-```
+`make book` は `src/` を生成してから `mdbook build` を実行します。`book/` は deploy 成果物なのでコミットしません。
 
 ## CI
 
-CI runs on pushes to `main` and pull requests across Ubuntu, Windows, and macOS:
-- `cargo xtask fmt`
-- `cargo xtask clippy`
-- `cargo xtask test`
+`.github/workflows/ci.yml` では次を自動実行します。
 
-## Release Summary
+- Rust format / clippy / test
+- `factctl validate`
+- `factctl dedupe --fail-on-high-confidence-duplicate`
+- `factctl build-pages`
+- `git diff --exit-code -- src generated`
+- `mdbook build`
 
-1. Bump `[workspace.package].version` in `Cargo.toml`.
-2. Commit with release-note-ready commit message.
-3. Create and push an annotated tag (`rust-vX.Y.Z`, optionally `-alpha.N` / `-beta.N`).
-4. Release workflow validates tag/version, builds target artifacts, and publishes GitHub Release.
+## GitHub Pages
 
-Detailed steps: see `RELEASING.md`.
+`.github/workflows/pages.yml` は `main` への push で `book/` を生成し、GitHub Pages に deploy します。
+
+Repository Settings では `Pages > Source` を `GitHub Actions` に設定してください。project site の URL は `https://hayashi3017.github.io/zatsu-book/` です。
+
+## Release
+
+既存の tag-driven Rust release workflow は `.github/workflows/rust-release.yml` のまま維持しています。`rust-vX.Y.Z` 形式の tag で `xtask` バイナリを release します。

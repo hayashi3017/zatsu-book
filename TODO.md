@@ -127,19 +127,19 @@
 
 ## Phase 7: mdBook / CI / 運用整備
 
-- [ ] `mdbook build` が通る最小構成を整える
-- [ ] `Makefile` か `justfile` を追加する
+- [x] `mdbook build` が通る最小構成を整える
+- [x] `Makefile` か `justfile` を追加する
 - [x] `book/` を `.gitignore` に追加する
-- [ ] GitHub Actions で以下を自動化する
-  - [ ] format / lint
-  - [ ] `factctl validate`
-  - [ ] `factctl dedupe --fail-on-high-confidence-duplicate`
-  - [ ] `factctl build-pages`
-  - [ ] `git diff --exit-code -- src generated`
-  - [ ] `mdbook build`
-- [ ] GitHub Pages の `Source = GitHub Actions` 前提の公開設定を追加する
-- [ ] Pages deploy workflow を追加する
-- [ ] Pages workflow に `pages: write` と `id-token: write` を設定する
+- [x] GitHub Actions で以下を自動化する
+  - [x] format / lint
+  - [x] `factctl validate`
+  - [x] `factctl dedupe --fail-on-high-confidence-duplicate`
+  - [x] `factctl build-pages`
+  - [x] `git diff --exit-code -- src generated`
+  - [x] `mdbook build`
+- [x] GitHub Pages の `Source = GitHub Actions` 前提の公開設定を追加する
+- [x] Pages deploy workflow を追加する
+- [x] Pages workflow に `pages: write` と `id-token: write` を設定する
 - [ ] project site の公開 URL 前提でリンク崩れがないことを確認する
 
 ## Phase 8: 品質強化
@@ -152,21 +152,21 @@
 
 ## 受け入れ条件
 
-- [ ] `facts/*.yaml` から mdBook 用 Markdown を自動生成できる
-- [ ] `src/SUMMARY.md` を手編集しなくてよい
-- [ ] `factctl validate` で基本エラーを検出できる
+- [x] `facts/*.yaml` から mdBook 用 Markdown を自動生成できる
+- [x] `src/SUMMARY.md` を手編集しなくてよい
+- [x] `factctl validate` で基本エラーを検出できる
 - [x] `factctl dedupe` で重複候補を提示できる
-- [ ] `mdbook build` が成功する
-- [ ] `draft` が公開導線に出ない
+- [x] `mdbook build` が成功する
+- [x] `draft` が公開導線に出ない
 - [x] `factctl update` で `revision` と `updated_at` を更新できる
 - [ ] GitHub Pages の project site でアセットとリンクが崩れない
 
 ## 日々の実行コマンド
 
-- [ ] `cargo run -p factctl -- validate`
-- [ ] `cargo run -p factctl -- dedupe`
-- [ ] `cargo run -p factctl -- build-pages`
-- [ ] `mdbook build`
+- [x] `cargo run -p factctl -- validate`
+- [x] `cargo run -p factctl -- dedupe`
+- [x] `cargo run -p factctl -- build-pages`
+- [x] `mdbook build`
 
 ## 最初の一手
 
