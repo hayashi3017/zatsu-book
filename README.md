@@ -19,7 +19,6 @@ make doctor
 
 `.github/workflows/ci.yml` では次を自動実行します。
 
-- Rust format / clippy / test
 - `factctl validate`
 - `factctl dedupe --fail-on-high-confidence-duplicate`
 - `factctl build-pages`
