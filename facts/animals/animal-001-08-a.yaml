@@ -1,0 +1,24 @@
+id: animal-001-08-a
+title: ウーパールーパーは脊椎動物なのに際立った再生力を持つ
+genres:
+  - 動物
+  - 両生類
+tags:
+  - 再生
+  - 幼形成熟
+  - ウーパールーパー
+summary: ウーパールーパーは脊椎動物なのに際立った再生力を持つ。へえー感の強い生物トリビアとして採用した初稿データ。
+claim: ウーパールーパーは脊椎動物なのに際立った再生力を持つ。
+sources:
+  - url: https://nationalzoo.si.edu/animals/list
+    publisher: Smithsonian's National Zoo
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

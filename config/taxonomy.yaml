@@ -11,6 +11,62 @@ genres:
     label: お金
   science:
     label: 科学
+  イネ科:
+    label: イネ科
+  ラン科:
+    label: ラン科
+  両生類:
+    label: 両生類
+  乾燥適応:
+    label: 乾燥適応
+  作物:
+    label: 作物
+  刺激応答:
+    label: 刺激応答
+  animals:
+    label: 動物
+  哺乳類:
+    label: 哺乳類
+  園芸植物:
+    label: 園芸植物
+  多肉植物:
+    label: 多肉植物
+  奇妙な花:
+    label: 奇妙な花
+  寄生植物:
+    label: 寄生植物
+  微小動物:
+    label: 微小動物
+  昆虫:
+    label: 昆虫
+  有用植物:
+    label: 有用植物
+  plants:
+    label: 植物
+  樹木:
+    label: 樹木
+  水生植物:
+    label: 水生植物
+  水草:
+    label: 水草
+  沿岸植物:
+    label: 沿岸植物
+  海の植物:
+    label: 海の植物
+  海の生き物:
+    label: 海の生き物
+  爬虫類:
+    label: 爬虫類
+  草本:
+    label: 草本
+  菌従属栄養:
+    label: 菌従属栄養
+  裸子植物:
+    label: 裸子植物
+  食虫植物:
+    label: 食虫植物
+  鳥類:
+    label: 鳥類
 tags:
   coin-design:
     label: デザイン
@@ -18,3 +74,397 @@ tags:
     label: 貨幣
   official-source:
     label: 公式ソース
+  つる植物:
+    label: つる植物
+  ゆっくり動く:
+    label: ゆっくり動く
+  ろ過食:
+    label: ろ過食
+  アイアイ:
+    label: アイアイ
+  イガゴヨウマツ:
+    label: イガゴヨウマツ
+  イチョウ:
+    label: イチョウ
+  イッカク:
+    label: イッカク
+  イラクサ:
+    label: イラクサ
+  ウェルウィッチア:
+    label: ウェルウィッチア
+  ウォレマイパイン:
+    label: ウォレマイパイン
+  ウォンバット:
+    label: ウォンバット
+  ウキクサ:
+    label: ウキクサ
+  ウッドフロッグ:
+    label: ウッドフロッグ
+  ウツボカズラ:
+    label: ウツボカズラ
+  ウーパールーパー:
+    label: ウーパールーパー
+  オオオニバス:
+    label: オオオニバス
+  オジギソウ:
+    label: オジギソウ
+  カカオ:
+    label: カカオ
+  カフェイン:
+    label: カフェイン
+  カブトガニ:
+    label: カブトガニ
+  カモノハシ:
+    label: カモノハシ
+  キリン:
+    label: キリン
+  ギンリョウソウ:
+    label: ギンリョウソウ
+  クジラ:
+    label: クジラ
+  クマノミ:
+    label: クマノミ
+  クマムシ:
+    label: クマムシ
+  クローン群:
+    label: クローン群
+  コウテイペンギン:
+    label: コウテイペンギン
+  コウモリ:
+    label: コウモリ
+  コウモリの吸血種:
+    label: コウモリの吸血種
+  コトドリ:
+    label: コトドリ
+  コモドオオトカゲ:
+    label: コモドオオトカゲ
+  コルクガシ:
+    label: コルクガシ
+  コーヒー:
+    label: コーヒー
+  ゴムノキ:
+    label: ゴムノキ
+  サフラン:
+    label: サフラン
+  シャコ:
+    label: シャコ
+  ショクダイオオコンニャク:
+    label: ショクダイオオコンニャク
+  シロナガスクジラ:
+    label: シロナガスクジラ
+  ジンベエザメ:
+    label: ジンベエザメ
+  セコイアオスギ:
+    label: セコイアオスギ
+  センザンコウ:
+    label: センザンコウ
+  ゾウ:
+    label: ゾウ
+  タケ:
+    label: タケ
+  タコ:
+    label: タコ
+  タツノオトシゴ:
+    label: タツノオトシゴ
+  タヌキモ:
+    label: タヌキモ
+  チョウチンアンコウ:
+    label: チョウチンアンコウ
+  ツノトカゲ:
+    label: ツノトカゲ
+  テッポウウオ:
+    label: テッポウウオ
+  テッポウエビ:
+    label: テッポウエビ
+  ナマケモノ:
+    label: ナマケモノ
+  ネナシカズラ:
+    label: ネナシカズラ
+  ハエトリソウ:
+    label: ハエトリソウ
+  ハス:
+    label: ハス
+  ハダカデバネズミ:
+    label: ハダカデバネズミ
+  ハチドリ:
+    label: ハチドリ
+  バオバブ:
+    label: バオバブ
+  バナナ:
+    label: バナナ
+  バニラ:
+    label: バニラ
+  パイナップル:
+    label: パイナップル
+  ブチハイエナ:
+    label: ブチハイエナ
+  ポインセチア:
+    label: ポインセチア
+  ポプラ（アスペン）:
+    label: ポプラ（アスペン）
+  マングローブ:
+    label: マングローブ
+  ミツバチ:
+    label: ミツバチ
+  ミーアキャット:
+    label: ミーアキャット
+  モウセンゴケ:
+    label: モウセンゴケ
+  ヤドクガエル:
+    label: ヤドクガエル
+  ヤドリギ:
+    label: ヤドリギ
+  ヤモリ:
+    label: ヤモリ
+  ラッコ:
+    label: ラッコ
+  ラテックス:
+    label: ラテックス
+  ラフレシア:
+    label: ラフレシア
+  ラン:
+    label: ラン
+  リトープス:
+    label: リトープス
+  一斉開花:
+    label: 一斉開花
+  乳液:
+    label: 乳液
+  乾燥から復活:
+    label: 乾燥から復活
+  乾眠:
+    label: 乾眠
+  二枚の葉:
+    label: 二枚の葉
+  低代謝:
+    label: 低代謝
+  体温維持:
+    label: 体温維持
+  共生:
+    label: 共生
+  再生:
+    label: 再生
+  再発見:
+    label: 再発見
+  冠芽:
+    label: 冠芽
+  凍結耐性:
+    label: 凍結耐性
+  別角度:
+    label: 別角度
+  刺毛:
+    label: 刺毛
+  刺激応答:
+    label: 刺激応答
+  北方適応:
+    label: 北方適応
+  半寄生:
+    label: 半寄生
+  協力:
+    label: 協力
+  単孔類:
+    label: 単孔類
+  反響定位:
+    label: 反響定位
+  受粉:
+    label: 受粉
+  古代的:
+    label: 古代的
+  吸い込み罠:
+    label: 吸い込み罠
+  吸血:
+    label: 吸血
+  呼吸根:
+    label: 呼吸根
+  咬合力:
+    label: 咬合力
+  地下生活:
+    label: 地下生活
+  塩耐性:
+    label: 塩耐性
+  多様性:
+    label: 多様性
+  太い幹:
+    label: 太い幹
+  子育て:
+    label: 子育て
+  寄生:
+    label: 寄生
+  射撃:
+    label: 射撃
+  巨大:
+    label: 巨大
+  巨大な花:
+    label: 巨大な花
+  巨大な草:
+    label: 巨大な草
+  巨大な葉:
+    label: 巨大な葉
+  希少:
+    label: 希少
+  幹生花:
+    label: 幹生花
+  幼形成熟:
+    label: 幼形成熟
+  強度:
+    label: 強度
+  復活草:
+    label: 復活草
+  循環:
+    label: 循環
+  微小:
+    label: 微小
+  性転換:
+    label: 性転換
+  悪臭:
+    label: 悪臭
+  感覚:
+    label: 感覚
+  打撃:
+    label: 打撃
+  採食:
+    label: 採食
+  接着:
+    label: 接着
+  揺れる葉:
+    label: 揺れる葉
+  撥水性:
+    label: 撥水性
+  擬態:
+    label: 擬態
+  有袋類:
+    label: 有袋類
+  柱頭:
+    label: 柱頭
+  栄養繁殖:
+    label: 栄養繁殖
+  極地:
+    label: 極地
+  極限環境:
+    label: 極限環境
+  模倣:
+    label: 模倣
+  樹上生活:
+    label: 樹上生活
+  樹皮利用:
+    label: 樹皮利用
+  毒:
+    label: 毒
+  水生:
+    label: 水生
+  求愛:
+    label: 求愛
+  海中の花:
+    label: 海中の花
+  海草:
+    label: 海草
+  深海:
+    label: 深海
+  牙:
+    label: 牙
+  特殊な受粉:
+    label: 特殊な受粉
+  特殊な指:
+    label: 特殊な指
+  独特の葉:
+    label: 独特の葉
+  生きた化石:
+    label: 生きた化石
+  発光:
+    label: 発光
+  発熱:
+    label: 発熱
+  白い植物:
+    label: 白い植物
+  真社会性:
+    label: 真社会性
+  睡眠:
+    label: 睡眠
+  知能:
+    label: 知能
+  石そっくり:
+    label: 石そっくり
+  砂漠:
+    label: 砂漠
+  社会:
+    label: 社会
+  社会性:
+    label: 社会性
+  種子利用:
+    label: 種子利用
+  種子寿命:
+    label: 種子寿命
+  穴掘り:
+    label: 穴掘り
+  粘液:
+    label: 粘液
+  耐性:
+    label: 耐性
+  落とし穴:
+    label: 落とし穴
+  葉の罠:
+    label: 葉の罠
+  葉を閉じる:
+    label: 葉を閉じる
+  蔓:
+    label: 蔓
+  衝撃波:
+    label: 衝撃波
+  見張り:
+    label: 見張り
+  視覚:
+    label: 視覚
+  視覚補正:
+    label: 視覚補正
+  警告色:
+    label: 警告色
+  貯水:
+    label: 貯水
+  赤い苞:
+    label: 赤い苞
+  送粉:
+    label: 送粉
+  通信:
+    label: 通信
+  運動:
+    label: 運動
+  道具:
+    label: 道具
+  長寿:
+    label: 長寿
+  防御:
+    label: 防御
+  雄の妊娠:
+    label: 雄の妊娠
+  集合果:
+    label: 集合果
+  青い血:
+    label: 青い血
+  非光合成:
+    label: 非光合成
+  飛翔:
+    label: 飛翔
+  飛行:
+    label: 飛行
+  首:
+    label: 首
+  香料:
+    label: 香料
+  高代謝:
+    label: 高代謝
+  高価:
+    label: 高価
+  高山:
+    label: 高山
+  高速増殖:
+    label: 高速増殖
+  高速成長:
+    label: 高速成長
+  鯨類:
+    label: 鯨類
+  鱗:
+    label: 鱗
+  鳥散布:
+    label: 鳥散布
+  鼻:
+    label: 鼻

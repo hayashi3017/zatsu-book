@@ -1,0 +1,25 @@
+id: animal-005-05-b
+title: ナマケモノの驚きどころは、一週間に一度ほど地面に降りて排泄すること
+genres:
+  - 動物
+  - 哺乳類
+tags:
+  - 低代謝
+  - 樹上生活
+  - ナマケモノ
+  - 別角度
+summary: 一週間に一度ほど地面に降りて排泄する点が、ナマケモノの生物トリビアとしてとくに印象に残りやすい。
+claim: ナマケモノのへえー要素として、一週間に一度ほど地面に降りて排泄することが挙げられる。
+sources:
+  - url: https://nationalzoo.si.edu/animals/list
+    publisher: Smithsonian's National Zoo
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 同一トピックの別角度メモ。種ページや公式解説ページへの個別ピン留め前提の draft seed。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,25 @@
+id: animal-006-03-b
+title: ゾウの驚きどころは、低い周波数の音で遠くの仲間とやり取りできること
+genres:
+  - 動物
+  - 哺乳類
+tags:
+  - 鼻
+  - 社会
+  - ゾウ
+  - 別角度
+summary: 低い周波数の音で遠くの仲間とやり取りできる点が、ゾウの生物トリビアとしてとくに印象に残りやすい。
+claim: ゾウのへえー要素として、低い周波数の音で遠くの仲間とやり取りできることが挙げられる。
+sources:
+  - url: https://nationalzoo.si.edu/animals/list
+    publisher: Smithsonian's National Zoo
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 同一トピックの別角度メモ。種ページや公式解説ページへの個別ピン留め前提の draft seed。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

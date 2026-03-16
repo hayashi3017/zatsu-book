@@ -19,6 +19,8 @@ pub enum SourceKind {
     Primary,
     Secondary,
     Media,
+    #[serde(rename = "seed-catalog")]
+    SeedCatalog,
     Other,
 }
 

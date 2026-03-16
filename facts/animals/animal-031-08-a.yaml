@@ -1,0 +1,24 @@
+id: animal-031-08-a
+title: チョウチンアンコウは海の下でSFのような繁殖様式を見せる
+genres:
+  - 動物
+  - 海の生き物
+tags:
+  - 深海
+  - 発光
+  - チョウチンアンコウ
+summary: チョウチンアンコウは海の下でSFのような繁殖様式を見せる。へえー感の強い生物トリビアとして採用した初稿データ。
+claim: チョウチンアンコウは海の下でSFのような繁殖様式を見せる。
+sources:
+  - url: https://www.fisheries.noaa.gov/national/outreach-and-education/fun-facts-about-sea-life
+    publisher: NOAA Fisheries
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

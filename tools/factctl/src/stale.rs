@@ -188,6 +188,7 @@ fn source_kind_label(kind: &SourceKind) -> &'static str {
         SourceKind::Primary => "primary",
         SourceKind::Secondary => "secondary",
         SourceKind::Media => "media",
+        SourceKind::SeedCatalog => "seed-catalog",
         SourceKind::Other => "other",
     }
 }

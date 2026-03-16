@@ -1,0 +1,24 @@
+id: plant-017-05-a
+title: 海草は炭素をためる生態系として注目される
+genres:
+  - 植物
+  - 海の植物
+tags:
+  - 海中の花
+  - 送粉
+  - 海草
+summary: 海草は炭素をためる生態系として注目される。へえー感の強い生物トリビアとして採用した初稿データ。
+claim: 海草は炭素をためる生態系として注目される。
+sources:
+  - url: https://powo.science.kew.org/
+    publisher: Royal Botanic Gardens, Kew
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

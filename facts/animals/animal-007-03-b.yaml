@@ -1,0 +1,25 @@
+id: animal-007-03-b
+title: タコに関する驚きどころ：タコの神経系は腕にも大きく分散している
+genres:
+  - 動物
+  - 海の生き物
+tags:
+  - 知能
+  - 擬態
+  - タコ
+  - 別角度
+summary: タコの神経系は腕にも大きく分散している点が、タコの生物トリビアとして印象に残りやすい。
+claim: タコに関するへえー要素として、タコの神経系は腕にも大きく分散していることが挙げられる。
+sources:
+  - url: https://www.fisheries.noaa.gov/national/outreach-and-education/fun-facts-about-sea-life
+    publisher: NOAA Fisheries
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 同一トピックの別角度メモ。種ページや公式解説ページへの個別ピン留め前提の draft seed。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

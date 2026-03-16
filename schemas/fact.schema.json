@@ -78,7 +78,7 @@
           },
           "kind": {
             "type": "string",
-            "enum": ["official", "primary", "secondary", "media", "other"]
+            "enum": ["official", "primary", "secondary", "media", "seed-catalog", "other"]
           },
           "accessed_at": {
             "type": "string",

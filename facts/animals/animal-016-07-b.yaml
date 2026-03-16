@@ -1,0 +1,25 @@
+id: animal-016-07-b
+title: コトドリの驚きどころは、声帯ではなく鳴管を使って多彩な音を出すこと
+genres:
+  - 動物
+  - 鳥類
+tags:
+  - 模倣
+  - 求愛
+  - コトドリ
+  - 別角度
+summary: 声帯ではなく鳴管を使って多彩な音を出す点が、コトドリの生物トリビアとしてとくに印象に残りやすい。
+claim: コトドリのへえー要素として、声帯ではなく鳴管を使って多彩な音を出すことが挙げられる。
+sources:
+  - url: https://nationalzoo.si.edu/animals/list
+    publisher: Smithsonian's National Zoo
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 同一トピックの別角度メモ。種ページや公式解説ページへの個別ピン留め前提の draft seed。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

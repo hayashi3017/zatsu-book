@@ -1,0 +1,24 @@
+id: animal-020-09-a
+title: コウモリは鳥とはまったく違う設計で飛んでいる
+genres:
+  - 動物
+  - 哺乳類
+tags:
+  - 飛行
+  - 反響定位
+  - コウモリ
+summary: コウモリは鳥とはまったく違う設計で飛んでいる。へえー感の強い生物トリビアとして採用した初稿データ。
+claim: コウモリは鳥とはまったく違う設計で飛んでいる。
+sources:
+  - url: https://nationalzoo.si.edu/animals/list
+    publisher: Smithsonian's National Zoo
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

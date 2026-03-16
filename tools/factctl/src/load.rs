@@ -357,10 +357,10 @@ claim: claim
 sources:
   - url: https://example.com/facts
     publisher: 農林水産省
-    kind: official
+    kind: seed-catalog
     accessed_at: 2026-03-15
 evidence_note: 公式FAQを参照
-status: draft
+status: published
 created_at: 2026-03-15
 updated_at: 2026-03-15
 revision: 1
@@ -373,6 +373,7 @@ revision: 1
         assert_eq!(loaded.fact.primary_genre, "food");
         assert_eq!(loaded.fact.sources[0].id, "source-1");
         assert_eq!(loaded.fact.sources[0].title, "農林水産省");
+        assert_eq!(loaded.fact.sources[0].kind, SourceKind::SeedCatalog);
         assert_eq!(
             loaded.fact.sources[0].quoted_fact.as_deref(),
             Some("公式FAQを参照")
