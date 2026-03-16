@@ -23,8 +23,8 @@ book: build-pages
 	mdbook build
 
 serve: build-pages
-	mdbook clean
-	mdbook serve
+	# Use a separate output directory so a long-running preview server does not race with `make build`.
+	mdbook serve -d book-serve
 
 ci-content:
 	cargo run -p factctl -- validate

@@ -10,10 +10,11 @@ make dedupe
 make build-pages
 make stale
 make book
+make serve
 make doctor
 ```
 
-`make book` は `src/` を生成してから `mdbook build` を実行します。`book/` は deploy 成果物なのでコミットしません。
+`make book` は `src/` を生成してから `mdbook build` を実行します。`make serve` は live preview 用に `book-serve/` を使うので、起動中でも `make book` と競合しません。`book/` と `book-serve/` は deploy / preview の成果物なのでコミットしません。
 
 ## CI
 
