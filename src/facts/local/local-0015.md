@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [ご当地](../../genres/local/README.md)
-- [マスコット](../../genres/mascots/README.md)
+- [ご当地](../../genres/local/index.html)
+- [マスコット](../../genres/mascots/index.html)
 
 ## タグ
 
-- [船橋市](../../tags/船橋市/README.md)
-- [ふなっしー](../../tags/ふなっしー/README.md)
+- [船橋市](../../tags/船橋市/index.html)
+- [ふなっしー](../../tags/ふなっしー/index.html)
 
 ## メタデータ
 

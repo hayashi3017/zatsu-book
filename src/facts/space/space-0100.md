@@ -18,13 +18,13 @@ JAXA FAQでは、ソユーズ宇宙船の飛行中はモスクワ時間を使っ
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [ソユーズ](../../genres/ソユーズ/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [ソユーズ](../../genres/ソユーズ/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [時刻](../../tags/時刻/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [時刻](../../tags/時刻/index.html)
 
 ## メタデータ
 

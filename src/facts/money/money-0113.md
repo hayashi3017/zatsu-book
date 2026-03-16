@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [お金](../../genres/money/README.md)
-- [偽造防止](../../genres/偽造防止/README.md)
+- [お金](../../genres/money/index.html)
+- [偽造防止](../../genres/偽造防止/index.html)
 
 ## タグ
 
-- [造幣局](../../tags/造幣局/README.md)
-- [500円玉](../../tags/500円玉/README.md)
+- [造幣局](../../tags/造幣局/index.html)
+- [500円玉](../../tags/500円玉/index.html)
 
 ## メタデータ
 

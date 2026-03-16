@@ -1,5 +1,5 @@
 [book]
-title = "へえー図鑑"
+title = "雑本"
 authors = ["hayashi3017"]
 language = "ja"
 multilingual = false
@@ -16,6 +16,10 @@ default-theme = "ayu"
 git-repository-url = "https://github.com/hayashi3017/zatsu-book"
 edit-url-template = "https://github.com/hayashi3017/zatsu-book/edit/main/{path}"
 site-url = "/zatsu-book/"
+
+[output.html.fold]
+enable = true
+level = 1
 
 [output.markdown]
 

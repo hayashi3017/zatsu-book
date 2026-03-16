@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [お金](../../genres/money/README.md)
-- [法律](../../genres/法律/README.md)
+- [お金](../../genres/money/index.html)
+- [法律](../../genres/法律/index.html)
 
 ## タグ
 
-- [造幣局](../../tags/造幣局/README.md)
-- [貨幣損傷等取締法](../../tags/貨幣損傷等取締法/README.md)
+- [造幣局](../../tags/造幣局/index.html)
+- [貨幣損傷等取締法](../../tags/貨幣損傷等取締法/index.html)
 
 ## メタデータ
 

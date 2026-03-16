@@ -18,13 +18,13 @@ JAXA FAQでは、43個の卵が確認され、8匹がふ化したと説明して
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [実験](../../genres/実験/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [実験](../../genres/実験/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [メダカ](../../tags/メダカ/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [メダカ](../../tags/メダカ/index.html)
 
 ## メタデータ
 

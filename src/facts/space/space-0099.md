@@ -18,13 +18,13 @@ ISSで使う時刻は、協定世界時UTCである。
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [ISS](../../genres/ISS/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [ISS](../../genres/ISS/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [時刻](../../tags/時刻/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [時刻](../../tags/時刻/index.html)
 
 ## メタデータ
 

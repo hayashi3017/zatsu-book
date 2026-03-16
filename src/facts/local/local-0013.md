@@ -18,14 +18,14 @@
 
 ## ジャンル
 
-- [ご当地](../../genres/local/README.md)
-- [マスコット](../../genres/mascots/README.md)
+- [ご当地](../../genres/local/index.html)
+- [マスコット](../../genres/mascots/index.html)
 
 ## タグ
 
-- [奈良県](../../tags/奈良県/README.md)
-- [せんとくん](../../tags/せんとくん/README.md)
-- [職員](../../tags/職員/README.md)
+- [奈良県](../../tags/奈良県/index.html)
+- [せんとくん](../../tags/せんとくん/index.html)
+- [職員](../../tags/職員/index.html)
 
 ## メタデータ
 

@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [気象](../../genres/気象/README.md)
-- [虹](../../genres/虹/README.md)
+- [気象](../../genres/気象/index.html)
+- [虹](../../genres/虹/index.html)
 
 ## タグ
 
-- [気象庁](../../tags/気象庁/README.md)
-- [大気光象](../../tags/大気光象/README.md)
+- [気象庁](../../tags/気象庁/index.html)
+- [大気光象](../../tags/大気光象/index.html)
 
 ## メタデータ
 

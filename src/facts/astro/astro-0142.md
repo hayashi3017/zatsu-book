@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [天文](../../genres/天文/README.md)
-- [暦](../../genres/暦/README.md)
+- [天文](../../genres/天文/index.html)
+- [暦](../../genres/暦/index.html)
 
 ## タグ
 
-- [国立天文台](../../tags/国立天文台/README.md)
-- [薄明](../../tags/薄明/README.md)
+- [国立天文台](../../tags/国立天文台/index.html)
+- [薄明](../../tags/薄明/index.html)
 
 ## メタデータ
 

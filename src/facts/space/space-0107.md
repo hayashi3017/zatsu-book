@@ -18,13 +18,13 @@ JAXA FAQでは、筋肉や骨への悪影響を避けるため、宇宙飛行士
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [人体](../../genres/人体/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [人体](../../genres/人体/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [運動](../../tags/運動/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [運動](../../tags/運動/index.html)
 
 ## メタデータ
 

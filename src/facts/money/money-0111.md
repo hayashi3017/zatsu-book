@@ -18,14 +18,14 @@
 
 ## ジャンル
 
-- [お金](../../genres/money/README.md)
-- [素材](../../genres/素材/README.md)
+- [お金](../../genres/money/index.html)
+- [素材](../../genres/素材/index.html)
 
 ## タグ
 
-- [造幣局](../../tags/造幣局/README.md)
-- [5円玉](../../tags/5円玉/README.md)
-- [10円玉](../../tags/10円玉/README.md)
+- [造幣局](../../tags/造幣局/index.html)
+- [5円玉](../../tags/5円玉/index.html)
+- [10円玉](../../tags/10円玉/index.html)
 
 ## メタデータ
 

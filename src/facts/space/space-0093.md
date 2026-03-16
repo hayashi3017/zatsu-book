@@ -18,13 +18,13 @@ JAXA FAQでは、宇宙空間はほとんど真空で、反射する物がなく
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [光](../../genres/光/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [光](../../genres/光/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [宇宙](../../tags/宇宙/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [宇宙](../../tags/宇宙/index.html)
 
 ## メタデータ
 

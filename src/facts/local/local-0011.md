@@ -18,14 +18,14 @@
 
 ## ジャンル
 
-- [ご当地](../../genres/local/README.md)
-- [マスコット](../../genres/mascots/README.md)
+- [ご当地](../../genres/local/index.html)
+- [マスコット](../../genres/mascots/index.html)
 
 ## タグ
 
-- [熊本県](../../tags/熊本県/README.md)
-- [くまモン](../../tags/くまモン/README.md)
-- [肩書き](../../tags/肩書き/README.md)
+- [熊本県](../../tags/熊本県/index.html)
+- [くまモン](../../tags/くまモン/index.html)
+- [肩書き](../../tags/肩書き/index.html)
 
 ## メタデータ
 

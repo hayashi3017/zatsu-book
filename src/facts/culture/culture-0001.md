@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [文化](../../genres/文化/README.md)
-- [法律](../../genres/法律/README.md)
+- [文化](../../genres/文化/index.html)
+- [法律](../../genres/法律/index.html)
 
 ## タグ
 
-- [文化庁](../../tags/文化庁/README.md)
-- [著作権](../../tags/著作権/README.md)
+- [文化庁](../../tags/文化庁/index.html)
+- [著作権](../../tags/著作権/index.html)
 
 ## メタデータ
 

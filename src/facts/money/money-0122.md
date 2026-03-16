@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [お金](../../genres/money/README.md)
-- [記念貨幣](../../genres/記念貨幣/README.md)
+- [お金](../../genres/money/index.html)
+- [記念貨幣](../../genres/記念貨幣/index.html)
 
 ## タグ
 
-- [造幣局](../../tags/造幣局/README.md)
-- [坂本龍馬](../../tags/坂本龍馬/README.md)
+- [造幣局](../../tags/造幣局/index.html)
+- [坂本龍馬](../../tags/坂本龍馬/index.html)
 
 ## メタデータ
 

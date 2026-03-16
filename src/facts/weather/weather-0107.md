@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [気象](../../genres/気象/README.md)
-- [地球環境](../../genres/地球環境/README.md)
+- [気象](../../genres/気象/index.html)
+- [地球環境](../../genres/地球環境/index.html)
 
 ## タグ
 
-- [気象庁](../../tags/気象庁/README.md)
-- [二酸化炭素](../../tags/二酸化炭素/README.md)
+- [気象庁](../../tags/気象庁/index.html)
+- [二酸化炭素](../../tags/二酸化炭素/index.html)
 
 ## メタデータ
 

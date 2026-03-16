@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [天文](../../genres/天文/README.md)
-- [太陽](../../genres/太陽/README.md)
+- [天文](../../genres/天文/index.html)
+- [太陽](../../genres/太陽/index.html)
 
 ## タグ
 
-- [国立天文台](../../tags/国立天文台/README.md)
-- [冬至](../../tags/冬至/README.md)
+- [国立天文台](../../tags/国立天文台/index.html)
+- [冬至](../../tags/冬至/index.html)
 
 ## メタデータ
 

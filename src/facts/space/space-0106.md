@@ -18,13 +18,13 @@ ISSには、ロシアと米国のトイレが1台ずつある。
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [ISS](../../genres/ISS/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [ISS](../../genres/ISS/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [トイレ](../../tags/トイレ/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [トイレ](../../tags/トイレ/index.html)
 
 ## メタデータ
 

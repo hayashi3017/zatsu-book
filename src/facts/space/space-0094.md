@@ -18,13 +18,13 @@ ISSは、条件が良ければ木星並みの明るさで見える。
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [観測](../../genres/観測/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [観測](../../genres/観測/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [ISS](../../tags/ISS/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [ISS](../../tags/ISS/index.html)
 
 ## メタデータ
 

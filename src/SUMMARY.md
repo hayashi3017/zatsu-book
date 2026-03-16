@@ -1,6 +1,6 @@
 # Summary
 
-- [へえー図鑑](README.md)
+- [雑本](README.md)
 - [全件一覧](all/README.md)
   - [月の満ち欠けの周期は平均約29.5日](facts/astro/astro-0137.md)
   - [新月後の月は1日あたり約12度ずつ太陽から東へ離れていく](facts/astro/astro-0138.md)

@@ -489,7 +489,7 @@ preprocessor は later phase として、以下の用途で検討可能。
 
 ```toml
 [book]
-title = "へえー図鑑"
+title = "雑本"
 authors = ["Your Team"]
 language = "ja"
 multilingual = false

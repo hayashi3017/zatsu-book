@@ -18,14 +18,14 @@
 
 ## ジャンル
 
-- [ご当地](../../genres/local/README.md)
-- [マスコット](../../genres/mascots/README.md)
+- [ご当地](../../genres/local/index.html)
+- [マスコット](../../genres/mascots/index.html)
 
 ## タグ
 
-- [埼玉県](../../tags/埼玉県/README.md)
-- [コバトン](../../tags/コバトン/README.md)
-- [公募](../../tags/公募/README.md)
+- [埼玉県](../../tags/埼玉県/index.html)
+- [コバトン](../../tags/コバトン/index.html)
+- [公募](../../tags/公募/index.html)
 
 ## メタデータ
 

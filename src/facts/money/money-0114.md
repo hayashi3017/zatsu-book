@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [お金](../../genres/money/README.md)
-- [貨幣](../../genres/貨幣/README.md)
+- [お金](../../genres/money/index.html)
+- [貨幣](../../genres/貨幣/index.html)
 
 ## タグ
 
-- [造幣局](../../tags/造幣局/README.md)
-- [貨幣](../../tags/currency/README.md)
+- [造幣局](../../tags/造幣局/index.html)
+- [貨幣](../../tags/currency/index.html)
 
 ## メタデータ
 

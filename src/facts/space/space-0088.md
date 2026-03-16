@@ -18,13 +18,13 @@ ISSにもスペースシャトルにも洗濯機はない。
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [生活](../../genres/生活/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [生活](../../genres/生活/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [洗濯](../../tags/洗濯/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [洗濯](../../tags/洗濯/index.html)
 
 ## メタデータ
 

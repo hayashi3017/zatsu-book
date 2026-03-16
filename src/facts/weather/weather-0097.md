@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [気象](../../genres/気象/README.md)
-- [気温](../../genres/気温/README.md)
+- [気象](../../genres/気象/index.html)
+- [気温](../../genres/気温/index.html)
 
 ## タグ
 
-- [気象庁](../../tags/気象庁/README.md)
-- [用語](../../tags/用語/README.md)
+- [気象庁](../../tags/気象庁/index.html)
+- [用語](../../tags/用語/index.html)
 
 ## メタデータ
 

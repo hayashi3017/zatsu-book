@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [言葉](../../genres/言葉/README.md)
-- [日本語](../../genres/日本語/README.md)
+- [言葉](../../genres/言葉/index.html)
+- [日本語](../../genres/日本語/index.html)
 
 ## タグ
 
-- [文化庁](../../tags/文化庁/README.md)
-- [常用漢字](../../tags/常用漢字/README.md)
+- [文化庁](../../tags/文化庁/index.html)
+- [常用漢字](../../tags/常用漢字/index.html)
 
 ## メタデータ
 

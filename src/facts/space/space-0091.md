@@ -18,13 +18,13 @@ JAXA FAQでは、地表から宇宙空間までは無段階につながってい
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [基礎知識](../../genres/基礎知識/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [基礎知識](../../genres/基礎知識/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [宇宙](../../tags/宇宙/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [宇宙](../../tags/宇宙/index.html)
 
 ## メタデータ
 

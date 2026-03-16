@@ -18,13 +18,13 @@ JAXA FAQでは、無重力では通常のはかりは使えないが、バネに
 
 ## ジャンル
 
-- [宇宙](../../genres/宇宙/README.md)
-- [理科](../../genres/理科/README.md)
+- [宇宙](../../genres/宇宙/index.html)
+- [理科](../../genres/理科/index.html)
 
 ## タグ
 
-- [JAXA](../../tags/JAXA/README.md)
-- [質量](../../tags/質量/README.md)
+- [JAXA](../../tags/JAXA/index.html)
+- [質量](../../tags/質量/index.html)
 
 ## メタデータ
 

@@ -70,11 +70,11 @@ fn build_pages_with_mode(root: &Path, mode: BuildMode) -> Result<()> {
         ("src/all/README.md".to_owned(), render_all_page(&published)),
         (
             "src/genres/README.md".to_owned(),
-            render_term_index("ジャンル一覧", &genres, "README.md"),
+            render_term_index("ジャンル一覧", &genres),
         ),
         (
             "src/tags/README.md".to_owned(),
-            render_term_index("タグ一覧", &tags, "README.md"),
+            render_term_index("タグ一覧", &tags),
         ),
         (
             "src/updates/README.md".to_owned(),
@@ -204,13 +204,13 @@ fn render_top_page(
     tags: &[TermPage<'_>],
 ) -> String {
     let mut out = String::new();
-    out.push_str("# へえー図鑑\n\n");
+    out.push_str("# 雑本\n\n");
     out.push_str("根拠付きの「へえーってなるネタ」を公開するための mdBook です。\n\n");
     out.push_str("## 入口\n\n");
-    out.push_str("- [全件一覧](all/README.md)\n");
-    out.push_str("- [ジャンル一覧](genres/README.md)\n");
-    out.push_str("- [タグ一覧](tags/README.md)\n");
-    out.push_str("- [最近更新](updates/README.md)\n\n");
+    out.push_str("- [全件一覧](all/index.html)\n");
+    out.push_str("- [ジャンル一覧](genres/index.html)\n");
+    out.push_str("- [タグ一覧](tags/index.html)\n");
+    out.push_str("- [最近更新](updates/index.html)\n\n");
 
     out.push_str("## 最近更新\n\n");
     if facts.is_empty() {
@@ -231,7 +231,7 @@ fn render_top_page(
     } else {
         for genre in genres {
             out.push_str(&format!(
-                "- [{}](genres/{}/README.md) ({}件)\n",
+                "- [{}](genres/{}/index.html) ({}件)\n",
                 genre.label,
                 genre.slug,
                 genre.facts.len()
@@ -246,7 +246,7 @@ fn render_top_page(
     } else {
         for tag in tags.iter().take(10) {
             out.push_str(&format!(
-                "- [{}](tags/{}/README.md) ({}件)\n",
+                "- [{}](tags/{}/index.html) ({}件)\n",
                 tag.label,
                 tag.slug,
                 tag.facts.len()
@@ -275,7 +275,7 @@ fn render_all_page(facts: &[&LoadedFact]) -> String {
     out
 }
 
-fn render_term_index(title: &str, pages: &[TermPage<'_>], readme_name: &str) -> String {
+fn render_term_index(title: &str, pages: &[TermPage<'_>]) -> String {
     let mut out = String::new();
     out.push_str(&format!("# {title}\n\n"));
     if pages.is_empty() {
@@ -285,10 +285,9 @@ fn render_term_index(title: &str, pages: &[TermPage<'_>], readme_name: &str) -> 
 
     for page in pages {
         out.push_str(&format!(
-            "- [{}]({}/{}) ({}件)\n",
+            "- [{}]({}/index.html) ({}件)\n",
             page.label,
             page.slug,
-            readme_name,
             page.facts.len()
         ));
     }
@@ -341,7 +340,7 @@ fn render_updates_page(facts: &[&LoadedFact]) -> String {
 fn render_summary(facts: &[&LoadedFact], genres: &[TermPage<'_>], tags: &[TermPage<'_>]) -> String {
     let mut out = String::new();
     out.push_str("# Summary\n\n");
-    out.push_str("- [へえー図鑑](README.md)\n");
+    out.push_str("- [雑本](README.md)\n");
     out.push_str("- [全件一覧](all/README.md)\n");
     for fact in facts {
         out.push_str(&format!(
@@ -397,7 +396,7 @@ fn render_fact_page(fact: &LoadedFact, taxonomy: &Taxonomy) -> String {
 
     out.push_str("\n## ジャンル\n\n");
     for ResolvedTerm { slug, label } in &resolved_genres {
-        out.push_str(&format!("- [{}](../../genres/{}/README.md)\n", label, slug));
+        out.push_str(&format!("- [{}](../../genres/{}/index.html)\n", label, slug));
     }
 
     out.push_str("\n## タグ\n\n");
@@ -405,7 +404,7 @@ fn render_fact_page(fact: &LoadedFact, taxonomy: &Taxonomy) -> String {
         out.push_str("タグはありません。\n");
     } else {
         for ResolvedTerm { slug, label } in &resolved_tags {
-            out.push_str(&format!("- [{}](../../tags/{}/README.md)\n", label, slug));
+            out.push_str(&format!("- [{}](../../tags/{}/index.html)\n", label, slug));
         }
     }
 
@@ -441,9 +440,9 @@ fn render_404_page() -> String {
     let mut out = String::new();
     out.push_str("# ページが見つかりません\n\n");
     out.push_str("指定されたページは存在しないか、移動しました。\n\n");
-    out.push_str("- [トップページ](README.md)\n");
-    out.push_str("- [全件一覧](all/README.md)\n");
-    out.push_str("- [ジャンル一覧](genres/README.md)\n");
+    out.push_str("- [トップページ](index.html)\n");
+    out.push_str("- [全件一覧](all/index.html)\n");
+    out.push_str("- [ジャンル一覧](genres/index.html)\n");
     out
 }
 
@@ -591,8 +590,8 @@ mod tests {
         let fact = sample_fact();
         let rendered = render_fact_page(&fact, &sample_taxonomy());
 
-        assert!(rendered.contains("[お金](../../genres/money/README.md)"));
-        assert!(rendered.contains("[貨幣](../../tags/currency/README.md)"));
+        assert!(rendered.contains("[お金](../../genres/money/index.html)"));
+        assert!(rendered.contains("[貨幣](../../tags/currency/index.html)"));
         assert!(rendered.contains("引用要点: quoted"));
     }
 
@@ -615,12 +614,44 @@ mod tests {
         );
         let rendered = render_summary(&published, &genres, &tags);
 
-        assert!(rendered.contains("- [へえー図鑑](README.md)"));
+        assert!(rendered.contains("- [雑本](README.md)"));
         assert!(rendered.contains(
             "  - [1円玉の木は特定の木ではない](facts/money/money-001-yen-tree-not-specific.md)"
         ));
         assert!(rendered.contains("  - [お金](genres/money/README.md)"));
         assert!(rendered.contains("  - [貨幣](tags/currency/README.md)"));
+    }
+
+    #[test]
+    fn top_page_and_indexes_use_directory_links_for_index_pages() {
+        let fact = sample_fact();
+        let taxonomy = sample_taxonomy();
+        let published = vec![&fact];
+        let genres = build_term_pages(
+            &published,
+            &taxonomy,
+            |loaded| &loaded.genres,
+            TaxonomyKind::Genre,
+        );
+        let tags = build_term_pages(
+            &published,
+            &taxonomy,
+            |loaded| &loaded.tags,
+            TaxonomyKind::Tag,
+        );
+
+        let top = render_top_page(&published, &genres, &tags);
+        let genre_index = render_term_index("ジャンル一覧", &genres);
+
+        assert!(top.contains("[全件一覧](all/index.html)"));
+        assert!(top.contains("[ジャンル一覧](genres/index.html)"));
+        assert!(top.contains("[タグ一覧](tags/index.html)"));
+        assert!(top.contains("[最近更新](updates/index.html)"));
+        assert!(top.contains("[お金](genres/money/index.html)"));
+        assert!(top.contains("[貨幣](tags/currency/index.html)"));
+        assert!(genre_index.contains("[お金](money/index.html)"));
+        assert!(!top.contains("README.md"));
+        assert!(!genre_index.contains("README.md"));
     }
 
     fn temp_repo() -> TempDir {

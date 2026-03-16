@@ -18,13 +18,13 @@
 
 ## ジャンル
 
-- [お金](../../genres/money/README.md)
-- [歴史](../../genres/歴史/README.md)
+- [お金](../../genres/money/index.html)
+- [歴史](../../genres/歴史/index.html)
 
 ## タグ
 
-- [造幣局](../../tags/造幣局/README.md)
-- [5円玉](../../tags/5円玉/README.md)
+- [造幣局](../../tags/造幣局/index.html)
+- [5円玉](../../tags/5円玉/index.html)
 
 ## メタデータ
 
