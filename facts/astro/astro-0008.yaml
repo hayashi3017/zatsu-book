@@ -1,23 +1,23 @@
 id: astro-0008
 title: 月は1日におよそ12度ずつ東へ動くので、月の出は日ごとに遅くなる
 genres:
-- 天文
-- 月
+  - 天文
+  - 月
 tags:
-- 国立天文台
-- 月
-- 月の出
+  - 国立天文台
+  - 月
+  - 月の出
 summary: 月は1日におよそ12度ずつ東へ動くので、月の出は日ごとに遅くなると公式FAQ・解説で扱われている。
 claim: 月は1日におよそ12度ずつ東へ動くので、月の出は日ごとに遅くなる
 sources:
-- url: https://www.nao.ac.jp/faq/
-  publisher: 国立天文台
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.nao.ac.jp/faq/
+    publisher: 国立天文台
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

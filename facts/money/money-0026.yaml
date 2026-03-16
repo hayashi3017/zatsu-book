@@ -1,23 +1,23 @@
 id: money-0026
 title: 造幣局は貨幣を数える助数詞として「枚」ではなく「貨」を使う
 genres:
-- お金
-- ことば
+  - お金
+  - ことば
 tags:
-- 造幣局
-- 助数詞
-- 貨幣
+  - 造幣局
+  - 助数詞
+  - 貨幣
 summary: 造幣局は貨幣を数える助数詞として「枚」ではなく「貨」を使うと公式FAQ・解説で扱われている。
 claim: 造幣局は貨幣を数える助数詞として「枚」ではなく「貨」を使う
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

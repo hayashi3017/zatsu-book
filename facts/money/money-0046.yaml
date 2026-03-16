@@ -1,23 +1,23 @@
 id: money-0046
 title: 5円貨と10円貨の成分が今も幅表示なのは工業的に管理された再生材料を使うためでもある
 genres:
-- お金
-- 製造
+  - お金
+  - 製造
 tags:
-- 造幣局
-- 成分
-- 再生材料
+  - 造幣局
+  - 成分
+  - 再生材料
 summary: 5円貨と10円貨の成分が今も幅表示なのは工業的に管理された再生材料を使うためでもあると公式FAQ・解説で扱われている。
 claim: 5円貨と10円貨の成分が今も幅表示なのは工業的に管理された再生材料を使うためでもある
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

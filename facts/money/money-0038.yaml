@@ -1,27 +1,27 @@
 id: money-0038
 title: 10円貨の裏面の木は常磐木として説明されている
 genres:
-- お金
-- デザイン
+  - お金
+  - デザイン
 tags:
-- 造幣局
-- 10円玉
-- 常磐木
+  - 造幣局
+  - 10円玉
+  - 常磐木
 summary: 10円貨の裏面の木は常磐木として説明されていると公式FAQ・解説で扱われている。
 claim: 10円貨の裏面の木は常磐木として説明されている
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
-- url: https://www.mint.go.jp/kids/know/know_01
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
+  - url: https://www.mint.go.jp/kids/know/know_01
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

@@ -1,23 +1,23 @@
 id: weather-0068
 title: 気象庁は近畿の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがある
 genres:
-- 気象
-- 季節
+  - 気象
+  - 季節
 tags:
-- 気象庁
-- 梅雨
-- 近畿
+  - 気象庁
+  - 梅雨
+  - 近畿
 summary: 気象庁は近畿の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがあると公式FAQ・解説で扱われている。
 claim: 気象庁は近畿の梅雨入り・梅雨明けを速報として発表するが、後で確定値が変わることがある
 sources:
-- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

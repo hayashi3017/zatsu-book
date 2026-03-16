@@ -1,23 +1,23 @@
 id: money-0014
 title: 貨幣の図柄は内閣が決定する
 genres:
-- お金
-- 制度
+  - お金
+  - 制度
 tags:
-- 造幣局
-- 図柄
-- 内閣
+  - 造幣局
+  - 図柄
+  - 内閣
 summary: 貨幣の図柄は内閣が決定すると公式FAQ・解説で扱われている。
 claim: 貨幣の図柄は内閣が決定する
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

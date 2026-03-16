@@ -1,22 +1,22 @@
 id: astro-0088
 title: 木星や金星が明るいのは自ら強く光る恒星だからではなく、太陽光をよく反射し地球からも近いからである
 genres:
-- 天文
-- 星空
+  - 天文
+  - 星空
 tags:
-- 国立天文台
-- 星空
+  - 国立天文台
+  - 星空
 summary: 木星や金星が明るいのは自ら強く光る恒星だからではなく、太陽光をよく反射し地球からも近いからであると公式FAQ・解説で扱われている。
 claim: 木星や金星が明るいのは自ら強く光る恒星だからではなく、太陽光をよく反射し地球からも近いからである
 sources:
-- url: https://www.nao.ac.jp/faq/
-  publisher: 国立天文台
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.nao.ac.jp/faq/
+    publisher: 国立天文台
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

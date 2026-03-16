@@ -1,20 +1,20 @@
 id: space-0041
 title: ロケット見学日は早く決まるとは限らず、安全上の判断で直前変更もある
 genres:
-- 宇宙
+  - 宇宙
 tags:
-- JAXA
+  - JAXA
 summary: ロケット見学日は早く決まるとは限らず、安全上の判断で直前変更もあると公式FAQ・解説で扱われている。
 claim: ロケット見学日は早く決まるとは限らず、安全上の判断で直前変更もある
 sources:
-- url: https://fanfun.jaxa.jp/faq/
-  publisher: JAXA
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://fanfun.jaxa.jp/faq/
+    publisher: JAXA
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

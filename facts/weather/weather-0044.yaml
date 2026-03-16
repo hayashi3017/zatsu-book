@@ -1,23 +1,23 @@
 id: weather-0044
 title: 「平成7年兵庫県南部地震」は地震の名前で、「阪神・淡路大震災」は災害の名前である
 genres:
-- 気象
-- 地震
+  - 気象
+  - 地震
 tags:
-- 気象庁
-- 阪神・淡路大震災
-- 名称
+  - 気象庁
+  - 阪神・淡路大震災
+  - 名称
 summary: 「平成7年兵庫県南部地震」は地震の名前で、「阪神・淡路大震災」は災害の名前であると公式FAQ・解説で扱われている。
 claim: 「平成7年兵庫県南部地震」は地震の名前で、「阪神・淡路大震災」は災害の名前である
 sources:
-- url: https://www.jma.go.jp/jma/kishou/know/faq/faq7.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/faq7.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

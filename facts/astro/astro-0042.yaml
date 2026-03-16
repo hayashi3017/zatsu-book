@@ -1,23 +1,23 @@
 id: astro-0042
 title: 皆既日食は新月のたびに起こるわけではなく、月の軌道が傾いているため外れやすい
 genres:
-- 天文
-- 日食月食
+  - 天文
+  - 日食月食
 tags:
-- 国立天文台
-- 日食
-- 新月
+  - 国立天文台
+  - 日食
+  - 新月
 summary: 皆既日食は新月のたびに起こるわけではなく、月の軌道が傾いているため外れやすいと公式FAQ・解説で扱われている。
 claim: 皆既日食は新月のたびに起こるわけではなく、月の軌道が傾いているため外れやすい
 sources:
-- url: https://www.nao.ac.jp/faq/
-  publisher: 国立天文台
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.nao.ac.jp/faq/
+    publisher: 国立天文台
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

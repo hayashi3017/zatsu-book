@@ -1,21 +1,21 @@
 id: copyright-0047
 title: 翻訳は原著作物とは別の著作物になり得るが、原作の許諾問題は残る
 genres:
-- 著作権
+  - 著作権
 tags:
-- 文化庁
-- 著作権
+  - 文化庁
+  - 著作権
 summary: 翻訳は原著作物とは別の著作物になり得るが、原作の許諾問題は残ると公式FAQ・解説で扱われている。
 claim: 翻訳は原著作物とは別の著作物になり得るが、原作の許諾問題は残る
 sources:
-- url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
-  publisher: 文化庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
+    publisher: 文化庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

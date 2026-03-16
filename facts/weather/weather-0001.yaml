@@ -1,27 +1,27 @@
 id: weather-0001
 title: 気象庁の天気予報で「快晴」は雲量1割以下、「晴れ」は2〜8割、「曇り」は9割以上である
 genres:
-- 気象
-- 予報
+  - 気象
+  - 予報
 tags:
-- 気象庁
-- 雲量
-- 晴れ
+  - 気象庁
+  - 雲量
+  - 晴れ
 summary: 気象庁の天気予報で「快晴」は雲量1割以下、「晴れ」は2〜8割、「曇り」は9割以上であると公式FAQ・解説で扱われている。
 claim: 気象庁の天気予報で「快晴」は雲量1割以下、「晴れ」は2〜8割、「曇り」は9割以上である
 sources:
-- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
-- url: https://www.jma.go.jp/jma/kishou/know/faq/index.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/index.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

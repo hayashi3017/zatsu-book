@@ -1,27 +1,27 @@
 id: money-0040
 title: 50円貨は区別しやすくするため1967年に現在の穴あき・21mmの姿になった
 genres:
-- お金
-- 歴史
+  - お金
+  - 歴史
 tags:
-- 造幣局
-- 50円玉
-- 穴
+  - 造幣局
+  - 50円玉
+  - 穴
 summary: 50円貨は区別しやすくするため1967年に現在の穴あき・21mmの姿になったと公式FAQ・解説で扱われている。
 claim: 50円貨は区別しやすくするため1967年に現在の穴あき・21mmの姿になった
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
-- url: https://www.mint.go.jp/kids/know/know_01
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
+  - url: https://www.mint.go.jp/kids/know/know_01
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

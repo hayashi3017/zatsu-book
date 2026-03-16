@@ -1,23 +1,23 @@
 id: money-0021
 title: 日本初のプレミアム貨幣は長野オリンピック記念1万円金貨である
 genres:
-- お金
-- 記念貨幣
+  - お金
+  - 記念貨幣
 tags:
-- 造幣局
-- 長野五輪
-- 金貨
+  - 造幣局
+  - 長野五輪
+  - 金貨
 summary: 日本初のプレミアム貨幣は長野オリンピック記念1万円金貨であると公式FAQ・解説で扱われている。
 claim: 日本初のプレミアム貨幣は長野オリンピック記念1万円金貨である
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

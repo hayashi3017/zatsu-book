@@ -1,21 +1,21 @@
 id: food-0071
 title: 冷凍食品は保存性が高いが、家庭の開閉や霜付きで品質は落ちうる
 genres:
-- 食べ物
+  - 食べ物
 tags:
-- 農林水産省
-- 食
+  - 農林水産省
+  - 食
 summary: 冷凍食品は保存性が高いが、家庭の開閉や霜付きで品質は落ちうると公式FAQ・解説で扱われている。
 claim: 冷凍食品は保存性が高いが、家庭の開閉や霜付きで品質は落ちうる
 sources:
-- url: https://www.maff.go.jp/j/pr/aff/
-  publisher: 農林水産省
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.maff.go.jp/j/pr/aff/
+    publisher: 農林水産省
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

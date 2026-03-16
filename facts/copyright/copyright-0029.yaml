@@ -1,21 +1,21 @@
 id: copyright-0029
 title: 美術の著作物でも、屋外恒常設置の彫刻などは撮影・利用に一定の例外がある
 genres:
-- 著作権
+  - 著作権
 tags:
-- 文化庁
-- 著作権
+  - 文化庁
+  - 著作権
 summary: 美術の著作物でも、屋外恒常設置の彫刻などは撮影・利用に一定の例外があると公式FAQ・解説で扱われている。
 claim: 美術の著作物でも、屋外恒常設置の彫刻などは撮影・利用に一定の例外がある
 sources:
-- url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
-  publisher: 文化庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
+    publisher: 文化庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

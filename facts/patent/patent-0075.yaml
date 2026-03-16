@@ -1,21 +1,21 @@
 id: patent-0075
 title: 実用新案は小発明向けと説明されるが、軽い制度だから何でも通るわけではない
 genres:
-- 知財
+  - 知財
 tags:
-- 特許庁
-- 知財
+  - 特許庁
+  - 知財
 summary: 実用新案は小発明向けと説明されるが、軽い制度だから何でも通るわけではないと公式FAQ・解説で扱われている。
 claim: 実用新案は小発明向けと説明されるが、軽い制度だから何でも通るわけではない
 sources:
-- url: https://www.jpo.go.jp/faq/yokuaru/index.html
-  publisher: 特許庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jpo.go.jp/faq/yokuaru/index.html
+    publisher: 特許庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

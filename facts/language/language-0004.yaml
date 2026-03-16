@@ -1,21 +1,21 @@
 id: language-0004
 title: 公用文の表記は歴史的に改定されており、不変のルールではない
 genres:
-- ことば
+  - ことば
 tags:
-- 文化庁
-- 国語
+  - 文化庁
+  - 国語
 summary: 公用文の表記は歴史的に改定されており、不変のルールではないと公式FAQ・解説で扱われている。
 claim: 公用文の表記は歴史的に改定されており、不変のルールではない
 sources:
-- url: https://www.bunka.go.jp/qa/
-  publisher: 文化庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.bunka.go.jp/qa/
+    publisher: 文化庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

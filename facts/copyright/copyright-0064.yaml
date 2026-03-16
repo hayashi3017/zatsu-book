@@ -1,21 +1,21 @@
 id: copyright-0064
 title: 営利目的でなくても、公衆送信や複製が自由になるわけではない
 genres:
-- 著作権
+  - 著作権
 tags:
-- 文化庁
-- 著作権
+  - 文化庁
+  - 著作権
 summary: 営利目的でなくても、公衆送信や複製が自由になるわけではないと公式FAQ・解説で扱われている。
 claim: 営利目的でなくても、公衆送信や複製が自由になるわけではない
 sources:
-- url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
-  publisher: 文化庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
+    publisher: 文化庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

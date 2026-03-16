@@ -1,20 +1,20 @@
 id: space-0010
 title: ISSの共通的な作業言語は英語で、運用ではロシア語も重要である
 genres:
-- 宇宙
+  - 宇宙
 tags:
-- JAXA
+  - JAXA
 summary: ISSの共通的な作業言語は英語で、運用ではロシア語も重要であると公式FAQ・解説で扱われている。
 claim: ISSの共通的な作業言語は英語で、運用ではロシア語も重要である
 sources:
-- url: https://humans-in-space.jaxa.jp/faq/iss/
-  publisher: JAXA
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://humans-in-space.jaxa.jp/faq/iss/
+    publisher: JAXA
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

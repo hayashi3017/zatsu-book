@@ -1,23 +1,23 @@
 id: money-0025
 title: 返納された記念貨幣は新しい貨幣の材料として溶かして再利用されることがある
 genres:
-- お金
-- リサイクル
+  - お金
+  - リサイクル
 tags:
-- 造幣局
-- 記念貨幣
-- 再利用
+  - 造幣局
+  - 記念貨幣
+  - 再利用
 summary: 返納された記念貨幣は新しい貨幣の材料として溶かして再利用されることがあると公式FAQ・解説で扱われている。
 claim: 返納された記念貨幣は新しい貨幣の材料として溶かして再利用されることがある
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

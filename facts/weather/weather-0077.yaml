@@ -1,22 +1,22 @@
 id: weather-0077
 title: 霧と雲の違いは高さの違いで、地表付近にある雲を霧と呼ぶ
 genres:
-- 気象
-- 光学現象
+  - 気象
+  - 光学現象
 tags:
-- 気象庁
-- 霧
+  - 気象庁
+  - 霧
 summary: 霧と雲の違いは高さの違いで、地表付近にある雲を霧と呼ぶと公式FAQ・解説で扱われている。
 claim: 霧と雲の違いは高さの違いで、地表付近にある雲を霧と呼ぶ
 sources:
-- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

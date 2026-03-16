@@ -1,23 +1,23 @@
 id: money-0030
 title: 貨幣の製造枚数は造幣局ではなく財務省が決める
 genres:
-- お金
-- 制度
+  - お金
+  - 制度
 tags:
-- 造幣局
-- 財務省
-- 製造枚数
+  - 造幣局
+  - 財務省
+  - 製造枚数
 summary: 貨幣の製造枚数は造幣局ではなく財務省が決めると公式FAQ・解説で扱われている。
 claim: 貨幣の製造枚数は造幣局ではなく財務省が決める
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

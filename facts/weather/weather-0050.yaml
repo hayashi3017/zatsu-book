@@ -1,23 +1,23 @@
 id: weather-0050
 title: 日本周辺ではM5以上の地震が平均すると年800回以上ではなく、M5.0-5.9だけでも年691回になった特異年がある
 genres:
-- 気象
-- 地震
+  - 気象
+  - 地震
 tags:
-- 気象庁
-- 地震回数
-- '2011'
+  - 気象庁
+  - 地震回数
+  - "2011"
 summary: 日本周辺ではM5以上の地震が平均すると年800回以上ではなく、M5.0-5.9だけでも年691回になった特異年があると公式FAQ・解説で扱われている。
 claim: 日本周辺ではM5以上の地震が平均すると年800回以上ではなく、M5.0-5.9だけでも年691回になった特異年がある
 sources:
-- url: https://www.jma.go.jp/jma/kishou/know/faq/faq7.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/faq7.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

@@ -1,20 +1,20 @@
 id: space-0069
 title: ロケットの大部分が燃料なのは、少しの荷物を大きな速度へ加速するためである
 genres:
-- 宇宙
+  - 宇宙
 tags:
-- JAXA
+  - JAXA
 summary: ロケットの大部分が燃料なのは、少しの荷物を大きな速度へ加速するためであると公式FAQ・解説で扱われている。
 claim: ロケットの大部分が燃料なのは、少しの荷物を大きな速度へ加速するためである
 sources:
-- url: https://fanfun.jaxa.jp/faq/
-  publisher: JAXA
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://fanfun.jaxa.jp/faq/
+    publisher: JAXA
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

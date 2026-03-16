@@ -1,21 +1,21 @@
 id: food-0007
 title: 果物らしく見えるかどうかと、農林水産省の分類は一致しないことがある
 genres:
-- 食べ物
+  - 食べ物
 tags:
-- 農林水産省
-- 食
+  - 農林水産省
+  - 食
 summary: 果物らしく見えるかどうかと、農林水産省の分類は一致しないことがあると公式FAQ・解説で扱われている。
 claim: 果物らしく見えるかどうかと、農林水産省の分類は一致しないことがある
 sources:
-- url: https://www.maff.go.jp/j/pr/aff/
-  publisher: 農林水産省
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.maff.go.jp/j/pr/aff/
+    publisher: 農林水産省
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

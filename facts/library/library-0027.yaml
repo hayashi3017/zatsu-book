@@ -1,21 +1,21 @@
 id: library-0027
 title: 同じデジタル資料でも、著作権保護期間満了かどうかで公開範囲が変わる
 genres:
-- 図書館
+  - 図書館
 tags:
-- 国立国会図書館
-- 図書館
+  - 国立国会図書館
+  - 図書館
 summary: 同じデジタル資料でも、著作権保護期間満了かどうかで公開範囲が変わると公式FAQ・解説で扱われている。
 claim: 同じデジタル資料でも、著作権保護期間満了かどうかで公開範囲が変わる
 sources:
-- url: https://www.ndl.go.jp/help
-  publisher: 国立国会図書館
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.ndl.go.jp/help
+    publisher: 国立国会図書館
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

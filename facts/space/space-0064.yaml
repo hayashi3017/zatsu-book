@@ -1,20 +1,20 @@
 id: space-0064
 title: 月面で空が黒いのは夜だからではなく、大気散乱がほぼないからである
 genres:
-- 宇宙
+  - 宇宙
 tags:
-- JAXA
+  - JAXA
 summary: 月面で空が黒いのは夜だからではなく、大気散乱がほぼないからであると公式FAQ・解説で扱われている。
 claim: 月面で空が黒いのは夜だからではなく、大気散乱がほぼないからである
 sources:
-- url: https://fanfun.jaxa.jp/faq/
-  publisher: JAXA
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://fanfun.jaxa.jp/faq/
+    publisher: JAXA
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

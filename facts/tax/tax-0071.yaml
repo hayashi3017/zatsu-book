@@ -1,21 +1,21 @@
 id: tax-0071
 title: 無申告のままでも税金がゼロと扱われるわけではなく、延滞税や加算税が問題になり得る
 genres:
-- 税
+  - 税
 tags:
-- 国税庁
-- 税
+  - 国税庁
+  - 税
 summary: 無申告のままでも税金がゼロと扱われるわけではなく、延滞税や加算税が問題になり得ると公式FAQ・解説で扱われている。
 claim: 無申告のままでも税金がゼロと扱われるわけではなく、延滞税や加算税が問題になり得る
 sources:
-- url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
-  publisher: 国税庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
+    publisher: 国税庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

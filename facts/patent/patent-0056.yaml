@@ -1,21 +1,21 @@
 id: patent-0056
 title: 商標登録があっても、使い方次第では不使用取消の問題が起きる
 genres:
-- 知財
+  - 知財
 tags:
-- 特許庁
-- 知財
+  - 特許庁
+  - 知財
 summary: 商標登録があっても、使い方次第では不使用取消の問題が起きると公式FAQ・解説で扱われている。
 claim: 商標登録があっても、使い方次第では不使用取消の問題が起きる
 sources:
-- url: https://www.jpo.go.jp/faq/yokuaru/index.html
-  publisher: 特許庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jpo.go.jp/faq/yokuaru/index.html
+    publisher: 特許庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

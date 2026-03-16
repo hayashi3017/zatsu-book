@@ -1,23 +1,23 @@
 id: weather-0008
 title: 集中豪雨は地形の影響で水蒸気が狭い地域に集まるだけでも起こり得る
 genres:
-- 気象
-- 豪雨
+  - 気象
+  - 豪雨
 tags:
-- 気象庁
-- 地形
-- 水蒸気
+  - 気象庁
+  - 地形
+  - 水蒸気
 summary: 集中豪雨は地形の影響で水蒸気が狭い地域に集まるだけでも起こり得ると公式FAQ・解説で扱われている。
 claim: 集中豪雨は地形の影響で水蒸気が狭い地域に集まるだけでも起こり得る
 sources:
-- url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/faq1.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

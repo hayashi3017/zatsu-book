@@ -1,21 +1,21 @@
 id: patent-0055
 title: デザインの模倣対策は意匠権だけでなく商標や著作権と組み合わせることが多い
 genres:
-- 知財
+  - 知財
 tags:
-- 特許庁
-- 知財
+  - 特許庁
+  - 知財
 summary: デザインの模倣対策は意匠権だけでなく商標や著作権と組み合わせることが多いと公式FAQ・解説で扱われている。
 claim: デザインの模倣対策は意匠権だけでなく商標や著作権と組み合わせることが多い
 sources:
-- url: https://www.jpo.go.jp/faq/yokuaru/index.html
-  publisher: 特許庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jpo.go.jp/faq/yokuaru/index.html
+    publisher: 特許庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

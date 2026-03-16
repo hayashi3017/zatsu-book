@@ -1,20 +1,20 @@
 id: space-0027
 title: 使い終わった人工衛星はそのまま永久に残すのではなく、落下処分や墓場軌道移動などが検討される
 genres:
-- 宇宙
+  - 宇宙
 tags:
-- JAXA
+  - JAXA
 summary: 使い終わった人工衛星はそのまま永久に残すのではなく、落下処分や墓場軌道移動などが検討されると公式FAQ・解説で扱われている。
 claim: 使い終わった人工衛星はそのまま永久に残すのではなく、落下処分や墓場軌道移動などが検討される
 sources:
-- url: https://fanfun.jaxa.jp/faq/
-  publisher: JAXA
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://fanfun.jaxa.jp/faq/
+    publisher: JAXA
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

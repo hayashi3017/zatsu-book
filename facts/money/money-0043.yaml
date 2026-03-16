@@ -1,27 +1,27 @@
 id: money-0043
 title: 現在の5円貨の基本デザインは1949年に誕生した
 genres:
-- お金
-- 歴史
+  - お金
+  - 歴史
 tags:
-- 造幣局
-- 5円玉
-- '1949'
+  - 造幣局
+  - 5円玉
+  - "1949"
 summary: 現在の5円貨の基本デザインは1949年に誕生したと公式FAQ・解説で扱われている。
 claim: 現在の5円貨の基本デザインは1949年に誕生した
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
-- url: https://www.mint.go.jp/kids/know/know_01
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
+  - url: https://www.mint.go.jp/kids/know/know_01
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

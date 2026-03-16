@@ -1,21 +1,21 @@
 id: tax-0068
 title: セルフメディケーション税制は通常の医療費控除と選択適用である
 genres:
-- 税
+  - 税
 tags:
-- 国税庁
-- 税
+  - 国税庁
+  - 税
 summary: セルフメディケーション税制は通常の医療費控除と選択適用であると公式FAQ・解説で扱われている。
 claim: セルフメディケーション税制は通常の医療費控除と選択適用である
 sources:
-- url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
-  publisher: 国税庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
+    publisher: 国税庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

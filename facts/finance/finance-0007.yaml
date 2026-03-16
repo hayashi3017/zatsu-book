@@ -1,23 +1,23 @@
 id: finance-0007
 title: 使い古されたお札は日本銀行で裁断・圧縮して処分される
 genres:
-- 金融
-- 銀行券
+  - 金融
+  - 銀行券
 tags:
-- 日本銀行
-- 廃棄
-- 銀行券
+  - 日本銀行
+  - 廃棄
+  - 銀行券
 summary: 使い古されたお札は日本銀行で裁断・圧縮して処分されると公式FAQ・解説で扱われている。
 claim: 使い古されたお札は日本銀行で裁断・圧縮して処分される
 sources:
-- url: https://www.boj.or.jp/about/education/oshiete/
-  publisher: 日本銀行
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.boj.or.jp/about/education/oshiete/
+    publisher: 日本銀行
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

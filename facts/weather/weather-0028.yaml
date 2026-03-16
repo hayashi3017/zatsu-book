@@ -1,23 +1,23 @@
 id: weather-0028
 title: 雲が白く見えるのは、雲粒がさまざまな色の光をほぼ同じように散乱するからである
 genres:
-- 気象
-- 光学現象
+  - 気象
+  - 光学現象
 tags:
-- 気象庁
-- 雲
-- 散乱
+  - 気象庁
+  - 雲
+  - 散乱
 summary: 雲が白く見えるのは、雲粒がさまざまな色の光をほぼ同じように散乱するからであると公式FAQ・解説で扱われている。
 claim: 雲が白く見えるのは、雲粒がさまざまな色の光をほぼ同じように散乱するからである
 sources:
-- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

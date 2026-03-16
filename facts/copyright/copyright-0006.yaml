@@ -1,21 +1,21 @@
 id: copyright-0006
 title: 翻訳された法令や判決でも、国等が作成した公的な翻訳には別の利用条件が付くことがある
 genres:
-- 著作権
+  - 著作権
 tags:
-- 文化庁
-- 著作権
+  - 文化庁
+  - 著作権
 summary: 翻訳された法令や判決でも、国等が作成した公的な翻訳には別の利用条件が付くことがあると公式FAQ・解説で扱われている。
 claim: 翻訳された法令や判決でも、国等が作成した公的な翻訳には別の利用条件が付くことがある
 sources:
-- url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
-  publisher: 文化庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://saiteiseido.bunka.go.jp/chosakuken_qa/
+    publisher: 文化庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

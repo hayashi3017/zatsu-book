@@ -1,23 +1,23 @@
 id: weather-0023
 title: 気象庁は不快指数を公式の予報・統計指標として使っていない
 genres:
-- 気象
-- 湿度
+  - 気象
+  - 湿度
 tags:
-- 気象庁
-- 不快指数
-- 予報
+  - 気象庁
+  - 不快指数
+  - 予報
 summary: 気象庁は不快指数を公式の予報・統計指標として使っていないと公式FAQ・解説で扱われている。
 claim: 気象庁は不快指数を公式の予報・統計指標として使っていない
 sources:
-- url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
-  publisher: 気象庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jma.go.jp/jma/kishou/know/faq/faq5.html
+    publisher: 気象庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

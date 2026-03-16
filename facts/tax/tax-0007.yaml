@@ -1,21 +1,21 @@
 id: tax-0007
 title: 懸賞や競馬などの払戻金は、宝くじと同じ扱いになるとは限らない
 genres:
-- 税
+  - 税
 tags:
-- 国税庁
-- 税
+  - 国税庁
+  - 税
 summary: 懸賞や競馬などの払戻金は、宝くじと同じ扱いになるとは限らないと公式FAQ・解説で扱われている。
 claim: 懸賞や競馬などの払戻金は、宝くじと同じ扱いになるとは限らない
 sources:
-- url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
-  publisher: 国税庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
+    publisher: 国税庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

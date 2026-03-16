@@ -1,20 +1,20 @@
 id: space-0040
 title: ロケットの打上げ日は天候だけでなく機体や追跡系の条件でも変わる
 genres:
-- 宇宙
+  - 宇宙
 tags:
-- JAXA
+  - JAXA
 summary: ロケットの打上げ日は天候だけでなく機体や追跡系の条件でも変わると公式FAQ・解説で扱われている。
 claim: ロケットの打上げ日は天候だけでなく機体や追跡系の条件でも変わる
 sources:
-- url: https://fanfun.jaxa.jp/faq/
-  publisher: JAXA
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://fanfun.jaxa.jp/faq/
+    publisher: JAXA
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

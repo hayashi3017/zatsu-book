@@ -1,21 +1,21 @@
 id: finance-0033
 title: 金融政策で動かすのは主に短期金利や資金供給条件で、銀行の窓口金利そのものを直接決めるわけではない
 genres:
-- 金融
+  - 金融
 tags:
-- 日本銀行
-- 金融
+  - 日本銀行
+  - 金融
 summary: 金融政策で動かすのは主に短期金利や資金供給条件で、銀行の窓口金利そのものを直接決めるわけではないと公式FAQ・解説で扱われている。
 claim: 金融政策で動かすのは主に短期金利や資金供給条件で、銀行の窓口金利そのものを直接決めるわけではない
 sources:
-- url: https://www.boj.or.jp/about/education/oshiete/
-  publisher: 日本銀行
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.boj.or.jp/about/education/oshiete/
+    publisher: 日本銀行
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

@@ -1,21 +1,21 @@
 id: food-0028
 title: 米は生鮮食品に近く、香りや食味は保存条件の影響を受ける
 genres:
-- 食べ物
+  - 食べ物
 tags:
-- 農林水産省
-- 食
+  - 農林水産省
+  - 食
 summary: 米は生鮮食品に近く、香りや食味は保存条件の影響を受けると公式FAQ・解説で扱われている。
 claim: 米は生鮮食品に近く、香りや食味は保存条件の影響を受ける
 sources:
-- url: https://www.maff.go.jp/j/pr/aff/
-  publisher: 農林水産省
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.maff.go.jp/j/pr/aff/
+    publisher: 農林水産省
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

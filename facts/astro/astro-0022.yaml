@@ -1,23 +1,23 @@
 id: astro-0022
 title: 白夜は「太陽が沈まない」状態、薄明が一晩中続く状態とは区別される
 genres:
-- 天文
-- 太陽
+  - 天文
+  - 太陽
 tags:
-- 国立天文台
-- 白夜
-- 薄明
+  - 国立天文台
+  - 白夜
+  - 薄明
 summary: 白夜は「太陽が沈まない」状態、薄明が一晩中続く状態とは区別されると公式FAQ・解説で扱われている。
 claim: 白夜は「太陽が沈まない」状態、薄明が一晩中続く状態とは区別される
 sources:
-- url: https://www.nao.ac.jp/faq/
-  publisher: 国立天文台
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.nao.ac.jp/faq/
+    publisher: 国立天文台
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

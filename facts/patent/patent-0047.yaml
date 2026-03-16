@@ -1,21 +1,21 @@
 id: patent-0047
 title: 出願時に書かなかった内容を後から足して広げることは原則できない
 genres:
-- 知財
+  - 知財
 tags:
-- 特許庁
-- 知財
+  - 特許庁
+  - 知財
 summary: 出願時に書かなかった内容を後から足して広げることは原則できないと公式FAQ・解説で扱われている。
 claim: 出願時に書かなかった内容を後から足して広げることは原則できない
 sources:
-- url: https://www.jpo.go.jp/faq/yokuaru/index.html
-  publisher: 特許庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.jpo.go.jp/faq/yokuaru/index.html
+    publisher: 特許庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

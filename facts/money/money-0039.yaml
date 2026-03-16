@@ -1,23 +1,23 @@
 id: money-0039
 title: 10円貨に平等院鳳凰堂が選ばれた詳しい理由は分かっていないと造幣局が説明している
 genres:
-- お金
-- デザイン
+  - お金
+  - デザイン
 tags:
-- 造幣局
-- 10円玉
-- 平等院
+  - 造幣局
+  - 10円玉
+  - 平等院
 summary: 10円貨に平等院鳳凰堂が選ばれた詳しい理由は分かっていないと造幣局が説明していると公式FAQ・解説で扱われている。
 claim: 10円貨に平等院鳳凰堂が選ばれた詳しい理由は分かっていないと造幣局が説明している
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

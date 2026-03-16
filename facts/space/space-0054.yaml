@@ -1,20 +1,20 @@
 id: space-0054
 title: 太陽電池パネルは宇宙で劣化するので、衛星の発電能力はずっと一定ではない
 genres:
-- 宇宙
+  - 宇宙
 tags:
-- JAXA
+  - JAXA
 summary: 太陽電池パネルは宇宙で劣化するので、衛星の発電能力はずっと一定ではないと公式FAQ・解説で扱われている。
 claim: 太陽電池パネルは宇宙で劣化するので、衛星の発電能力はずっと一定ではない
 sources:
-- url: https://fanfun.jaxa.jp/faq/
-  publisher: JAXA
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://fanfun.jaxa.jp/faq/
+    publisher: JAXA
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

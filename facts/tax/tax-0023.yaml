@@ -1,21 +1,21 @@
 id: tax-0023
 title: 扶養控除でいう「扶養」は、社会保険の扶養と同じ基準ではない
 genres:
-- 税
+  - 税
 tags:
-- 国税庁
-- 税
+  - 国税庁
+  - 税
 summary: 扶養控除でいう「扶養」は、社会保険の扶養と同じ基準ではないと公式FAQ・解説で扱われている。
 claim: 扶養控除でいう「扶養」は、社会保険の扶養と同じ基準ではない
 sources:
-- url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
-  publisher: 国税庁
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm
+    publisher: 国税庁
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

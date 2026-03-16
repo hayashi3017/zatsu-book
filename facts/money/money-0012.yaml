@@ -1,23 +1,23 @@
 id: money-0012
 title: 現行通常貨で貨幣の年号面を裏とするのは法律ではなく造幣局の整理上の扱いである
 genres:
-- お金
-- 制度
+  - お金
+  - 制度
 tags:
-- 造幣局
-- 表裏
-- 貨幣
+  - 造幣局
+  - 表裏
+  - 貨幣
 summary: 現行通常貨で貨幣の年号面を裏とするのは法律ではなく造幣局の整理上の扱いであると公式FAQ・解説で扱われている。
 claim: 現行通常貨で貨幣の年号面を裏とするのは法律ではなく造幣局の整理上の扱いである
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

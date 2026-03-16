@@ -1,23 +1,23 @@
 id: money-0044
 title: 5円貨の字体は1959年から現在のゴシック体になった
 genres:
-- お金
-- 歴史
+  - お金
+  - 歴史
 tags:
-- 造幣局
-- 5円玉
-- 字体
+  - 造幣局
+  - 5円玉
+  - 字体
 summary: 5円貨の字体は1959年から現在のゴシック体になったと公式FAQ・解説で扱われている。
 claim: 5円貨の字体は1959年から現在のゴシック体になった
 sources:
-- url: https://www.mint.go.jp/faq-list/faq_coin
-  publisher: 造幣局
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.mint.go.jp/faq-list/faq_coin
+    publisher: 造幣局
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null

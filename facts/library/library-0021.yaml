@@ -1,21 +1,21 @@
 id: library-0021
 title: 複写料金は著作権使用料ではなく、主に作業や媒体の対価として設定されている
 genres:
-- 図書館
+  - 図書館
 tags:
-- 国立国会図書館
-- 図書館
+  - 国立国会図書館
+  - 図書館
 summary: 複写料金は著作権使用料ではなく、主に作業や媒体の対価として設定されていると公式FAQ・解説で扱われている。
 claim: 複写料金は著作権使用料ではなく、主に作業や媒体の対価として設定されている
 sources:
-- url: https://www.ndl.go.jp/help
-  publisher: 国立国会図書館
-  kind: official
-  accessed_at: '2026-03-15'
+  - url: https://www.ndl.go.jp/help
+    publisher: 国立国会図書館
+    kind: official
+    accessed_at: "2026-03-15"
 evidence_note: 公式FAQ・解説ページを参照。
-status: draft
-created_at: '2026-03-15'
-updated_at: '2026-03-15'
+status: published
+created_at: "2026-03-15"
+updated_at: "2026-03-15"
 aliases: []
 duplicate_of: null
 supersedes: null
