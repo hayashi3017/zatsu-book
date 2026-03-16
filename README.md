@@ -27,7 +27,7 @@ make doctor
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` は `main` への push で `book/` を生成し、GitHub Pages に deploy します。
+`.github/workflows/pages.yml` は `main` への push で `book/html/` を生成し、GitHub Pages に deploy します。
 
 Repository Settings では `Pages > Source` を `GitHub Actions` に設定してください。project site の URL は `https://hayashi3017.github.io/zatsu-book/` です。
 
