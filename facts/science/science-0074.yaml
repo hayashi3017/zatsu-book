@@ -1,0 +1,25 @@
+id: science-0074
+title: 生き物によっては、体重の9割が水ということもある
+genres:
+- 科学
+- 生物
+- 人体
+tags:
+- 水
+- 生物
+- 体組成
+summary: USGSは、一部の生物では体重の90%が水に達すると述べている。
+claim: 生物によっては、体重の90%近くが水で占められる。
+sources:
+- url: https://www.usgs.gov/water-science-school/science/water-you-water-and-human-body
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: USGS page says some organisms are up to 90% water by body weight.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0052
+title: 海底の熱水噴出域は、太陽光ではなく化学反応を基盤にした生態系を支える
+genres:
+- 科学
+- 地学
+- 海洋
+tags:
+- 熱水噴出孔
+- 深海
+- 生命
+summary: USGSの海底解説では、熱水噴出域が化学合成生物と関連生態系を支えると説明されている。
+claim: 海底熱水噴出域は、化学合成に基づく生態系を支える。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Ocean article notes hydrothermal activity supports chemosynthetic life
+  forms and related ecosystems.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

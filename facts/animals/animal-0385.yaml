@@ -1,0 +1,24 @@
+id: animal-0385
+title: ナマケモノは遅いが、いざとなれば長い爪と歯で反撃できる
+genres:
+- 動物
+- 動物園
+tags:
+- ナマケモノ
+- 防御
+- 爪
+summary: 同園のQ&Aでは、ナマケモノは普段は擬態に頼るが、脅かされると3〜4インチの爪と歯で身を守れると説明される。
+claim: ナマケモノは、3〜4インチの長い爪と歯で防御できる。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/why-are-sloths-so-slow-and-other-sloth-facts
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: 3- to 4-inch claws and teeth defend.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0024
+title: 土星の風速は時速1800 km級に達する
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 土星
+- 風
+- 大気
+summary: NASAの解説では、土星の大気風速は時速1,800 kmに達しうるとされる。
+claim: 土星には、時速1,800 km級の非常に速い風が吹く。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 5 states Saturn’s winds can reach 1,118 miles (1,800
+  kilometers) per hour.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

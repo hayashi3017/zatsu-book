@@ -1,0 +1,24 @@
+id: animal-0438
+title: ジャイアントピンクスターは直径28インチ級まで大きくなる
+genres:
+- 動物
+- 水族館
+tags:
+- ヒトデ
+- 大型
+- 底生
+summary: 同館の記事では giant pink star が最大28インチ程度まで育つと紹介されている。
+claim: ジャイアントピンクスターは、直径28インチ級まで大きくなる。
+sources:
+- url: https://www.sheddaquarium.org/stories/life-at-the-bottom-eight-aquatic-animals-in-the-benthic-zone
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: grow up to 28 inches in diameter.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

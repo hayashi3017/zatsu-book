@@ -1,0 +1,26 @@
+id: science-0027
+title: 土星の北極には、六角形のジェット気流がある
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 土星
+- 六角形
+- ジェット気流
+summary: NASAは、土星北極を囲む六角形のジェット気流を代表的な特徴として挙げている。
+claim: 土星の北極には、六角形のジェット気流が存在する。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 5 mentions a hexagon-shaped jet stream encircling Saturn’s
+  north pole.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

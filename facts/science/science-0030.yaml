@@ -1,0 +1,26 @@
+id: science-0030
+title: ボイジャーの計算速度は、現代スマホより何百万分の一も遅い
+genres:
+- 科学
+- 天文
+- 宇宙探査
+tags:
+- ボイジャー
+- コンピュータ
+- 歴史
+summary: NASAのFAQによると、Voyagerのコンピュータは毎秒約8,000命令しか処理できず、現代スマートフォンは140億命令/秒を超える。
+claim: ボイジャーのコンピュータ性能は、現代のスマートフォンより桁違いに低い。
+sources:
+- url: https://science.nasa.gov/mission/voyager/frequently-asked-questions/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: FAQ quick facts compare 8,000 instructions per second for Voyager with
+  over 14 billion for a smartphone.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

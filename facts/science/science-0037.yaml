@@ -1,0 +1,25 @@
+id: science-0037
+title: ガニメデでは、体重150ポンドの人が22.5ポンド相当にしかならない
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- ガニメデ
+- 重力
+- 木星
+summary: NASAのガリレオ特集では、ガニメデ表面重力は地球の15%で、150ポンドの人は22.5ポンド相当にしかならないとされる。
+claim: ガニメデの表面重力は地球の約15%しかない。
+sources:
+- url: https://science.nasa.gov/solar-system/sixty-five-amazing-galileo-facts/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Fact list states Ganymede’s surface gravity is only 15% that of Earth.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

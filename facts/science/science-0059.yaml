@@ -1,0 +1,26 @@
+id: science-0059
+title: 地震は、地球内部を“透視”するための天然X線みたいに使える
+genres:
+- 科学
+- 地学
+- 地震
+tags:
+- 地球内部
+- 地震波
+- 観測
+summary: USGSは、地震波を使って核-マントル境界や沈み込み帯など地球内部構造を調べられると説明している。
+claim: 地震波は、地球内部の構造を探るための重要な手段である。
+sources:
+- url: https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Earthquake facts page says scientists can use earthquakes and seismic
+  waves to see all of Earth’s interior.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

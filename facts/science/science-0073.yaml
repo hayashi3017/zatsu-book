@@ -1,0 +1,25 @@
+id: science-0073
+title: 大人の体は、体重の最大6割ほどが水
+genres:
+- 科学
+- 人体
+- 生物
+tags:
+- 水
+- 人体
+- 体組成
+summary: USGSは、成人の体は最大60%程度が水だと説明している。
+claim: 成人の体は、最大で約60%が水でできている。
+sources:
+- url: https://www.usgs.gov/water-science-school/science/water-you-water-and-human-body
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: USGS page says up to 60% of the human adult body is water.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,24 @@
+id: animal-0021
+title: ハダカデバネズミは哺乳類なのに真社会性を示す
+genres:
+  - 動物
+  - 哺乳類
+tags:
+  - 真社会性
+  - 地下生活
+  - ハダカデバネズミ
+summary: ハダカデバネズミは哺乳類なのに真社会性を示す。
+claim: ハダカデバネズミは哺乳類なのに真社会性を示す。
+sources:
+  - url: https://nationalzoo.si.edu/animals/list
+    publisher: Smithsonian's National Zoo
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

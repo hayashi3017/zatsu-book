@@ -1,0 +1,26 @@
+id: science-0053
+title: 最終氷期には、海面が今より約120 m低かった
+genres:
+- 科学
+- 地学
+- 気候史
+tags:
+- 氷期
+- 海面
+- 地史
+summary: USGSは、最終氷期には海面が現在より約400フィート低く、アジアから北米へ渡れたと説明している。
+claim: 最終氷期の海面は、現在より約400フィート低かった。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Ocean article says during the last ice age the ocean was 400 feet lower
+  than today.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

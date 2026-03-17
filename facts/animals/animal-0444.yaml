@@ -1,0 +1,24 @@
+id: animal-0444
+title: ロックホッパーペンギンは本当に“跳ねるから”その名前である
+genres:
+- 動物
+- 水族館
+tags:
+- ペンギン
+- 名前
+- 行動
+summary: 同館は、ロックホッパーが岩場を hop/bounce して移動することが名前の由来だと説明している。
+claim: ロックホッパーペンギンは、跳ねる移動様式からその名が付いた。
+sources:
+- url: https://www.sheddaquarium.org/stories/meet-the-penguins
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: named for unique mode of locomotion.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

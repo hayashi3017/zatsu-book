@@ -1,0 +1,26 @@
+id: science-0047
+title: 海は、地球の気候にとって“心臓”のように熱と水分を回している
+genres:
+- 科学
+- 地学
+- 気候
+tags:
+- 海洋
+- 気候
+- 循環
+summary: USGSは、海流が熱と水分を全球に循環させるため、海は地球気候の“心臓”のような役割を果たすと説明している。
+claim: 海は、熱と水分を循環させることで地球気候の心臓のような役割を担う。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Top 10 list item 3 likens the ocean to the planet’s heart for climate
+  regulation.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

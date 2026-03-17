@@ -1,0 +1,24 @@
+id: animal-0437
+title: 巨大太平洋ナマコには赤いトゲがある
+genres:
+- 動物
+- 水族館
+tags:
+- ナマコ
+- トゲ
+- 底生
+summary: シェッド水族館は、巨大太平洋ナマコが捕食者対策として目立つ赤い突起を持つと説明している。
+claim: 巨大太平洋ナマコは、赤いトゲ状の突起を持つ。
+sources:
+- url: https://www.sheddaquarium.org/stories/life-at-the-bottom-eight-aquatic-animals-in-the-benthic-zone
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: bright red spikes to ward off predators.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

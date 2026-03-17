@@ -1,0 +1,24 @@
+id: animal-0361
+title: フラミンゴの巣は泥の“ミニ火山”みたいな形になる
+genres:
+- 動物
+- 動物園
+tags:
+- フラミンゴ
+- 巣
+- 鳥
+summary: スミソニアン国立動物園の解説では、フラミンゴの巣は大きな卵1個を置ける泥の小山で、見た目はミニ火山のようだと説明されている。
+claim: フラミンゴは、泥を盛ったミニ火山のような巣を作る。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: 1. Flamingo nests are made of mud.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

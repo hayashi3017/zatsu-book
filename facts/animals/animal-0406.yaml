@@ -1,0 +1,24 @@
+id: animal-0406
+title: ベニヘラサギは目で狙うより“触って見つける”鳥である
+genres:
+- 動物
+- 動物園
+tags:
+- ベニヘラサギ
+- 触覚
+- 採食
+summary: 同園の解説では、ベニヘラサギは水中で頭を左右に振り、くちばしの神経で獲物に触れた瞬間にパチンと閉じる。
+claim: ベニヘラサギは、視覚より触覚で獲物を探して食べる。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/bold-bizarre-and-brilliant-8-fascinating-facts-about-roseate-spoonbill
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Sensitive nerve endings snap bill shut.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

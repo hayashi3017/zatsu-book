@@ -1,0 +1,24 @@
+id: animal-0408
+title: ライオンは大きなネコなのに満足そうな“ゴロゴロ”はできない
+genres:
+- 動物
+- 動物園
+tags:
+- ライオン
+- 鳴き声
+- ネコ科
+summary: スミソニアン国立動物園のQ&Aでは、ライオンやトラなどの大型ネコ科は喉の構造の違いにより、小型ネコのような喉鳴らしをしないと説明されている。
+claim: ライオンは、小型ネコのような意味でのゴロゴロ音を出せない。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/do-lions-actually-purr-and-other-questions-answered
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Do lions purr? No.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

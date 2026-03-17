@@ -1,0 +1,25 @@
+id: science-0080
+title: "心臓の細胞更新率は若いほど高く、年齢とともに落ちていく"
+genres:
+  - 科学
+  - 人体
+  - 論文
+tags:
+  - 心臓
+  - 老化
+  - 細胞
+summary: "同研究では、心筋細胞の年間更新率は25歳で約1%、75歳で約0.45%と報告されている。"
+claim: "ヒト心筋の更新率は、若年で高く高齢で低下する。"
+sources:
+  - url: https://pubmed.ncbi.nlm.nih.gov/19342590/
+    publisher: Science / PubMed
+    kind: primary
+    accessed_at: "2026-03-17"
+evidence_note: "Abstract states turnover decreases from about 1% annually at age 25 to 0.45% at age 75."
+status: published
+created_at: "2026-03-17"
+updated_at: "2026-03-17"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

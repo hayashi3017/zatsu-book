@@ -1,0 +1,25 @@
+id: science-0064
+title: 雷鳴は“音そのもの”というより、超加熱空気がつくる衝撃波
+genres:
+- 科学
+- 気象
+- 音
+tags:
+- 雷鳴
+- 衝撃波
+- 空気
+summary: NOAAは、雷で超高温になった空気が急膨張して衝撃波を作り、それが雷鳴になると説明している。
+claim: 雷鳴は、雷で急膨張した空気が生む衝撃波である。
+sources:
+- url: https://www.nesdis.noaa.gov/about/k-12-education/severe-weather/what-causes-lightning-and-thunder
+  publisher: NOAA
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: NOAA says the heated air expands explosively, creating a shockwave.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0051
+title: 人類は、深海より“宇宙の物理化学的性質”の方をよく知っている
+genres:
+- 科学
+- 地学
+- 海洋
+tags:
+- 深海
+- 宇宙
+- 比較
+summary: USGSは、深海域よりも宇宙の物理・化学的性質の方がよく分かっていると述べている。
+claim: 人類は、地球の深海より宇宙の物理・化学的性質をよく理解している。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Top 10 list item 5 says humans know more about the physical and chemical
+  properties of outer space than Earth’s deep ocean.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

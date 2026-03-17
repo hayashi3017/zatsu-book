@@ -1,0 +1,24 @@
+id: plant-0258
+title: ランは世界中で多様化した巨大グループだ
+genres:
+  - 植物
+  - ラン科
+tags:
+  - 多様性
+  - 特殊な受粉
+  - ラン
+summary: ランは世界中で多様化した巨大グループだ。
+claim: ランは世界中で多様化した巨大グループだ。
+sources:
+  - url: https://powo.science.kew.org/
+    publisher: Royal Botanic Gardens, Kew
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

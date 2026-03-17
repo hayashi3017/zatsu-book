@@ -1,0 +1,24 @@
+id: animal-0441
+title: サンゴは植物でも岩でもなく動物である
+genres:
+- 動物
+- 水族館
+tags:
+- サンゴ
+- 分類
+- 海
+summary: シェッド水族館の“surprising facts”では、サンゴは植物や岩と誤解されがちだが動物だと明言されている。
+claim: サンゴは、植物ではなく動物である。
+sources:
+- url: https://www.sheddaquarium.org/stories/seven-surprising-facts-about-coral
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Corals Are Animals.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

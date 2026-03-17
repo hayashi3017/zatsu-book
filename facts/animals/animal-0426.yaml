@@ -1,0 +1,24 @@
+id: animal-0426
+title: タコの系統は約1億4000万年前にはすでにいた
+genres:
+- 動物
+- 水族館
+tags:
+- タコ
+- 進化
+- 古生物
+summary: 同館の記事では、タコは約1億4000万年前の後期ジュラ紀までさかのぼると紹介されている。
+claim: タコの系統は、約1億4000万年前にはすでに存在していた。
+sources:
+- url: https://www.sheddaquarium.org/stories/eight-strange-and-wonderful-facts-about-octopuses
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Late Jurassic period, about 140 million years ago.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

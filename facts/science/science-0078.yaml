@@ -1,0 +1,25 @@
+id: science-0078
+title: "人は実際には“うっすら光っている”が、肉眼では見えない"
+genres:
+  - 科学
+  - 人体
+  - 論文
+tags:
+  - 光
+  - 人体
+  - 生体発光
+summary: "PLOS ONEの研究は、人間の体が日周変動を伴う超微弱な光を放っているが、その強さは肉眼感度の約1000分の1だと報告した。"
+claim: "人の体は超微弱な可視光を放っているが、肉眼では見えない。"
+sources:
+  - url: https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0006256
+    publisher: PLOS ONE
+    kind: primary
+    accessed_at: "2026-03-17"
+evidence_note: "Abstract says the human body directly and rhythmically emits light at intensities 1000 times lower than naked-eye sensitivity."
+status: published
+created_at: "2026-03-17"
+updated_at: "2026-03-17"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

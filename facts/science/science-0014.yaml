@@ -1,0 +1,26 @@
+id: science-0014
+title: 皆既日食が見えるのは、地球上の“細い帯”だけ
+genres:
+- 科学
+- 科学館
+- 天文
+tags:
+- 日食
+- 月
+- 影
+summary: Franklin Instituteによると、皆既日食で月が太陽を隠す影は地球上の非常に狭い帯状の範囲しか通らない。
+claim: 皆既日食を見られる場所は、地球上の細い帯状の地域に限られる。
+sources:
+- url: https://fi.edu/en/blog/solar-eclipse-chile-and-argentina
+  publisher: The Franklin Institute
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Blog says the Moon blocks sunlight from reaching a very narrow strip
+  of Earth.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

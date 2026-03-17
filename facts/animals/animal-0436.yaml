@@ -1,0 +1,24 @@
+id: animal-0436
+title: 巨大太平洋ナマコは2フィート級まで育つ
+genres:
+- 動物
+- 水族館
+tags:
+- ナマコ
+- 大型
+- 底生
+summary: 同館の benthic article では、giant Pacific sea cucumber は2フィート超まで育つと説明される。
+claim: 巨大太平洋ナマコは、2フィート級まで成長する。
+sources:
+- url: https://www.sheddaquarium.org/stories/life-at-the-bottom-eight-aquatic-animals-in-the-benthic-zone
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: capable of growing up to 2 feet.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

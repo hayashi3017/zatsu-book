@@ -1,0 +1,26 @@
+id: science-0075
+title: 水は、体の中を流れる“栄養や化学物質の運び屋”でもある
+genres:
+- 科学
+- 人体
+- 化学
+tags:
+- 水
+- 栄養
+- 人体
+summary: USGSの解説では、水は体内を移動しながら化学物質・ミネラル・栄養を運ぶ役割を担う。
+claim: 水は、体内で栄養や化学物質を運ぶ媒体でもある。
+sources:
+- url: https://www.usgs.gov/water-science-school/science/water-universal-solvent
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: USGS page says wherever water goes, it takes along valuable chemicals,
+  minerals, and nutrients.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

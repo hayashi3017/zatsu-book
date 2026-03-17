@@ -1,0 +1,24 @@
+id: animal-0401
+title: ジャイアントパンダの父親は子育てにほぼ関与しない
+genres:
+- 動物
+- 動物園
+tags:
+- ジャイアントパンダ
+- 父親
+- 子育て
+summary: 同園の50 facts では、オスは子の世話をせず、野生では父子が一度も会わないこともあるとされる。
+claim: ジャイアントパンダのオスは、子育てにほとんど関与しない。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/50-panda-facts-celebrate-50-years-giant-pandas-smithsonians-national-zoo
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Fact 38.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

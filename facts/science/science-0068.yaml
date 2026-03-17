@@ -1,0 +1,26 @@
+id: science-0068
+title: 大規模山火事は、周囲の風に乗るだけでなく“自前の風”を作ることがある
+genres:
+- 科学
+- 気象
+- 災害
+tags:
+- 火災
+- 火災気象
+- 風
+summary: NOAA SciJinksは、火災が強い熱で独自の風系を作り出す現象をファイアストームと説明している。
+claim: 大規模火災は、自前の風系を生み出すことがある。
+sources:
+- url: https://scijinks.gov/firestorm/
+  publisher: NOAA SciJinks
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: SciJinks says a firestorm occurs when heat from a wildfire creates
+  its own wind system.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,25 @@
+id: science-0079
+title: "心臓の筋肉細胞は“生まれたときのまま一生固定”ではない"
+genres:
+  - 科学
+  - 人体
+  - 論文
+tags:
+  - 心臓
+  - 再生
+  - 細胞
+summary: "Science掲載研究は、核実験由来の炭素14を利用して、ヒト心筋細胞が成人後もゆっくり更新される証拠を示した。"
+claim: "ヒトの心筋細胞は、成人後もごくゆっくり更新される。"
+sources:
+  - url: https://pubmed.ncbi.nlm.nih.gov/19342590/
+    publisher: Science / PubMed
+    kind: primary
+    accessed_at: "2026-03-17"
+evidence_note: "Abstract reports cardiomyocyte renewal in humans with age-dependent turnover."
+status: published
+created_at: "2026-03-17"
+updated_at: "2026-03-17"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

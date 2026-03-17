@@ -1,0 +1,24 @@
+id: animal-0363
+title: フラミンゴのヒナは最初からピンクでも曲がったくちばしでもない
+genres:
+- 動物
+- 動物園
+tags:
+- フラミンゴ
+- ヒナ
+- 鳥
+summary: 同園の解説では、フラミンゴのヒナは白灰色の綿毛とまっすぐなくちばしで生まれ、ピンク色や独特の形になるまで数年かかる。
+claim: フラミンゴのヒナは、最初は白灰色で、くちばしもまっすぐである。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Chicks hatch with white-gray feathers and straight bills.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

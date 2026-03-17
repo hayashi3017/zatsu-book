@@ -1,0 +1,26 @@
+id: science-0026
+title: 土星の極の渦には、地球のハリケーンのような“アイウォール雲”がある
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 土星
+- ハリケーン
+- 雲
+summary: NASAの惑星大気記事では、土星の極渦にはアイウォール雲があり、地球のハリケーンのようだと記されている。
+claim: 土星の極渦には、ハリケーンのようなアイウォール雲がある。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 5 states the vortices have eye-wall clouds, making them
+  hurricane-like systems.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0062
+title: カリフォルニアは海に落ちるどころか、長期的にはアラスカの方へ動いている
+genres:
+- 科学
+- 地学
+- プレート
+tags:
+- カリフォルニア
+- プレート
+- 断層
+summary: USGSは、南西カリフォルニアは中央・東部カリフォルニアに対して北へ、つまりアラスカ方向へ動いていると説明している。
+claim: カリフォルニアは海へ落ちるのではなく、長期的にはアラスカ方向へ動いている。
+sources:
+- url: https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Earthquake facts page says southwestern California is moving horizontally
+  northward toward Alaska.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

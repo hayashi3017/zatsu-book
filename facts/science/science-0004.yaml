@@ -1,0 +1,26 @@
+id: science-0004
+title: 氷を使って水を沸騰させることができる
+genres:
+- 科学
+- 科学館
+- 物理
+tags:
+- 沸騰
+- 気圧
+- 氷
+summary: Museum of Scienceの実験解説では、低圧環境を作れれば氷を使っても水を沸騰させられると紹介している。
+claim: 低圧を作れば、氷を使って水を沸騰させることができる。
+sources:
+- url: https://www.mos.org/video/using-ice-boil-water-science-experiment
+  publisher: Museum of Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Video description explicitly says you can boil water using ice by creating
+  a low-pressure atmosphere.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

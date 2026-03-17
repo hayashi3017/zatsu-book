@@ -1,0 +1,25 @@
+id: science-0066
+title: 1本の雷は、長さ8 km超に達することがある
+genres:
+- 科学
+- 気象
+- 電気
+tags:
+- 雷
+- 長さ
+- 大気
+summary: NOAA Ocean Todayは、1回の放電が5マイルを超える長さに達することがあると説明している。
+claim: 雷1本の長さは、5マイルを超えることがある。
+sources:
+- url: https://oceantoday.noaa.gov/lightning/
+  publisher: NOAA Ocean Today
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Transcript says each spark can span over five miles in length.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0019
+title: 金星の大気中CO2は、地球の大気より約15万倍も多い
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 金星
+- 二酸化炭素
+- 温室効果
+summary: NASAによれば、金星大気の二酸化炭素量は地球大気の約154,000倍にのぼる。
+claim: 金星の大気中の二酸化炭素量は、地球大気と比べて桁違いに多い。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 3 says Venus has about 154,000 times more carbon dioxide
+  in its atmosphere than Earth.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

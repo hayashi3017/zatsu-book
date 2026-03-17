@@ -1,0 +1,26 @@
+id: science-0006
+title: バラは液体窒素で“花のままガラス化したように”砕ける
+genres:
+- 科学
+- 科学館
+- 化学
+tags:
+- 液体窒素
+- 低温
+- 脆性
+summary: Museum of Scienceの動画では、バラを液体窒素に浸して十分に冷やすと、極端に脆くなって簡単に砕けることが示されている。
+claim: バラは液体窒素で凍らせると、非常にもろくなって砕ける。
+sources:
+- url: https://www.mos.org/video/rose-frozen-liquid-nitrogen-shatters
+  publisher: Museum of Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Video description says the frozen rose becomes brittle enough to shatter
+  easily.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

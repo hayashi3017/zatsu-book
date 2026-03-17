@@ -1,0 +1,26 @@
+id: science-0038
+title: ブラックホールには“表面”がない
+genres:
+- 科学
+- 天文
+- 宇宙
+tags:
+- ブラックホール
+- 重力
+- 空間
+summary: ESA for Kidsは、ブラックホールは惑星や恒星のような表面をもたず、物質が極小領域へ崩壊した空間領域だと説明している。
+claim: ブラックホールには、惑星や恒星のような表面はない。
+sources:
+- url: https://www.esa.int/kids/en/learn/Our_Universe/Story_of_the_Universe/Black_Holes
+  publisher: ESA
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: ESA page says a black hole does not have a surface like a planet or
+  star.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

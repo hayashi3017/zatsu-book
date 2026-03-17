@@ -1,0 +1,24 @@
+id: animal-0431
+title: 両生類は皮膚でも呼吸する
+genres:
+- 動物
+- 水族館
+tags:
+- 両生類
+- 皮膚
+- 呼吸
+summary: シェッド水族館の facts では、両生類は透過性の高い皮膚を通じて水分を吸収し、空気もやり取りすると説明している。
+claim: 両生類は、皮膚でも呼吸する。
+sources:
+- url: https://www.sheddaquarium.org/stories/22-animal-facts-for-2022
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: 16. Skin breather.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

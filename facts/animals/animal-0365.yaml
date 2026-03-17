@@ -1,0 +1,24 @@
+id: animal-0365
+title: フラミンゴは頭を逆さにして食べる
+genres:
+- 動物
+- 動物園
+tags:
+- フラミンゴ
+- 採食
+- ろ過
+summary: 同園の解説では、フラミンゴは採食時に頭を逆さにして水中へ入れ、舌で水を出し入れしてくちばしのフィルターに食べ物を残す。
+claim: フラミンゴは、頭を逆さにして水中でろ過しながら食べる。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Flamingos are filter feeders and turn their heads upside down.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

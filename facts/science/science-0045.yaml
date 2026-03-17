@@ -1,0 +1,26 @@
+id: science-0045
+title: 地球上の水は多そうで、地球全体から見ると“薄い膜”に近い
+genres:
+- 科学
+- 地学
+- 海洋
+tags:
+- 水
+- 地球
+- スケール
+summary: USGSは、地球全体の大きさと比較すると、海などの水は球体イメージでも薄い膜のように見えると示している。
+claim: 地球の水は大量に見えても、地球全体のスケールでは薄い膜に近い。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: USGS notes that the water spheres look surprisingly small and oceans
+  are only a thin film on Earth.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

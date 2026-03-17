@@ -1,0 +1,25 @@
+id: science-0044
+title: 地球の水の96.5%は海にある
+genres:
+- 科学
+- 地学
+- 海洋
+tags:
+- 海
+- 水
+- 地球
+summary: USGSによれば、地球上の水の約96.5%は海に存在する。
+claim: 地球上の水のほとんどは海にあり、その割合は約96.5%である。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Top 10 list item 1 says the ocean holds about 96.5% of Earth’s water.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

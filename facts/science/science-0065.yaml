@@ -1,0 +1,26 @@
+id: science-0065
+title: 雷鳴が“バキッ”のあと“ゴロゴロ”するのは、空気の振動が続くから
+genres:
+- 科学
+- 気象
+- 音
+tags:
+- 雷鳴
+- 振動
+- 音
+summary: NOAAの同ページは、空気が急圧縮・膨張した後も振動し続けるため、鋭いクラック音に続いてゴロゴロした音が生じると説明している。
+claim: 雷鳴がクラック音の後にゴロゴロ続くのは、空気柱の振動が続くからである。
+sources:
+- url: https://www.nesdis.noaa.gov/about/k-12-education/severe-weather/what-causes-lightning-and-thunder
+  publisher: NOAA
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: NOAA page says the air then contracts rapidly, creating an initial
+  crack followed by rumbles as the air column continues to vibrate.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0002
+title: 私たちは常に“約15 psi”の空気圧に押されている
+genres:
+- 科学
+- 科学館
+- 物理
+tags:
+- 空気圧
+- 沸騰
+- 真空
+summary: Museum of Scienceは、私たちの周囲には約15ポンド毎平方インチの空気圧がかかっており、それが通常は水分子を液体に保つ側に働くと説明している。
+claim: 私たちの周囲には約15 psiの空気圧がかかっていて、それが普通は水を液体に保つのに一役買っている。
+sources:
+- url: https://www.mos.org/video/vacuum-chamber-science-watch-water-boil-room-temp
+  publisher: Museum of Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Video description states air pressure exerts about 15 pounds of force
+  per square inch on everything around us.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

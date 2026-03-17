@@ -1,0 +1,24 @@
+id: animal-0433
+title: ペンギンは羽を少しずつではなく“一気に”抜け替える
+genres:
+- 動物
+- 水族館
+tags:
+- ペンギン
+- 換羽
+- 鳥
+summary: シェッド水族館は、ペンギンが catastrophic molt と呼ばれる方式で、全身の羽を数週間でまとめて換羽すると説明している。
+claim: ペンギンは、羽を一気に抜け替える“カタストロフィックモルト”をする。
+sources:
+- url: https://www.sheddaquarium.org/stories/22-animal-facts-for-2022
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: 5. Bad feather day.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

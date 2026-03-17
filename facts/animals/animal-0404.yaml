@@ -1,0 +1,24 @@
+id: animal-0404
+title: 動物園はパンダ用の竹を自前でも育てている
+genres:
+- 動物
+- 動物園
+tags:
+- ジャイアントパンダ
+- 竹
+- 飼育
+summary: 同園の50 facts では、栄養部門が保全施設で竹を育て、ワシントンD.C.周辺の20か所の竹林からも採取していると説明されている。
+claim: スミソニアンは、パンダ用の竹を自前でも栽培している。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/50-panda-facts-celebrate-50-years-giant-pandas-smithsonians-national-zoo
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Fact 11.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

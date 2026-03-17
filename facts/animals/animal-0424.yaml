@@ -1,0 +1,24 @@
+id: animal-0424
+title: タコは泳ぐと主循環の心臓が止まるので歩くほうを好む
+genres:
+- 動物
+- 水族館
+tags:
+- タコ
+- 移動
+- 心臓
+summary: 同館では、タコは泳ぐと全身循環の心臓が止まり疲れやすいため、這って移動することを好むと説明している。
+claim: タコは、泳ぐと主循環の心臓が止まるので這って移動しがちである。
+sources:
+- url: https://www.sheddaquarium.org/stories/eight-strange-and-wonderful-facts-about-octopuses
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: The circulating heart stops beating while an octopus swims.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

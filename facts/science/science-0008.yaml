@@ -1,0 +1,26 @@
+id: science-0008
+title: カメラ・オブスクラの像が上下逆なのは、穴を通る光が直進するから
+genres:
+- 科学
+- 科学館
+- 光学
+tags:
+- カメラオブスクラ
+- 光
+- 像
+summary: Science Worldの解説では、暗箱の小孔を通る光は直進するため、外の景色が上下左右逆転した像として投影される。
+claim: カメラ・オブスクラの像が逆さまになるのは、光が小さな穴を通って直進するからである。
+sources:
+- url: https://www.scienceworld.ca/resource/camera-obscura/
+  publisher: Science World
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Resource states the projected image appears flipped upside-down and
+  inverted because light moves in a straight line through the hole.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

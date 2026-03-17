@@ -1,0 +1,26 @@
+id: science-0048
+title: 海の塩を全部陸に広げると、地表は高さ166m超の塩の層で覆える
+genres:
+- 科学
+- 地学
+- 海洋
+tags:
+- 塩
+- 海
+- 地球
+summary: USGSによると、海の塩を均等に陸へ広げた場合、その厚みは500フィート超になる。
+claim: 海の塩を全部陸へ均等に広げると、500フィート以上の層になる。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Top 10 list item 4 says the salt would form a layer more than 500 feet
+  thick.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

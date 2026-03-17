@@ -1,0 +1,26 @@
+id: science-0072
+title: M&Mの“m”は、水に浮かべるだけで溶け落ちる
+genres:
+- 科学
+- 化学
+- 科学館
+tags:
+- M&M
+- 溶解
+- 水
+summary: USGSの解説ページは、水にM&Mを置くと印刷されたMが溶けて落ちる簡単な観察を紹介している。
+claim: M&Mの表面の文字は、水につけるだけで溶け落ちる。
+sources:
+- url: https://www.usgs.gov/water-science-school/science/water-universal-solvent
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: USGS page includes the observation that you can dissolve the M off
+  an M&M in water.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

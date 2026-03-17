@@ -1,0 +1,24 @@
+id: animal-0388
+title: コモドドラゴンの歯は腐肉片が残りやすく、唾液が“危ない培地”になりうる
+genres:
+- 動物
+- 動物園
+tags:
+- コモドドラゴン
+- 口内
+- 細菌
+summary: スミソニアン国立動物園は、鋸歯状の歯の形のため腐った肉片が口に残りやすく、唾液中で有害細菌が増えやすいと説明する。
+claim: コモドドラゴンの歯は腐肉が残りやすく、口内で有害細菌が増えやすい。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/how-dangerous-are-komodo-dragons-and-other-komodo-dragon-facts
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: saliva into a mini-habitat for harmful bacteria.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

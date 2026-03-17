@@ -1,0 +1,26 @@
+id: science-0035
+title: Dawnは、人類で初めて準惑星を訪れた
+genres:
+- 科学
+- 天文
+- 宇宙探査
+tags:
+- Dawn
+- 準惑星
+- ケレス
+summary: NASAによれば、Dawnがケレスに到着したことで、人類は初めて準惑星を訪れた。
+claim: Dawnは、人類で初めて準惑星を訪れた探査機である。
+sources:
+- url: https://science.nasa.gov/mission/dawn/toolkit/quick-facts/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Quick facts say Dawn was the first spacecraft to visit a dwarf planet
+  when it arrived at Ceres.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

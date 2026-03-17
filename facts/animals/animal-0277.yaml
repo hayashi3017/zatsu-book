@@ -1,0 +1,24 @@
+id: animal-0277
+title: ブチハイエナは偏見に反して有能なハンターでもある
+genres:
+  - 動物
+  - 哺乳類
+tags:
+  - 社会
+  - 咬合力
+  - ブチハイエナ
+summary: ブチハイエナは偏見に反して有能なハンターでもある。
+claim: ブチハイエナは偏見に反して有能なハンターでもある。
+sources:
+  - url: https://nationalzoo.si.edu/animals/list
+    publisher: Smithsonian's National Zoo
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0025
+title: 土星は、南北両極に“暖かい極渦”を持つ珍しい惑星かもしれない
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 土星
+- 極
+- 渦
+summary: NASAは、土星が南北両極に暖かい極渦を持つ、太陽系でも珍しい惑星かもしれないとしている。
+claim: 土星は、南北両極に暖かい極渦を持つ珍しい惑星の可能性がある。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 5 says Saturn may be the only planet with a warm polar
+  vortex at both poles.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

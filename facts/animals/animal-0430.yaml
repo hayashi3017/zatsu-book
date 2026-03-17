@@ -1,0 +1,24 @@
+id: animal-0430
+title: 同じイルカは水面から20フィートも跳び上がれる
+genres:
+- 動物
+- 水族館
+tags:
+- イルカ
+- ジャンプ
+- 水族館
+summary: シェッド水族館の facts では、Pacific white-sided dolphins は20フィート跳び上がれると説明されている。
+claim: カマイルカの一種は、水面から20フィート跳び上がれる。
+sources:
+- url: https://www.sheddaquarium.org/stories/22-animal-facts-for-2022
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: can jump 20 feet.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

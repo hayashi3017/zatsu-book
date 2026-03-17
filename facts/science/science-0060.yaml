@@ -1,0 +1,25 @@
+id: science-0060
+title: 地震で地面が大きく口を開けて人を飲み込む、は基本フィクション
+genres:
+- 科学
+- 地学
+- 地震
+tags:
+- 断層
+- 映画
+- 地震神話
+summary: USGSは、断層が口を開けるというイメージは映画や小説の表現であり、現実の断層は横ずれするだけだと説明している。
+claim: 地震で断層が大きく口を開けて人をのみ込む、という現象は基本的に起きない。
+sources:
+- url: https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Earthquake facts page says gaping faults exist only in movies and novels.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

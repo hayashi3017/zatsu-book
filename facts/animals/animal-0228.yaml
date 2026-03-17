@@ -1,0 +1,24 @@
+id: animal-0228
+title: ヤドクガエルは熱帯雨林の小さな毒キャラとして有名だ
+genres:
+  - 動物
+  - 両生類
+tags:
+  - 毒
+  - 警告色
+  - ヤドクガエル
+summary: ヤドクガエルは熱帯雨林の小さな毒キャラとして有名だ。
+claim: ヤドクガエルは熱帯雨林の小さな毒キャラとして有名だ。
+sources:
+  - url: https://nationalzoo.si.edu/animals/list
+    publisher: Smithsonian's National Zoo
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

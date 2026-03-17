@@ -1,0 +1,26 @@
+id: science-0028
+title: 土星では、数十年に一度“メガストーム”が起きる
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 土星
+- 嵐
+- 周期
+summary: NASAによれば、土星では約20〜30地球年ごとに長期間続く巨大嵐が発生する。
+claim: 土星には、およそ20〜30地球年ごとにメガストームが発生する。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 5 says Saturn hosts a megastorm about every 20 to 30
+  Earth years.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

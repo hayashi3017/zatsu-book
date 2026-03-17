@@ -1,0 +1,26 @@
+id: science-0033
+title: ボイジャーは“壊れる前”に、まず地球に届く電力が尽きていく
+genres:
+- 科学
+- 天文
+- 宇宙探査
+tags:
+- ボイジャー
+- 電力
+- 深宇宙通信
+summary: NASAは、科学観測より先に電力不足が進み、Deep Space Networkでの受信可能期間もおおむね2036年ごろまでだとしている。
+claim: ボイジャーは、十分な電力と送信能力が尽きることで、2030年代半ばに地球との交信限界を迎える見込みである。
+sources:
+- url: https://science.nasa.gov/mission/voyager/frequently-asked-questions/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: FAQ says the spacecraft could remain in DSN range through about 2036
+  depending on transmit power.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

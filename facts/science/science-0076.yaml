@@ -1,0 +1,26 @@
+id: science-0076
+title: 腎臓が老廃物を流し出せるのは、水がよく溶かすから
+genres:
+- 科学
+- 人体
+- 化学
+tags:
+- 腎臓
+- 排泄
+- 水
+summary: USGSは、腎臓が体内物質を排出する際、水の高い溶解力が重要だと説明している。
+claim: 腎臓による老廃物排出は、水の溶解力に大きく依存している。
+sources:
+- url: https://www.usgs.gov/water-science-school/science/water-universal-solvent
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: USGS section “Our kidneys and water make a great pair” explains this
+  role.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

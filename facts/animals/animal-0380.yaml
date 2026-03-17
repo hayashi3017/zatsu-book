@@ -1,0 +1,24 @@
+id: animal-0380
+title: ナマケモノはサルでもコアラ型の有袋類でもない
+genres:
+- 動物
+- 動物園
+tags:
+- ナマケモノ
+- 分類
+- 哺乳類
+summary: 同園のQ&Aでは、ナマケモノは霊長類でも有袋類でもなく、アリクイやアルマジロと近縁の系統だと説明される。
+claim: ナマケモノは、サルでも有袋類でもなく、アリクイやアルマジロに近い。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/why-are-sloths-so-slow-and-other-sloth-facts
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Are sloths marsupials or primates?
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

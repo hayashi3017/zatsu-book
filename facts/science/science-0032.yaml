@@ -1,0 +1,26 @@
+id: science-0032
+title: 今のボイジャー周辺は暗すぎて、地球のアマチュア望遠鏡の方が見やすい天体もある
+genres:
+- 科学
+- 天文
+- 宇宙探査
+tags:
+- ボイジャー
+- 撮像
+- 暗さ
+summary: NASA FAQでは、現在のVoyager周辺は非常に暗く、見える天体の一部は地上のアマチュア望遠鏡の方がよく見えると述べている。
+claim: 現在のボイジャー周辺は非常に暗く、撮像対象によっては地球のアマチュア望遠鏡の方が見やすい。
+sources:
+- url: https://science.nasa.gov/mission/voyager/frequently-asked-questions/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: FAQ notes it is very dark where the Voyagers are now and some objects
+  are seen better with amateur telescopes on Earth.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

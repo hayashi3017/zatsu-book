@@ -1,0 +1,24 @@
+id: animal-0440
+title: サメには繁殖開始まで25年以上かかる種もいる
+genres:
+- 動物
+- 水族館
+tags:
+- サメ
+- 成熟
+- 保全
+summary: シェッド水族館は、多くのサメが繁殖まで10年以上かかり、中には25年以上かかる種もあると説明している。
+claim: サメには、繁殖可能になるまで25年以上かかる種がある。
+sources:
+- url: https://www.sheddaquarium.org/stories/your-5-fascinating-shark-facts
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: several species over 25 years to reproduce.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,24 @@
+id: animal-0379
+title: クロアシイタチは前脚の長い毛で暗い巣穴内の動きを感じ取る
+genres:
+- 動物
+- 動物園
+tags:
+- クロアシイタチ
+- 感覚
+- 狩り
+summary: 同園の説明では、クロアシイタチは前脚の長い毛を使って、暗い地下トンネルの中の動きを感知しながら狩りをする。
+claim: クロアシイタチは、前脚の長い毛で地下の獲物の動きを感じ取る。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/what-do-black-footed-ferrets-sound-and-other-ferret-questions-answered
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Long guard hairs on forelimbs sense movement.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

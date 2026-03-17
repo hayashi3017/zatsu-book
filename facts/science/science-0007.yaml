@@ -1,0 +1,26 @@
+id: science-0007
+title: 液体窒素の“泡立ちが止まる”のは、対象が窒素と同じ温度まで下がった合図
+genres:
+- 科学
+- 科学館
+- 化学
+tags:
+- 液体窒素
+- 熱移動
+- 相変化
+summary: Museum of Scienceによると、液体窒素が対象から熱を奪って沸騰し、泡立ちが止まる頃には対象物は液体窒素と同じ温度まで冷えている。
+claim: 液体窒素の沸騰が止まる頃、浸した物体はほぼ液体窒素と同じ温度になっている。
+sources:
+- url: https://www.mos.org/video/rose-frozen-liquid-nitrogen-shatters
+  publisher: Museum of Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Video description says when boiling stops, the rose is completely frozen
+  at the same temperature as the liquid nitrogen.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

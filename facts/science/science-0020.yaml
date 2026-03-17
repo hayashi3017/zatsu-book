@@ -1,0 +1,26 @@
+id: science-0020
+title: 金星の地表は、鉛が溶けるほど熱い
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 金星
+- 温度
+- 温室効果
+summary: NASAの解説では、金星では暴走温室効果により地表温度が鉛を溶かせるほど高いとしている。
+claim: 金星の地表は、鉛が溶けるほど高温である。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 3 says Venus has a surface temperature hot enough to
+  melt lead.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

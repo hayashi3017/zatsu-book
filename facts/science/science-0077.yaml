@@ -1,0 +1,25 @@
+id: science-0077
+title: "人の体内の細菌数は、“人の細胞の10倍”ではなく同じ桁らしい"
+genres:
+  - 科学
+  - 人体
+  - 論文
+tags:
+  - 細菌
+  - 細胞数
+  - マイクロバイオーム
+summary: "2016年のPLOS Biology論文は、典型的成人男性でヒト細胞約30兆、細菌約38兆と再見積もりし、昔の「10対1」神話を修正した。"
+claim: "人体の細菌数は、ヒト細胞数と同じ桁であり、10倍ではない。"
+sources:
+  - url: https://journals.plos.org/plosbiology/article?id=10.1371%2Fjournal.pbio.1002533
+    publisher: PLOS Biology
+    kind: primary
+    accessed_at: "2026-03-17"
+evidence_note: "Abstract revises the often-repeated 10:1 claim to about 38 trillion bacteria and 30 trillion human cells."
+status: published
+created_at: "2026-03-17"
+updated_at: "2026-03-17"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

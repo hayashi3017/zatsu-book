@@ -1,0 +1,25 @@
+id: science-0017
+title: 私たちが吸う空気は、酸素より窒素の方がずっと多い
+genres:
+- 科学
+- 天文
+- 地球
+tags:
+- 大気
+- 地球
+- 呼吸
+summary: NASAの惑星大気解説では、地球の空気はおおむね窒素78%、酸素21%、残り約1%から成る。
+claim: 地球の空気は、おおよそ窒素78%、酸素21%、その他1%でできている。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 1 gives the atmospheric mixture percentages.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,24 @@
+id: animal-0403
+title: ジャイアントパンダとレッサーパンダは名前ほど近縁ではない
+genres:
+- 動物
+- 動物園
+tags:
+- パンダ
+- 分類
+- 比較
+summary: スミソニアン国立動物園は、ジャイアントパンダとレッサーパンダが名前の印象ほど近縁ではないと説明している。
+claim: ジャイアントパンダとレッサーパンダは、名前ほど近い親戚ではない。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/50-panda-facts-celebrate-50-years-giant-pandas-smithsonians-national-zoo
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Fact 42.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

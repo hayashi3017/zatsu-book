@@ -1,0 +1,24 @@
+id: plant-0134
+title: ハスの種子は長く生存力を保つ例で知られる
+genres:
+  - 植物
+  - 水生植物
+tags:
+  - 撥水性
+  - 種子寿命
+  - ハス
+summary: ハスの種子は長く生存力を保つ例で知られる。
+claim: ハスの種子は長く生存力を保つ例で知られる。
+sources:
+  - url: https://powo.science.kew.org/
+    publisher: Royal Botanic Gardens, Kew
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

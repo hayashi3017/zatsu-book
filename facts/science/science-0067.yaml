@@ -1,0 +1,25 @@
+id: science-0067
+title: 1本の雷には、1億ボルト級の電圧がかかることがある
+genres:
+- 科学
+- 気象
+- 電気
+tags:
+- 雷
+- 電圧
+- 大気
+summary: NOAA Ocean Todayは、雷放電に1億ボルトの電圧が含まれうると説明している。
+claim: 雷には、1億ボルト級の電圧がかかることがある。
+sources:
+- url: https://oceantoday.noaa.gov/lightning/
+  publisher: NOAA Ocean Today
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Transcript says each spark can contain 100 million volts of electricity.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

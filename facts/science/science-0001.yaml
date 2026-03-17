@@ -1,0 +1,26 @@
+id: science-0001
+title: 水は、圧力を下げるだけで室温でも沸騰できる
+genres:
+- 科学
+- 科学館
+- 物理
+tags:
+- 沸騰
+- 気圧
+- 真空
+summary: ボストンのMuseum of Scienceの解説では、真空チャンバーで気圧を下げると、水は追加加熱なしでも室温付近で沸騰できる。
+claim: 気圧を十分に下げると、水は室温でも沸騰する。
+sources:
+- url: https://www.mos.org/video/vacuum-chamber-science-watch-water-boil-room-temp
+  publisher: Museum of Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Video description explains boiling at room temperature under reduced
+  pressure.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

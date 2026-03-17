@@ -1,0 +1,24 @@
+id: animal-0435
+title: 巨大太平洋タコは色を変えて背景に溶け込める
+genres:
+- 動物
+- 水族館
+tags:
+- 巨大太平洋タコ
+- 擬態
+- 色
+summary: シェッド水族館は、巨大太平洋タコが色素細胞 chromatophores を使って体色を変え、カモフラージュできると説明している。
+claim: 巨大太平洋タコは、色を変えて擬態できる。
+sources:
+- url: https://www.sheddaquarium.org/stories/life-at-the-bottom-eight-aquatic-animals-in-the-benthic-zone
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: capable of changing colors.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

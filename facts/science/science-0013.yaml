@@ -1,0 +1,26 @@
+id: science-0013
+title: スーパームーンは、年内で最小級の満月より最大14%大きく30%明るく見えうる
+genres:
+- 科学
+- 科学館
+- 天文
+tags:
+- 月
+- スーパームーン
+- 観測
+summary: Franklin Instituteの解説では、近地点付近の満月は、その年の最小の満月より見かけ上最大14%大きく、最大30%明るくなりうる。
+claim: スーパームーンは、年の中で小さな満月と比べると最大14%大きく、最大30%明るく見えることがある。
+sources:
+- url: https://fi.edu/en/blog/october-2025-supermoon-explained
+  publisher: The Franklin Institute
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Blog explains that a perigee full moon can appear up to 14% larger
+  and up to 30% brighter than the smallest full moons of the year.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

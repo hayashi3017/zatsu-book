@@ -1,0 +1,24 @@
+id: animal-0397
+title: レッサーパンダは雪が大好きで、雪の日ほど活発になりやすい
+genres:
+- 動物
+- 動物園
+tags:
+- レッサーパンダ
+- 雪
+- 行動
+summary: 同園の解説では、レッサーパンダは雪を好み、動物園でも雪の日は活発な姿を見やすいとしている。
+claim: レッサーパンダは、雪の日ほど活発になりやすい。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/red-panda-bear-and-more-red-panda-facts
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Do red pandas like snow?
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

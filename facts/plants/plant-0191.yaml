@@ -1,0 +1,24 @@
+id: plant-0191
+title: ギンリョウソウは白くて葉緑素をほとんど持たない
+genres:
+  - 植物
+  - 菌従属栄養
+tags:
+  - 白い植物
+  - 非光合成
+  - ギンリョウソウ
+summary: ギンリョウソウは白くて葉緑素をほとんど持たない。
+claim: ギンリョウソウは白くて葉緑素をほとんど持たない。
+sources:
+  - url: https://powo.science.kew.org/
+    publisher: Royal Botanic Gardens, Kew
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

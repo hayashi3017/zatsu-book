@@ -1,0 +1,26 @@
+id: science-0057
+title: サンアンドレアス断層でM8.3超は、構造上かなり起こりにくい
+genres:
+- 科学
+- 地学
+- 地震
+tags:
+- サンアンドレアス
+- 断層
+- 地震
+summary: USGSは、サンアンドレアス断層の大きさからM8.3を超える地震は極めて起こりにくいと説明している。
+claim: サンアンドレアス断層でM8.3を超える地震は、断層のサイズ上かなり起こりにくい。
+sources:
+- url: https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Earthquake facts page says earthquakes larger than magnitude 8.3 on
+  the San Andreas are extremely unlikely.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0056
+title: マグニチュード12級の地震は、地球より大きい断層がないと起きない
+genres:
+- 科学
+- 地学
+- 地震
+tags:
+- 地震
+- マグニチュード
+- 断層
+summary: USGSは、M12地震には地球そのものより大きな断層が必要だとしている。
+claim: マグニチュード12の地震は、地球上では起こせない。
+sources:
+- url: https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Earthquake facts page says a magnitude 12 earthquake would require
+  a fault larger than Earth itself.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

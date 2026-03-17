@@ -1,0 +1,25 @@
+id: science-0043
+title: 海は、地球表面の約71%を覆っている
+genres:
+- 科学
+- 地学
+- 海洋
+tags:
+- 海
+- 地球
+- 面積
+summary: USGSは、海洋が地球表面の約71%を覆うと説明している。
+claim: 海洋は、地球表面の約71%を覆っている。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Top 10 list item 1 says the ocean covers 71% of Earth’s surface.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

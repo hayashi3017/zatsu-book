@@ -1,0 +1,26 @@
+id: science-0010
+title: 空が青いのは、青い光が空気中でいちばん散らばりやすいから
+genres:
+- 科学
+- 科学館
+- 光学
+tags:
+- 空
+- 散乱
+- 色
+summary: Exploratoriumの解説では、大気を通る太陽光のうち青い光は他の色より散乱しやすく、その散乱光が空を青く見せる。
+claim: 空が青く見える主な理由は、青い光が大気中で他の色より強く散乱するからである。
+sources:
+- url: https://www.exploratorium.edu/snacks/blue-sky
+  publisher: Exploratorium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Snack text explains blue light scatters more than other colors in the
+  atmosphere.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

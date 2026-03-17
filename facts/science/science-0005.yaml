@@ -1,0 +1,26 @@
+id: science-0005
+title: 標高が高いほど、水は100℃より低い温度で沸騰しやすい
+genres:
+- 科学
+- 科学館
+- 物理
+tags:
+- 沸点
+- 高地
+- 気圧
+summary: Museum of Scienceは、高度が上がるほど気圧が低くなるため、水はより低い温度で沸騰すると説明している。
+claim: 高地では気圧が低いため、水は100℃より低い温度で沸騰する。
+sources:
+- url: https://www.mos.org/video/using-ice-boil-water-science-experiment
+  publisher: Museum of Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Video description says water boils at lower temperatures at higher
+  altitudes because atmospheric pressure is lower.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

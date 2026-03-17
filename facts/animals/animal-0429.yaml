@@ -1,0 +1,24 @@
+id: animal-0429
+title: シェッド水族館では、カマイルカ属の仲間が時速25マイルで泳ぐと紹介される
+genres:
+- 動物
+- 水族館
+tags:
+- イルカ
+- 遊泳速度
+- 水族館
+summary: 同館の facts では、Pacific white-sided dolphins が最高時速25マイルで泳げると紹介されている。
+claim: カマイルカの一種は、時速25マイルで泳げる。
+sources:
+- url: https://www.sheddaquarium.org/stories/22-animal-facts-for-2022
+  publisher: Shedd Aquarium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: 13. Fast swimmers.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

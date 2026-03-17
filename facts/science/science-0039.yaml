@@ -1,0 +1,26 @@
+id: science-0039
+title: ブラックホールからは、光すら逃げられない
+genres:
+- 科学
+- 天文
+- 宇宙
+tags:
+- ブラックホール
+- 光
+- 重力
+summary: ESAは、ブラックホールの重力は非常に強く、光でさえ脱出できないと説明している。
+claim: ブラックホールからは、光も脱出できない。
+sources:
+- url: https://www.esa.int/kids/en/learn/Our_Universe/Story_of_the_Universe/Black_Holes
+  publisher: ESA
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: ESA page says the gravitational pull is so great that nothing can escape,
+  not even light.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

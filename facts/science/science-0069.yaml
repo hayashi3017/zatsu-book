@@ -1,0 +1,26 @@
+id: science-0069
+title: 地球大気には、平均すると200億kg規模のちりが浮いている
+genres:
+- 科学
+- 気象
+- 大気
+tags:
+- ちり
+- 大気
+- 砂嵐
+summary: NOAA SciJinksのダストストーム解説では、地球大気中には平均約440億ポンドのちりが存在するとしている。
+claim: 地球大気には、平均して約440億ポンドのちりが漂っている。
+sources:
+- url: https://scijinks.gov/dust-storm/
+  publisher: NOAA SciJinks
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: SciJinks says about 44 billion pounds (20 teragrams) of dust are in
+  Earth’s atmosphere at any one time.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

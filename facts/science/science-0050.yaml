@@ -1,0 +1,25 @@
+id: science-0050
+title: 米国の海域ですら、半分未満しか詳しく測れていない
+genres:
+- 科学
+- 地学
+- 海洋
+tags:
+- 海図
+- 海底
+- 米国
+summary: USGSの同記事では、米国水域でも詳しい地図化は50%未満だとしている。
+claim: 米国の海域でも、詳しくマッピングされているのは半分未満である。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Top 10 list item 5 says less than 50% of U.S. waters have been mapped.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0061
+title: もし断層が本当に開いてしまうなら、むしろ地震は起きにくい
+genres:
+- 科学
+- 地学
+- 地震
+tags:
+- 摩擦
+- 断層
+- 地震
+summary: USGSは、もし断層が開いてしまえば摩擦がなくなり、地震を起こす仕組み自体が成立しないと説明している。
+claim: 断層が本当に開いてしまうなら、摩擦がないため地震は起きない。
+sources:
+- url: https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Earthquake facts page states that without friction there would be no
+  earthquake.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

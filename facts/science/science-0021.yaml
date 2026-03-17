@@ -1,0 +1,25 @@
+id: science-0021
+title: 木星の雲は“単層”ではなく、3層構造らしい
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 木星
+- 雲
+- 大気
+summary: NASAは、木星にはアンモニア・硫化水素アンモニウム・水からなる3つの主要雲層がありうると説明している。
+claim: 木星の雲は、主に3つの異なる層から成ると考えられている。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 4 says Jupiter likely has three distinct cloud layers.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

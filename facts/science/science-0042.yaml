@@ -1,0 +1,25 @@
+id: science-0042
+title: NASAの現在の整理では、太陽系には“正式命名済みの準惑星”が5つある
+genres:
+- 科学
+- 天文
+- 太陽系
+tags:
+- 準惑星
+- 太陽系
+- 分類
+summary: NASAのSolar System factsは、太陽系に5つの officially named dwarf planets があると記している。
+claim: NASAの現在の整理では、太陽系には正式命名された準惑星が5つある。
+sources:
+- url: https://science.nasa.gov/solar-system/solar-system-facts/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Solar System facts page lists five officially named dwarf planets.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

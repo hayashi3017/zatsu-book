@@ -1,0 +1,25 @@
+id: science-0022
+title: 木星の主要な雲層は、上下で約71 kmにも及ぶ
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 木星
+- 雲
+- 高度
+summary: NASAの同記事では、木星の主要な雲層は合わせて約44マイル（71 km）の高度幅に広がるとしている。
+claim: 木星の主要な雲層は、上下方向に約71 kmの厚みをもつ可能性がある。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 4 gives an altitude range of about 44 miles (71 kilometers).
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

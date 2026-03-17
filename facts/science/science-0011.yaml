@@ -1,0 +1,26 @@
+id: science-0011
+title: 夕焼けが赤いのは、青が横に散って“通り抜ける光”から減るから
+genres:
+- 科学
+- 科学館
+- 光学
+tags:
+- 夕焼け
+- 散乱
+- 色
+summary: Exploratoriumは、青い光が途中で散乱されやすいため、最終的に届く透過光が黄〜赤寄りになり、夕焼けが赤く見えると説明している。
+claim: 夕焼けが赤く見えるのは、青い光が途中で散乱して、残った透過光が黄橙〜赤寄りになるからである。
+sources:
+- url: https://www.exploratorium.edu/snacks/blue-sky
+  publisher: Exploratorium
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Snack text says transmitted light ultimately makes the sunset reddish
+  orange because blue scatters away.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

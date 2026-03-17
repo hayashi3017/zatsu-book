@@ -1,0 +1,26 @@
+id: science-0040
+title: Gaiaは、約20億天体を測って銀河の巨大3D地図を作った
+genres:
+- 科学
+- 天文
+- 宇宙
+tags:
+- Gaia
+- 銀河
+- 測量
+summary: ESAのGaia overviewでは、Gaiaは約20億の天体を観測して史上最大・最高精度級の3次元星図を築いたとしている。
+claim: Gaiaは、約20億天体を測って天の川銀河の巨大な3D地図を作った。
+sources:
+- url: https://www.esa.int/Science_Exploration/Space_Science/Gaia_overview
+  publisher: ESA
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Overview says Gaia surveyed nearly two billion objects to build the
+  largest, most precise 3D map of our Galaxy.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: science-0063
+title: 雷は、太陽表面より約5倍も高温になる
+genres:
+- 科学
+- 気象
+- 電気
+tags:
+- 雷
+- 温度
+- 太陽
+summary: NOAAは、雷が周囲の空気を約54,000°F（30,000°C）まで熱し、これは太陽表面の約5倍だと説明している。
+claim: 雷は、太陽表面よりもずっと高温になる。
+sources:
+- url: https://www.nesdis.noaa.gov/about/k-12-education/severe-weather/what-causes-lightning-and-thunder
+  publisher: NOAA
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: NOAA educational page says lightning heats air to 54,000°F (30,000°C),
+  about five times hotter than the Sun’s surface.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

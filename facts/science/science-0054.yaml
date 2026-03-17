@@ -1,0 +1,26 @@
+id: science-0054
+title: 人類がアジアから北米へ渡れた背景には、海面低下があった
+genres:
+- 科学
+- 地学
+- 人類史
+tags:
+- ベーリング地峡
+- 氷期
+- 海面
+summary: USGSは、最終氷期の海面低下によって人類がアジアから北米へ渡れたと述べている。
+claim: 人類がアジアから北米へ渡れた一因は、氷期の海面低下である。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Ocean article says lower seas during the last ice age allowed humans
+  to cross from Asia to North America.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

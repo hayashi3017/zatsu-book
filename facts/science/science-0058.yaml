@@ -1,0 +1,26 @@
+id: science-0058
+title: ものすごく深い地震は、沈み込み帯でしかほぼ起きない
+genres:
+- 科学
+- 地学
+- 地震
+tags:
+- 深発地震
+- 沈み込み帯
+- 地震
+summary: USGSによれば、最も深い地震は沈み込み帯でのみ起こり、深さは約500マイルに達しうる。
+claim: 非常に深い地震は、主に沈み込み帯でしか起こらない。
+sources:
+- url: https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Earthquake facts page says the very deepest earthquakes only occur
+  at subduction zones.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

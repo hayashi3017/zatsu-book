@@ -1,0 +1,26 @@
+id: science-0036
+title: Dawnは、小惑星帯の天体を初めて周回した
+genres:
+- 科学
+- 天文
+- 宇宙探査
+tags:
+- Dawn
+- 小惑星帯
+- ベスタ
+summary: NASAは、Dawnのベスタ到着が小惑星帯天体の初周回だったと説明している。
+claim: Dawnは、小惑星帯の天体を初めて周回した探査機である。
+sources:
+- url: https://science.nasa.gov/mission/dawn/toolkit/quick-facts/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Quick facts say Dawn was the first spacecraft to orbit an object in
+  the main asteroid belt.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

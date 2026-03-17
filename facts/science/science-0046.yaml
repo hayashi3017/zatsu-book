@@ -1,0 +1,26 @@
+id: science-0046
+title: 米国の重要鉱物50種のうち37種は海で見つかっている
+genres:
+- 科学
+- 地学
+- 資源
+tags:
+- 海洋
+- 鉱物
+- 資源
+summary: USGSの海のトップ10解説では、50の重要鉱物のうち37が海で見つかっているとしている。
+claim: 重要鉱物50種のうち37種は海に存在する。
+sources:
+- url: https://www.usgs.gov/programs/cmhrp/news/top-10-things-you-didnt-know-about-ocean
+  publisher: U.S. Geological Survey
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Top 10 list item 2 says 37 out of 50 critical minerals can be found
+  in the ocean.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

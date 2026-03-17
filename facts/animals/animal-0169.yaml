@@ -1,0 +1,24 @@
+id: animal-0169
+title: イッカクの牙は武器だけでなく感覚器の側面が驚かれる
+genres:
+  - 動物
+  - 海の生き物
+tags:
+  - 牙
+  - 感覚
+  - イッカク
+summary: イッカクの牙は武器だけでなく感覚器の側面が驚かれる。
+claim: イッカクの牙は武器だけでなく感覚器の側面が驚かれる。
+sources:
+  - url: https://www.fisheries.noaa.gov/feature-story/11-cool-facts-about-whales-dolphins-and-porpoises
+    publisher: NOAA Fisheries
+    kind: seed-catalog
+    accessed_at: "2026-03-16"
+evidence_note: 種ページや公式解説ページへの個別ピン留め前提の draft seed。公開前に一次情報へURLを絞り込む想定。
+status: published
+created_at: "2026-03-16"
+updated_at: "2026-03-16"
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

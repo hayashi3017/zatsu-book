@@ -1,0 +1,26 @@
+id: science-0018
+title: 火星は大気が薄すぎて、平均気温が約-63℃まで下がる
+genres:
+- 科学
+- 天文
+- 惑星
+tags:
+- 火星
+- 大気
+- 温度
+summary: NASAは、火星の大気は非常に薄くほぼ二酸化炭素で、平均表面温度は約-63℃だと説明している。
+claim: 火星は大気が薄いため、平均表面温度が約-63℃とかなり低い。
+sources:
+- url: https://science.nasa.gov/solar-system/10-things-planetary-atmospheres/
+  publisher: NASA Science
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Article bullet 2 states Mars has a very thin atmosphere and an average
+  surface temperature of about -82°F (-63°C).
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,24 @@
+id: animal-0394
+title: レッサーパンダのふさふさ尾は“バランサー兼防寒具”である
+genres:
+- 動物
+- 動物園
+tags:
+- レッサーパンダ
+- しっぽ
+- 適応
+summary: スミソニアン国立動物園は、レッサーパンダの長い尾が枝上でのバランスと寒さ対策の両方に役立つと説明する。
+claim: レッサーパンダの長い尾は、バランス取りにも防寒にも使われる。
+sources:
+- url: https://nationalzoo.si.edu/animals/news/red-panda-bear-and-more-red-panda-facts
+  publisher: Smithsonian's National Zoo
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: tail helps balance and protects from cold.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

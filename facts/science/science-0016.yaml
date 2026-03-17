@@ -1,0 +1,26 @@
+id: science-0016
+title: もし地球に地軸の傾きがなければ、今のような四季はほぼない
+genres:
+- 科学
+- 科学館
+- 天文
+tags:
+- 季節
+- 地軸
+- 気候
+summary: Franklin Instituteは、もし地球に軸の傾きがなければ、今のような季節の変化は起きなかっただろうと説明している。
+claim: 地球に地軸の傾きがなければ、今のような四季は成立しにくい。
+sources:
+- url: https://fi.edu/en/blog/what-solstice-and-what-equinox-and-why-should-i-care
+  publisher: The Franklin Institute
+  kind: official
+  accessed_at: '2026-03-17'
+evidence_note: Blog notes that without axial tilt we would not have seasons in the
+  way that we do.
+status: published
+created_at: '2026-03-17'
+updated_at: '2026-03-17'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1
