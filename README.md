@@ -8,6 +8,7 @@
 make validate
 make dedupe
 make build-pages
+make sync-generated
 make stale
 make book
 make serve
@@ -15,6 +16,7 @@ make doctor
 ```
 
 `make book` は `src/` を生成してから `mdbook build` を実行します。`make serve` は live preview 用に `book-serve/` を使うので、起動中でも `make book` と競合しません。`book/` と `book-serve/` は deploy / preview の成果物なのでコミットしません。
+`facts/` を触ったら commit 前に `make sync-generated` を実行して `src/` と `generated/` の更新も一緒に含めてください。テンプレート変更だけなら `make build-pages` で十分です。
 
 ## CI
 
@@ -23,7 +25,7 @@ make doctor
 - `factctl validate`
 - `factctl dedupe --fail-on-high-confidence-duplicate`
 - `factctl build-pages`
-- `git diff --exit-code -- src generated`
+- `./scripts/check-generated.sh`
 - `mdbook build`
 
 ## GitHub Pages

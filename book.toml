@@ -12,10 +12,12 @@ use-default-preprocessors = true
 extra-watch-dirs = ["facts", "templates", "generated"]
 
 [output.html]
+theme = "theme"
 default-theme = "ayu"
 git-repository-url = "https://github.com/hayashi3017/zatsu-book"
 edit-url-template = "https://github.com/hayashi3017/zatsu-book/edit/main/{path}"
 site-url = "/zatsu-book/"
+additional-js = ["theme/searcher.js"]
 
 [output.html.fold]
 enable = true

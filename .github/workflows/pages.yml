@@ -48,7 +48,7 @@ jobs:
         run: cargo run -p factctl -- build-pages
 
       - name: Ensure generated files are committed
-        run: git diff --exit-code -- src generated
+        run: ./scripts/check-generated.sh
 
       - name: Build mdBook
         run: mdbook build
