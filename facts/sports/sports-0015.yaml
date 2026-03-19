@@ -1,0 +1,26 @@
+id: sports-0015
+title: 同じ総仕事量でも、きついインターバルの方がVO2maxを上げやすい
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- HIIT
+- VO2max
+- インターバル
+summary: サイクリスト研究では、高強度インターバルはロングスローや閾値付近の連続走よりVO2max改善が大きかった。
+claim: 自転車の持久力は、長く回すだけより「かなりきつい時間」を入れた方が伸びやすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/17414804/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Study found high-intensity aerobic interval training increased VO2max
+  more than long slow distance and threshold-intensity training.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

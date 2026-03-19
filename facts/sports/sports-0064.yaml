@@ -1,0 +1,26 @@
+id: sports-0064
+title: 別レビューでも、筋トレの死亡リスク低下は週60分前後が底に近い
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 死亡リスク
+- 60分
+- レビュー
+summary: 別の2022年レビューでも、全死亡リスクの最大低下は週60分前後の筋トレで観察された。
+claim: 筋トレは「少しやる」がかなり効き、週1時間前後で頭打ち気味になる可能性がある。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/35599175/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Dose-response meta-analysis suggested maximum all-cause mortality risk
+  reduction around 60 minutes per week of resistance training.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: sports-0041
+title: 筋肥大は軽めでも起こるが、1RMの伸びは重い重量の方が有利
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 負荷
+- 1RM
+- 筋肥大
+summary: 高負荷と低負荷を比べた系統的レビューでは、筋肥大は広い負荷帯で起こる一方、最大筋力は重い負荷の方が伸びやすい。
+claim: 筋肥大だけを見るなら軽い重量でも起こり得るが、1RMの伸びは重い重量の方が有利である。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/28834797/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract states higher loads maximize 1RM, while hypertrophy is similar
+  across a spectrum of loading ranges.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

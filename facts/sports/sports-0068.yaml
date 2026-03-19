@@ -1,0 +1,26 @@
+id: sports-0068
+title: 高齢者でも、脚の筋力と股関節まわりの骨密度は同時に上げられる
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 骨密度
+- 脚力
+- 高齢者
+summary: 2022年レビューでは、漸進的筋トレにより高齢者の下肢筋力と大腿骨・股関節の骨密度が同時に改善した。
+claim: 高齢者の筋トレは「筋肉か骨か」ではなく、両方に効く可能性がある。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/35608815/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review concluded progressive resistance training concomitantly increases
+  lower-limb strength and femur/hip BMD in older adults.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

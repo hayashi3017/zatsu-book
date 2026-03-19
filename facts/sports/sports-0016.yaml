@@ -1,0 +1,25 @@
+id: sports-0016
+title: 4分×4本の高強度インターバルで、VO2maxが7%前後伸びた研究がある
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 4x4
+- VO2max
+- HIIT
+summary: Helgerudらの研究では、4×4分インターバル群でVO2maxが約7.2%増加した。
+claim: 定番の4×4は、本当に心肺機能を大きく動かしやすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/17414804/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract reports a 7.2% VO2max increase in the 4x4 min group.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

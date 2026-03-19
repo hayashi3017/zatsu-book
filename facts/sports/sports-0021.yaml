@@ -1,0 +1,26 @@
+id: sports-0021
+title: カフェインは、自転車のタイムトライアルをちゃんと速くする
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- カフェイン
+- タイムトライアル
+- 補給
+summary: 2026年メタ解析では、急性カフェイン摂取は自転車TT完了時間を有意に短縮した。
+claim: 自転車ではカフェインの効き目はかなり再現されている。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/41601907/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis found caffeine significantly reduced cycling completion
+  time.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

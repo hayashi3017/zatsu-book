@@ -1,0 +1,26 @@
+id: sports-0012
+title: フォームと車間だけでも、速度と効率はかなり変わる
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- フォーム
+- 車間
+- 効率
+summary: 1992年レビューでは、正しい姿勢やライダー間隔の調整が速度と効率を有意に改善すると述べている。
+claim: 自転車は脚の強さだけでなく、どう乗るか・どこに付くかで大きく変わる。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/1641542/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review states correct body posture and spacing between riders can significantly
+  enhance speed and efficiency.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

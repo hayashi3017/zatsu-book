@@ -1,0 +1,26 @@
+id: sports-0035
+title: 自転車の左右差は、出力を上げるほど大きく見えやすい
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 左右差
+- 出力
+- ペダリング
+summary: 2014年研究では、増加負荷テストで出力が上がるほど左右のピークトルク差が大きくなった。
+claim: 低出力で左右差が小さくても、高出力で急に崩れることがある。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/24509507/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Study found lower-limb asymmetries in peak torque increased at higher
+  power outputs.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

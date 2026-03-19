@@ -1,0 +1,26 @@
+id: sports-0042
+title: 筋トレは、やり方が違っても「やらない」よりほぼ全部強い
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 比較
+- ネットワークメタ解析
+- 処方
+summary: 2023年のネットワークメタ解析では、検討されたレジスタンストレーニング処方はすべて、非トレーニング対照より筋力と筋肥大で優れていた。
+claim: 筋トレの処方差はあっても、まず「やること」自体が筋力・筋肥大の面で大きい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/37414459/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract states all resistance training prescriptions were superior
+  to control for muscle strength and hypertrophy.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

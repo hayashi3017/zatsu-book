@@ -1,0 +1,26 @@
+id: sports-0066
+title: 年を取ってからでも、骨密度は運動で動く
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 骨密度
+- 高齢者
+- 骨
+summary: 2012年のメタ解析では、運動は高齢者の腰椎・大腿骨頸部骨密度を高めるのに有効とされた。
+claim: 高齢者でも骨は完全に「手遅れ」ではなく、運動刺激に反応する。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/21922251/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis of RCTs supported efficacy of exercise for increasing
+  lumbar spine and femoral neck BMD in older adults.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

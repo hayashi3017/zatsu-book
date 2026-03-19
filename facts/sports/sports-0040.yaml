@@ -1,0 +1,26 @@
+id: sports-0040
+title: カフェインは、持久だけでなく30秒全力の自転車パワーも少し上げる
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- カフェイン
+- 無酸素
+- ウィンゲート
+summary: 2018年メタ解析では、カフェインはWingateの平均出力とピーク出力を有意に改善した。
+claim: カフェインはTTだけでなく、短時間の自転車全力にも効きやすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/29087785/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis found significant improvements in mean and peak power
+  output in the 30-second Wingate test with caffeine.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

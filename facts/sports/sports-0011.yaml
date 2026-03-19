@@ -1,0 +1,26 @@
+id: sports-0011
+title: 自転車は、平地では空気抵抗が最大の敵になりやすい
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 空気抵抗
+- 空力
+- 効率
+summary: 1992年レビューでは、サイクリングで速度を妨げる力として空気抵抗がとくに大きいと整理されている。
+claim: 自転車は脚力だけでなく、風との戦いで決まる競技である。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/1641542/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review states air resistance is by far the greatest retarding force
+  affecting cycling.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

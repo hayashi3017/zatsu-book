@@ -1,0 +1,26 @@
+id: sports-0004
+title: ヘルメットは、死亡・重傷の合計でも減少と結びつく
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- ヘルメット
+- 重傷
+- 安全
+summary: NHTSAが紹介するメタ解析では、ヘルメット着用は死亡または重傷の合計も34%減らした。
+claim: ヘルメットの効果は頭部傷害だけにとどまらない。
+sources:
+- url: https://www.nhtsa.gov/book/countermeasures-that-work/bicycle-safety/understanding-problem
+  publisher: NHTSA
+  kind: official
+  accessed_at: '2026-03-18'
+evidence_note: NHTSA summary cites 34% reduction in total killed or seriously injured
+  bicyclists.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

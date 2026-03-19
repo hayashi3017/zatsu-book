@@ -1,0 +1,25 @@
+id: sports-0038
+title: スプリントインターバルでも、アスリートのVO2maxは上がる
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- SIT
+- VO2max
+- スプリント
+summary: 2021年メタ解析では、SITはアスリートのVO2maxを有意に高めた。
+claim: 自転車の心肺は、長い有酸素だけでなく短い全力反復でも伸びる。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/34609099/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis concluded SIT significantly enhances VO2max in athletes.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

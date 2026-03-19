@@ -1,0 +1,26 @@
+id: sports-0006
+title: 標準化量のサイクリングで、全死亡リスクは約1割低い
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 通勤
+- 死亡リスク
+- 量
+summary: 2014年メタ解析では、週11.25 MET時相当のサイクリングは全死亡リスク10%低下と関連した。
+claim: 少なくとも疫学的には、自転車の標準的な運動量でも死亡リスク差が見える。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/25344355/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract reports a 10% reduction in all-cause mortality for cycling
+  at 11.25 MET-hours/week.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

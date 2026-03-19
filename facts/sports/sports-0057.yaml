@@ -1,0 +1,26 @@
+id: sports-0057
+title: 筋トレ後のストレッチは、「やらないより回復が速い」とは限らない
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- ストレッチ
+- 回復
+- クールダウン
+summary: クールダウン時のストレッチを検証したレビューでは、筋力や可動域、DOMSの回復で特別な優位性は確認されなかった。
+claim: 筋トレ後ストレッチは習慣としてはよくても、回復の切り札とは言いにくい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/34025459/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review asked whether post-exercise stretching is better for recovery
+  than other modalities and found no clear superiority.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

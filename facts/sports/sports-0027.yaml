@@ -1,0 +1,26 @@
+id: sports-0027
+title: 自転車のサドル高は、膝角度25〜35度が定番の目安になっている
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- サドル高
+- 膝角度
+- フィッティング
+summary: Pevelerのレビューでは、障害予防の観点で膝角度25〜35度が文献上の推奨レンジとして挙げられた。
+claim: 自転車のフィッティングは「なんとなく」ではなく、膝角度の定番目安がある。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/18545167/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review notes peer-reviewed literature recommends 25-35 degrees knee
+  angle for injury prevention.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

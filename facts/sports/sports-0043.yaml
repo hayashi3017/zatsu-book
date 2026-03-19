@@ -1,0 +1,26 @@
+id: sports-0043
+title: 1種目1セットより、複数セットの方が筋肥大は大きい
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- セット数
+- 筋肥大
+- メタ解析
+summary: 単一セットと複数セットの比較メタ解析では、複数セットは1セットより筋肥大関連の効果量が大きかった。
+claim: 筋肉を大きくしたいなら、1セットだけより複数セットの方が有利である。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/20300012/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract reports multiple sets were associated with 40% greater hypertrophy-related
+  effect sizes than 1 set.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: sports-0026
+title: サドル高は、速さだけでなく痛みやケガの話にも直結しやすい
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- サドル高
+- パフォーマンス
+- 障害予防
+summary: サドル高レビューでは、適切なサドル高設定はパフォーマンスと障害予防の両面で重要とされる。
+claim: 自転車のサドル高は「好み」だけで決めると損をしやすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/18545167/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract states properly adjusting saddle height is important for both
+  performance and injury prevention.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

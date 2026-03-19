@@ -1,0 +1,26 @@
+id: sports-0017
+title: 自転車HIITは、4週間の短期でもVO2maxを上げられる
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- HIIT
+- 短期
+- VO2max
+summary: 2022年研究では、短時間の高強度サイクルトレーニングでも4週間でVO2maxが有意に向上した。
+claim: 自転車の心肺適応は、何か月も待たなくても起こり得る。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/35173376/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Study concludes both HIIT protocols significantly enhance VO2max in
+  a very short training period of 4 weeks.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

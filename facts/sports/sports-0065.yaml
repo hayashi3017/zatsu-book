@@ -1,0 +1,26 @@
+id: sports-0065
+title: 筋トレと有酸素は、どちらか片方より両方やる方が強い
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 有酸素
+- 組み合わせ
+- 死亡リスク
+summary: 2019年レビューでは、筋トレは死亡リスク低下と関連し、有酸素運動と組み合わせると加算的な利益が示唆された。
+claim: 筋トレは有酸素の代用品というより、組み合わせると強い。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/31104484/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review concluded resistance training appears to have an additive effect
+  when combined with aerobic exercise.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

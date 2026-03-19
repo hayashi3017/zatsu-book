@@ -1,0 +1,26 @@
+id: sports-0044
+title: 複数セットは、筋肥大だけでなく筋力の伸びでも1セットより有利
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- セット数
+- 筋力
+- メタ解析
+summary: 動的筋力を対象にしたメタ解析では、1種目あたり複数セットの方が単一セットより筋力向上に有利だった。
+claim: 筋力を伸ばす目的でも、1種目1セットより複数セットの方が有利である。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/19661829/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-regression compared single vs multiple sets per exercise for dynamic
+  strength and favored multiple sets.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

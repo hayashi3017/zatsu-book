@@ -1,0 +1,26 @@
+id: sports-0039
+title: SITは「3週間・20〜30秒全力を8〜12本」が効きやすい条件として出ている
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- SIT
+- プロトコル
+- VO2max
+summary: 同メタ解析では、3週間・20〜30秒スプリントを8〜12本、休息3分未満の条件がVO2max改善に有利とされた。
+claim: 短期間でも、SITは組み方しだいでかなり効く。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/34609099/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Conclusion identifies 3-week SIT with 8-12 x 20-30 s sprints and <3
+  min recoveries as most effective for athletes.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

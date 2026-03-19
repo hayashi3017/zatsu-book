@@ -1,0 +1,26 @@
+id: sports-0019
+title: 自転車トレーニングは、週ボリュームを積み増すより介入期間の長さの方が効くことがある
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 介入期間
+- ボリューム
+- VO2max
+summary: 同じ2025年メタ解析では、VO2maxやTT改善には介入期間の長さが関係した一方、週ボリュームや総ボリュームは有意に結びつかなかった。
+claim: 自転車の伸びは「もっと乗る」より「適切な期間続ける」の方が説明力を持つ場合がある。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/39788807/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-regression found longer intervention duration positively influenced
+  gains, while weekly or total volume did not.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

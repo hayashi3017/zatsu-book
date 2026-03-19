@@ -1,0 +1,26 @@
+id: sports-0029
+title: サドルが低すぎると、最大パワーは落ちやすい
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- サドル高
+- 最大パワー
+- フィット
+summary: 2011年研究では、低いサドル位置で最大パワー出力が低下した。
+claim: サドルを下げれば安全とは限らず、下げすぎると普通に遅くなる。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/21451176/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Study concluded lower saddle positions are less optimal to generate
+  maximal power output.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

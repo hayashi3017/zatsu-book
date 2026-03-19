@@ -1,0 +1,26 @@
+id: sports-0001
+title: 自転車ヘルメットは、頭部外傷全体を約半分減らす
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- ヘルメット
+- 安全
+- 頭部外傷
+summary: NHTSAが参照するメタ解析では、自転車ヘルメットは頭部外傷を48%減らした。
+claim: 自転車ヘルメットの効果は「気休め」ではなく、頭部外傷全体でかなり大きい。
+sources:
+- url: https://www.nhtsa.gov/book/countermeasures-that-work/bicycle-safety/understanding-problem
+  publisher: NHTSA
+  kind: official
+  accessed_at: '2026-03-18'
+evidence_note: NHTSA summary cites meta-analysis showing 48% reduction in head injuries
+  with bicycle helmet use.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

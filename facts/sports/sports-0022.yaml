@@ -1,0 +1,26 @@
+id: sports-0022
+title: カフェインは、自転車の平均出力も上げやすい
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- カフェイン
+- パワー
+- 補給
+summary: 2026年メタ解析では、カフェイン摂取で平均出力が有意に上昇した。
+claim: 自転車でカフェインが効くのは「気分」だけでなく、パワーにも出やすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/41601907/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis found caffeine significantly increased mean power output
+  in cycling.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

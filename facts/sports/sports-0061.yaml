@@ -1,0 +1,26 @@
+id: sports-0061
+title: 血圧低下だけを見ると、動的筋トレより等尺性運動の方が強いことがある
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 等尺性
+- 血圧
+- ネットワークメタ解析
+summary: 2023年の大規模ネットワークメタ解析では、血圧低下の順位づけで等尺性トレーニングが非常に高く、動的筋トレを上回った。
+claim: 「筋トレ=動かす運動」だけではなく、壁座りのような等尺性運動が血圧にはかなり強い。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/23525435/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Large-scale network meta-analysis ranked isometric training highest
+  for SBP and DBP reductions.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

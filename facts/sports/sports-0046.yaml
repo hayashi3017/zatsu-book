@@ -1,0 +1,26 @@
+id: sports-0046
+title: 筋トレ頻度は、総ボリュームをそろえると差が小さくなる
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 頻度
+- 総ボリューム
+- 筋力
+summary: 頻度メタ解析では、見かけ上は週あたり頻度が多いほど筋力向上は大きいが、総ボリュームをそろえると差は有意でなくなった。
+claim: 筋トレ頻度は大事だが、筋力差のかなりの部分は「頻度そのもの」より総ボリュームで説明できる。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/29470825/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Volume-equated subgroup analysis found no significant effect of frequency
+  on muscular strength gains.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

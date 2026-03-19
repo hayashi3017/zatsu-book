@@ -1,0 +1,26 @@
+id: sports-0059
+title: 筋トレだけでも、血圧は下げられる
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 血圧
+- 健康
+- 高血圧
+summary: 高齢の前高血圧・高血圧者を対象にした2023年メタ解析では、中等度負荷の筋トレで収縮期・拡張期血圧が低下した。
+claim: 筋トレは見た目や筋力だけでなく、血圧管理にも使える。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/37121334/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis reported about -7 mmHg SBP and -4 mmHg DBP with moderate-load
+  traditional RT in older adults.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

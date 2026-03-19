@@ -1,0 +1,26 @@
+id: sports-0037
+title: 筋トレと同時にやる持久系は、長く・頻繁になるほど干渉しやすい
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 同時トレーニング
+- 干渉
+- 頻度
+summary: 同時トレーニングのメタ解析では、持久系の頻度や継続時間が長いほど筋力・パワーへの干渉が大きくなった。
+claim: 筋トレ民が有酸素で損するのは、「やること」より「やりすぎ」が原因になりやすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/22002517/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis identified endurance frequency and duration as components
+  detrimental to resistance-training outcomes.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -2,7 +2,7 @@
 
 ## Summary
 
-- Facts scanned: 1893
+- Facts scanned: 1963
 - Exact duplicate groups: 0
 - Near duplicate pairs: 487
 - High-confidence findings: 0

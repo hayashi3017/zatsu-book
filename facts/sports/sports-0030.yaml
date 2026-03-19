@@ -1,0 +1,26 @@
+id: sports-0030
+title: 自転車ポジション研究で、比較的根拠が厚いのはサドル高・体幹角度・前後位置あたり
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- ポジション
+- エビデンス
+- フィッティング
+summary: 2024年レビューでは、主要なポジション変数の中でも、サドル高・体幹角度・サドル前後位置に主要な知見が集まっていた。
+claim: 自転車フィットの中でも、特に効きやすい調整ポイントは限られている。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/39285616/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Systematic review found key findings associated with saddle height,
+  trunk angle and saddle fore-aft.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

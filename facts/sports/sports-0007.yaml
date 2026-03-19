@@ -1,0 +1,26 @@
+id: sports-0007
+title: 自転車通勤の死亡リスク低下は、高レベルだけの話ではない
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 通勤
+- 死亡リスク
+- 用量
+summary: 2020年メタ解析では、自転車通勤は低・中・高いずれのレベルでも全死亡リスク低下と関連した。
+claim: 歩行は強度が足りないと差が出にくいが、自転車は低レベルでも有利さが見えた。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/33034873/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract states low, intermediate and high intensities of cycling all
+  decreased all-cause mortality.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

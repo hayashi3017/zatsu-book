@@ -1,0 +1,26 @@
+id: sports-0005
+title: 通勤で自転車に乗るだけでも、全死亡リスク低下と関連する
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 通勤
+- 死亡リスク
+- 健康
+summary: 2014年のメタ解析では、標準化された量のサイクリング通勤は全死亡リスクの低下と関連した。
+claim: 自転車は競技や趣味だけでなく、移動手段としても寿命指標に効いてくる。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/25344355/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis showed cycling reduces all-cause mortality, adjusted
+  for other physical activity.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

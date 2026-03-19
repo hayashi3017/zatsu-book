@@ -1,0 +1,26 @@
+id: sports-0010
+title: 自転車の健康効果には、量に応じた用量反応が見える
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 用量反応
+- 健康
+- 通勤
+summary: 2011年レビューでは、6研究でサイクリング量と健康便益の正の用量反応関係が確認された。
+claim: 自転車は「ゼロか100か」ではなく、量が増えるほど得しやすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/21496106/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review found six studies with a consistent positive dose-response gradient
+  between amount of cycling and health benefits.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

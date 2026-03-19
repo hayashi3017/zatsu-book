@@ -11,11 +11,11 @@
 
 ## 最近更新
 
-- [フラミンゴの巣は泥の“ミニ火山”みたいな形になる](facts/animals/animal-0361.md) (2026-03-17)
-- [フラミンゴは親2羽で巣作りも抱卵もする](facts/animals/animal-0362.md) (2026-03-17)
-- [フラミンゴのヒナは最初からピンクでも曲がったくちばしでもない](facts/animals/animal-0363.md) (2026-03-17)
-- [フラミンゴのピンク色は“体質”ではなく食べ物由来](facts/animals/animal-0364.md) (2026-03-17)
-- [フラミンゴは頭を逆さにして食べる](facts/animals/animal-0365.md) (2026-03-17)
+- [自転車ヘルメットは、頭部外傷全体を約半分減らす](facts/sports/sports-0001.md) (2026-03-18)
+- [自転車ヘルメットは、重い頭部外傷ほど効果が大きい](facts/sports/sports-0002.md) (2026-03-18)
+- [自転車ヘルメットは、外傷性脳損傷も半分近く減らす](facts/sports/sports-0003.md) (2026-03-18)
+- [ヘルメットは、死亡・重傷の合計でも減少と結びつく](facts/sports/sports-0004.md) (2026-03-18)
+- [通勤で自転車に乗るだけでも、全死亡リスク低下と関連する](facts/sports/sports-0005.md) (2026-03-18)
 
 ## ジャンル
 
@@ -25,6 +25,7 @@
 - [ご当地](genres/local/index.html) (15件)
 - [イネ科](genres/イネ科/index.html) (10件)
 - [スペースシャトル](genres/スペースシャトル/index.html) (1件)
+- [スポーツ](genres/スポーツ/index.html) (70件)
 - [ソユーズ](genres/ソユーズ/index.html) (1件)
 - [デザイン](genres/デザイン/index.html) (23件)
 - [プレート](genres/プレート/index.html) (1件)
@@ -110,9 +111,11 @@
 - [科学館](genres/科学館/index.html) (17件)
 - [税](genres/税/index.html) (94件)
 - [空](genres/空/index.html) (2件)
+- [筋トレ](genres/筋トレ/index.html) (30件)
 - [米](genres/米/index.html) (6件)
 - [素材](genres/素材/index.html) (4件)
 - [統計](genres/統計/index.html) (1件)
+- [自転車](genres/自転車/index.html) (40件)
 - [草本](genres/草本/index.html) (10件)
 - [菌従属栄養](genres/菌従属栄養/index.html) (10件)
 - [著作権](genres/著作権/index.html) (82件)
@@ -128,6 +131,7 @@
 - [豪雨](genres/豪雨/index.html) (3件)
 - [貨幣](genres/貨幣/index.html) (42件)
 - [資源](genres/資源/index.html) (1件)
+- [運動科学](genres/運動科学/index.html) (70件)
 - [野菜](genres/野菜/index.html) (3件)
 - [金融](genres/金融/index.html) (35件)
 - [銀行券](genres/銀行券/index.html) (4件)
@@ -151,7 +155,7 @@
 - [10円玉](tags/10円玉/index.html) (13件)
 - [10分平均](tags/10分平均/index.html) (1件)
 - [1949](tags/1949/index.html) (1件)
+- [1RM](tags/1RM/index.html) (1件)
 - [1か月](tags/1か月/index.html) (1件)
 - [1ミリ](tags/1ミリ/index.html) (1件)
 - [1円玉](tags/1円玉/index.html) (10件)
-- [1年](tags/1年/index.html) (1件)

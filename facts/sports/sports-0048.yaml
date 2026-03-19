@@ -1,0 +1,26 @@
+id: sports-0048
+title: 筋力は「筋肉の量」だけでなく、神経系の使い方でも変わる
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 神経系
+- 筋力
+- 適応
+summary: 古典的レビューでは、筋力は筋量だけでなく、神経系が主働筋をどれだけうまく動員・協調できるかにも左右されるとされる。
+claim: 筋トレは筋肉を増やすだけでなく、神経系の使い方を鍛える側面が大きい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/3057313/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract explains adaptive changes within the nervous system allow
+  fuller activation and coordination of muscles.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

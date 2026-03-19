@@ -1,0 +1,26 @@
+id: sports-0028
+title: 109%股下法と膝角度法は、同じサドル高を出さない
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- フィッティング
+- 股下法
+- 膝角度
+summary: Pevelerのレビューでは、109%股下法と膝角度法は同じサドル高を与えないと明記されている。
+claim: 自転車フィットの「定番公式」同士でも、実際にはズレる。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/18545167/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract says the 25-35° knee-angle method and 109% inseam method do
+  not produce similar saddle heights.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

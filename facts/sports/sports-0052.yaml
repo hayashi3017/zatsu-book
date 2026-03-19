@@ -1,0 +1,26 @@
+id: sports-0052
+title: 子どもの筋力向上は年齢と成熟で伸びやすくなるが、「思春期ブースト」ははっきりしない
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 子ども
+- 成熟
+- 筋力
+summary: 2010年メタ解析では、子どもの筋力向上は年齢や成熟段階とともに伸びやすくなるが、思春期に明瞭な跳ね上がりは見られないとされた。
+claim: 子どもの筋トレ効果は年齢で高まりやすいが、思春期だけ特別に急上昇するとは限らない。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/20974785/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis concluded the ability to gain strength increases with
+  age/maturation, but there is no noticeable boost during puberty.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

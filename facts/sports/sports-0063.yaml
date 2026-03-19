@@ -1,0 +1,26 @@
+id: sports-0063
+title: 筋トレは「長くやるほど直線的に良い」とは限らず、週30〜60分あたりが目立つ
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 死亡リスク
+- 用量反応
+- 時間
+summary: 2022年レビューでは、筋力活動と死亡・疾患リスクの関係はJ字またはL字で、最大利得はおおむね週30〜60分付近だった。
+claim: 筋トレは、やればやるほど一直線に健康効果が増えるわけではない。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/35228201/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review reported J-shaped associations with maximum risk reduction at
+  approximately 30-60 min/week of muscle-strengthening activities.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

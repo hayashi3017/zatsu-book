@@ -1,0 +1,26 @@
+id: sports-0014
+title: ドラフティングは、自転車では空気抵抗を劇的に減らす
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- ドラフティング
+- 空気抵抗
+- 集団
+summary: 2025年レビューは、ドラフティングが自転車で非常に有効で、集団内では空気抵抗を大きく減らせるとまとめている。
+claim: 自転車の集団走行が速いのは気分ではなく、空力で説明できる。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/40157055/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review summarizes studies confirming drafting is highly effective in
+  cycling and can cut drag dramatically in pelotons.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

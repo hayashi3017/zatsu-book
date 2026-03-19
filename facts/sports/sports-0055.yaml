@@ -1,0 +1,26 @@
+id: sports-0055
+title: 総ボリュームをそろえると、限界までやるかどうかで筋肥大差は小さい
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 限界
+- 筋肥大
+- 総ボリューム
+summary: 失敗反復メタ解析では、失敗まで行う方が有利に見える場面はあるが、総ボリュームをそろえると筋肥大差は見えにくくなった。
+claim: 筋肥大では「限界まで」が絶対条件というより、総ボリュームの影響が大きい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/33497853/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract reports no hypertrophy difference between failure and non-failure
+  when RT volume is equalized.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,25 @@
+id: sports-0003
+title: 自転車ヘルメットは、外傷性脳損傷も半分近く減らす
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- ヘルメット
+- TBI
+- 安全
+summary: NHTSAの公式資料では、ヘルメットは外傷性脳損傷を53%減らしたと要約している。
+claim: 自転車ヘルメットは「頭を打ったら少しマシ」ではなく、脳損傷全体でも大きな差を作る。
+sources:
+- url: https://www.nhtsa.gov/book/countermeasures-that-work/bicycle-safety/understanding-problem
+  publisher: NHTSA
+  kind: official
+  accessed_at: '2026-03-18'
+evidence_note: NHTSA summary cites 53% reduction in traumatic brain injury with helmets.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

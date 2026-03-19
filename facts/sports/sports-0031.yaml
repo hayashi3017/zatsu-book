@@ -1,0 +1,26 @@
+id: sports-0031
+title: 自転車の膝痛は、ギアだけでなくフィットの複数要素が絡む
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 膝痛
+- フィット
+- 障害予防
+summary: 2017年レビューでは、ケイデンス、出力、クランク長、サドル前後、サドル高、足部位置などが膝痛関連因子として挙げられた。
+claim: 自転車の膝痛は原因が1つとは限らず、フィット全体で考える必要がある。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/29234554/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review lists cadence, power output, crank length, saddle fore/aft,
+  saddle height and foot position as factors that may impact knee pain.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

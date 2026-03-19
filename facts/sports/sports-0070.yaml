@@ -1,0 +1,26 @@
+id: sports-0070
+title: 健康目的の筋トレは、公式ガイドラインでは週2日以上が目安
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- ガイドライン
+- 頻度
+- 健康
+summary: CDCの成人向けガイドラインでは、主要筋群を対象にした筋力トレーニングを週2日以上行うことが推奨されている。
+claim: 健康目的の筋トレは、公式には「たまに」ではなく週2日以上が基準である。
+sources:
+- url: https://www.cdc.gov/physical-activity-basics/guidelines/adults.html
+  publisher: CDC
+  kind: official
+  accessed_at: '2026-03-18'
+evidence_note: CDC adult guidelines specify muscle-strengthening activities on 2 or
+  more days a week for all major muscle groups.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

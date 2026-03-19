@@ -1,0 +1,26 @@
+id: sports-0049
+title: 筋トレ初期は、筋肥大より神経要因の寄与が大きい
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 初期適応
+- 神経要因
+- 筋力
+summary: 2007年レビューでは、筋力向上には神経学的・形態学的要因の両方が関わるが、初期は神経要因の寄与が大きいと整理されている。
+claim: 筋トレ初期の伸びは、まず神経系の変化で説明されやすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/17241104/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review states neurological factors may make their greatest contribution
+  during the early stages of a training programme.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

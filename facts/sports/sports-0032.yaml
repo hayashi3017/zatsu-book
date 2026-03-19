@@ -1,0 +1,26 @@
+id: sports-0032
+title: サドル高の小変更は、関節角度だけでなく関節にかかる力学も変える
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- サドル高
+- 関節モーメント
+- 力学
+summary: Biniのレビューでは、サドル高の小変更で関節モーメントまで変わることが示された。
+claim: 自転車のサドル高は「フォームが少し違う」だけで済まない。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/21615188/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review reports saddle-height changes affected knee moments as well
+  as kinematics.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

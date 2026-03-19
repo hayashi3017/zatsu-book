@@ -1,0 +1,26 @@
+id: sports-0023
+title: 自転車TTでは、カフェインは少量より中等量の方が効きやすい
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- カフェイン
+- 用量
+- タイムトライアル
+summary: 2024年メタ解析では、4〜6 mg/kgの中等量カフェインはTT改善を示した一方、1〜3 mg/kgの低用量は有意な改善を示さなかった。
+claim: 自転車でのカフェインは「少しだけ」より中等量の方が結果が出やすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/38836626/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Subgroup analysis found 4-6 mg/kg improved cycling TT, whereas 1-3
+  mg/kg did not.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

@@ -1,0 +1,26 @@
+id: sports-0045
+title: 筋力は「週あたり何セットやるか」に用量反応がある
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- ボリューム
+- 週セット数
+- 筋力
+summary: 週あたりセット数を比較したメタ解析では、少ないボリュームより中〜高ボリュームの方が筋力向上が大きかった。
+claim: 筋力は週セット数にある程度の用量反応があり、少なすぎると伸びにくい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/28755103/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Conclusion states a graded dose-response relationship between weekly
+  sets performed and strength gain.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

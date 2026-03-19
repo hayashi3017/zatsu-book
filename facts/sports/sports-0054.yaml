@@ -1,0 +1,26 @@
+id: sports-0054
+title: 毎セット限界までやらなくても、筋力は十分伸びる
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 限界
+- 失敗反復
+- 筋力
+summary: RIRを扱う2024年メタ解析では、筋力向上はかなり広いRIR範囲でおおむね同程度で、必ずしも失敗直前まで追い込む必要はないと示唆された。
+claim: 筋力狙いでは、毎回限界まで追い込まなくても伸ばせる。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/38970765/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract says strength gains were similar across a wide range of RIR,
+  unlike hypertrophy.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

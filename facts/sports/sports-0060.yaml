@@ -1,0 +1,26 @@
+id: sports-0060
+title: 中等度の筋トレは、高血圧対策として「やってはいけない運動」ではない
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 血圧
+- 禁忌
+- 健康
+summary: 2005年メタ解析では、中等度の筋トレは高血圧の非薬物介入戦略に組み込める可能性があると結論づけた。
+claim: 筋トレは血圧が気になる人に一律で禁忌とは言えない。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/15662209/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Conclusion states moderate intensity resistance training is not contraindicated
+  and could become part of non-pharmacological BP intervention.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

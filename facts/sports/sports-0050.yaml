@@ -1,0 +1,26 @@
+id: sports-0050
+title: 子どもの筋トレで強くなる理由は、大人ほど筋肥大ではない
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 子ども
+- 神経適応
+- 発育
+summary: 小児のレジスタンストレーニングレビューでは、特に思春期前では筋力向上の主因は筋肥大より神経適応と考えられている。
+claim: 子どもの筋トレは「筋肉が急に大きくなる」より、神経系の適応で強くなる面が大きい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/16437017/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Abstract notes increases in strength in youths, especially prepubertal
+  children, are believed mainly due to neural adaptations and minimally to hypertrophy.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

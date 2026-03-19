@@ -1,0 +1,26 @@
+id: sports-0053
+title: 子どもの筋トレは、跳ぶ・走る・投げるにも転移する
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 子ども
+- 運動能力
+- 転移
+summary: 2011年メタ解析では、子ども・青少年の筋トレは跳躍・走・投のような運動技能にも中程度のプラス効果を示した。
+claim: 子どもの筋トレは、単に重りが上がるだけでなく運動パフォーマンスにも転移しやすい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/21633132/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Meta-analysis reported a combined mean effect size of 0.52 for jumping,
+  running, and throwing skills.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

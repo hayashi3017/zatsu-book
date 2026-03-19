@@ -1,0 +1,26 @@
+id: sports-0009
+title: 通勤自転車でも、働く世代の心肺機能は上がる
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 通勤
+- 心肺機能
+- 成人
+summary: 2011年レビューでは、働く世代への通勤サイクリング介入で心血管フィットネスの一貫した改善がみられた。
+claim: 自転車通勤は「移動だから運動として弱い」とは言いにくい。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/21496106/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Intervention studies among working-age adults indicated consistent
+  improvements in cardiovascular fitness due to commuting cycling.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

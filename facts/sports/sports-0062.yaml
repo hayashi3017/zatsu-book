@@ -1,0 +1,26 @@
+id: sports-0062
+title: 筋トレ習慣は、全死亡リスクの低下と関連している
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 死亡リスク
+- 健康
+- 疫学
+summary: 2022年の系統的レビューでは、筋力トレーニング・筋力活動は全死亡や主要慢性疾患リスクの低さと関連していた。
+claim: 筋トレは筋肉のためだけでなく、長期の健康指標とも関係している。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/35228201/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review found muscle-strengthening activities associated with lower
+  all-cause mortality and several major diseases.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

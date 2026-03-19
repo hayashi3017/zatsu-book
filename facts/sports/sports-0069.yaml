@@ -1,0 +1,26 @@
+id: sports-0069
+title: 速く動かす筋トレは、骨密度にも小さいが有意な効果がある
+genres:
+- スポーツ
+- 筋トレ
+- 運動科学
+tags:
+- 高速度
+- 骨密度
+- 高齢者
+summary: 2024年レビューでは、高速度レジスタンストレーニングは高齢者の腰椎・股関節・大腿骨頸部骨密度に小さいが有意な効果を示した。
+claim: 「重いだけ」が骨刺激ではなく、速く動かす要素も効く可能性がある。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/38070720/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review found small statistically significant effects of HVRT on BMD
+  at lumbar spine, total hip and femoral neck.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1

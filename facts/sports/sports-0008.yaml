@@ -1,0 +1,26 @@
+id: sports-0008
+title: 自転車は、子ども・若者の心肺機能とかなりきれいに結びつく
+genres:
+- スポーツ
+- 自転車
+- 運動科学
+tags:
+- 子ども
+- 心肺機能
+- 健康
+summary: 2011年の系統的レビューでは、若年層でサイクリング量と心肺機能の明確な正の関係が報告された。
+claim: 自転車は移動手段でも、若年層の体力指標にしっかり効く。
+sources:
+- url: https://pubmed.ncbi.nlm.nih.gov/21496106/
+  publisher: PubMed
+  kind: paper
+  accessed_at: '2026-03-18'
+evidence_note: Review found a clear positive relationship between cycling and cardiorespiratory
+  fitness in youths.
+status: published
+created_at: '2026-03-18'
+updated_at: '2026-03-18'
+aliases: []
+duplicate_of: null
+supersedes: null
+revision: 1
