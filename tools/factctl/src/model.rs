@@ -16,6 +16,7 @@ pub enum FactStatus {
 #[serde(rename_all = "snake_case")]
 pub enum SourceKind {
     Official,
+    Paper,
     Primary,
     Secondary,
     Media,

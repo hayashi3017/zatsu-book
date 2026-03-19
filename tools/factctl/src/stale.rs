@@ -185,6 +185,7 @@ fn render_report(report: &StaleReport) -> String {
 fn source_kind_label(kind: &SourceKind) -> &'static str {
     match kind {
         SourceKind::Official => "official",
+        SourceKind::Paper => "paper",
         SourceKind::Primary => "primary",
         SourceKind::Secondary => "secondary",
         SourceKind::Media => "media",

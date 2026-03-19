@@ -379,4 +379,39 @@ revision: 1
             Some("公式FAQを参照")
         );
     }
+
+    #[test]
+    fn loads_paper_source_kind() {
+        let temp = tempfile::TempDir::new().expect("temp dir");
+        let facts_dir = temp.path().join("facts/sports");
+        fs::create_dir_all(&facts_dir).expect("facts dir");
+        let fact_path = facts_dir.join("sports-0001.yaml");
+        fs::write(
+            &fact_path,
+            r#"
+id: sports-0001
+title: 筋肥大は軽めでも起こるが、1RMの伸びは重い重量の方が有利
+genres:
+  - スポーツ
+  - 筋トレ
+summary: summary
+claim: claim
+sources:
+  - url: https://pubmed.ncbi.nlm.nih.gov/28834797/
+    publisher: PubMed
+    kind: paper
+    accessed_at: 2026-03-18
+status: published
+created_at: 2026-03-18
+updated_at: 2026-03-18
+revision: 1
+"#,
+        )
+        .expect("write sports fact");
+
+        let loaded = load_fact_from(&fact_path).expect("sports fact loads");
+
+        assert_eq!(loaded.fact.primary_genre, "sports");
+        assert_eq!(loaded.fact.sources[0].kind, SourceKind::Paper);
+    }
 }
